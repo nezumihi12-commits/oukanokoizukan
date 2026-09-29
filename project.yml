@@ -29,7 +29,8 @@ targets:
     info:
       path: Config/Info.plist
       properties:
-        CFBundleDisplayName: 花図鑑
+        CFBundleDisplayName: Hanazukan
+        CFBundleName: Hanazukan
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen: {}
