@@ -1,0 +1,73 @@
+name: Build and test iOS
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Validate resources and generate project
+        run: |
+          set -euo pipefail
+          python3 scripts/validate.py
+          xcodebuild -version
+          xcodegen --version
+          xcodegen generate
+      - name: Choose available iPhone simulator
+        run: |
+          set -euo pipefail
+          xcrun simctl list devices available -j > /tmp/devices.json
+          python3 scripts/select_simulator.py /tmp/devices.json >> "$GITHUB_ENV"
+      - name: Run model, grading and persistence tests
+        run: |
+          set -euo pipefail
+          xcodebuild test -project Hanazukan.xcodeproj -scheme Hanazukan \
+            -destination "platform=iOS Simulator,id=$SIMULATOR_ID" \
+            -resultBundlePath build/Tests.xcresult \
+            CODE_SIGNING_ALLOWED=NO | tee build-tests.log
+      - name: Build unsigned device app
+        run: |
+          set -euo pipefail
+          xcodebuild build -project Hanazukan.xcodeproj -scheme Hanazukan \
+            -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY='' \
+            CURRENT_PROJECT_VERSION="${GITHUB_RUN_NUMBER}" | tee build-device.log
+      - name: Package unsigned IPA
+        run: |
+          set -euo pipefail
+          mkdir -p build/Package/Payload
+          cp -R build/DerivedData/Build/Products/Release-iphoneos/Hanazukan.app build/Package/Payload/
+          test -f build/Package/Payload/Hanazukan.app/Hanazukan
+          test -f build/Package/Payload/Hanazukan.app/genera.json
+          cd build/Package
+          /usr/bin/zip -qry ../Hanazukan-unsigned.ipa Payload
+          cd ../..
+          shasum -a 256 build/Hanazukan-unsigned.ipa > build/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Hanazukan-unsigned-IPA
+          path: |
+            build/Hanazukan-unsigned.ipa
+            build/SHA256SUMS.txt
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Build-and-test-diagnostics
+          path: |
+            build/Tests.xcresult
+            build-tests.log
+            build-device.log
+          if-no-files-found: ignore
