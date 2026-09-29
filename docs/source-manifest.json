@@ -1,0 +1,20 @@
+{
+  "attachment": "index (1).html",
+  "sha256": "d204b74bda87bbe022b96b3b86992ac4c3c01852f50cbfd580b1952938b02453",
+  "count": 307,
+  "fields": [
+    "latin",
+    "read",
+    "family",
+    "oldFamily",
+    "jpName",
+    "note"
+  ],
+  "upstream": "https://github.com/nezumihi12-commits/hanazukan",
+  "commit": "b14aab4a8433e665113826cc4a375ad4ebb3286f",
+  "resources": {
+    "App/Resources/genera.json": "dd182639a64c4f8cd3acc048dab02107769f7ac62697c0562b046e676f992ba1",
+    "App/Resources/japaneseAnswers.json": "bb7d65d108e62f610525f6280b25697e09f2e95ee3cae16ea65042fb68fdb330"
+  },
+  "upstreamComparison": "Identical to attachment after normalizing CRLF/LF line endings."
+}

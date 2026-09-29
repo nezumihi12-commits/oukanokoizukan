@@ -1,0 +1,211 @@
+import SwiftUI
+import PhotosUI
+import MapKit
+
+enum CatalogFilter: String, CaseIterable, Identifiable {
+    case all = "すべて", memorized = "記憶済み", weak = "苦手", photo = "写真あり", unlocked = "発見済み", locked = "未発見"
+    var id: String { rawValue }
+}
+struct CatalogView: View {
+    @EnvironmentObject private var store: AppStore
+    @State private var search = ""
+    @State private var filter = CatalogFilter.all
+    private var filtered: [Plant] {
+        store.plants.filter { plant in
+            guard plant.matches(search) else { return false }
+            switch filter {
+            case .all: return true
+            case .memorized: return store.state.records[plant.id]?.memorized == true
+            case .weak: return store.state.records[plant.id]?.weak == true
+            case .photo: return !(store.state.photos[plant.id] ?? []).isEmpty
+            case .unlocked: return store.state.unlocked.contains(plant.id)
+            case .locked: return !store.state.unlocked.contains(plant.id)
+            }
+        }
+    }
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 16) {
+                Picker("絞り込み", selection: $filter) { ForEach(CatalogFilter.allCases) { Text($0.rawValue).tag($0) } }.pickerStyle(.menu)
+                Text("\(filtered.count) / \(store.plants.count) 属").font(.caption).foregroundStyle(.secondary)
+                if filtered.isEmpty { ContentUnavailableView.search(text: search) }
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 150), spacing: 12)], spacing: 12) {
+                    ForEach(filtered) { plant in
+                        NavigationLink { PlantDetail(plant: plant) } label: {
+                            VStack(alignment: .leading, spacing: 8) {
+                                HStack {
+                                    Image(systemName: (store.state.photos[plant.id] ?? []).isEmpty ? "leaf" : "camera.fill")
+                                    Spacer()
+                                    Text("\((store.plants.firstIndex(of: plant) ?? 0) + 1)").font(.caption2).monospacedDigit()
+                                }.foregroundStyle(.green)
+                                Text(plant.latin).font(.headline).lineLimit(1).minimumScaleFactor(0.65)
+                                Text(plant.jpName).font(.caption).lineLimit(2)
+                                Text(plant.family).font(.caption2).foregroundStyle(.secondary)
+                                let record = store.state.records[plant.id] ?? StudyRecord()
+                                Label(record.memorized ? "記憶済み" : "習熟度 \(record.mastery)/3", systemImage: record.memorized ? "checkmark.seal.fill" : "circle.dotted").font(.caption2)
+                            }.frame(maxWidth: .infinity, minHeight: 125, alignment: .leading).padding(14)
+                                .background(.green.opacity(0.08), in: RoundedRectangle(cornerRadius: 16))
+                        }.buttonStyle(.plain)
+                    }
+                }
+            }.padding()
+        }
+        .navigationTitle("図鑑")
+        .searchable(text: $search, prompt: "属名・読み・科名・和名")
+        .toolbar { NavigationLink { ObservationMap() } label: { Label("観察地図", systemImage: "map") } }
+    }
+}
+
+struct PlantDetail: View {
+    @EnvironmentObject private var store: AppStore
+    @StateObject private var locator = LocationService()
+    let plant: Plant
+    @State private var items: [PhotosPickerItem] = []
+    @State private var importing = false
+    @State private var useMetadata = true
+    @State private var photoToDelete: PhotoRecord?
+    @State private var deleteLocation = false
+    var photos: [PhotoRecord] { store.state.photos[plant.id] ?? [] }
+    var body: some View {
+        List {
+            Section {
+                Text(plant.latin).font(.largeTitle.bold()).textSelection(.enabled)
+                Text(plant.read).foregroundStyle(.secondary)
+                LabeledContent("和名", value: plant.jpName)
+                LabeledContent("科名", value: plant.family)
+                if !plant.oldFamily.isEmpty { LabeledContent("旧科名", value: plant.oldFamily) }
+                if !plant.note.isEmpty { Text(plant.note).font(.subheadline).textSelection(.enabled) }
+            }
+            Section("学習記録") {
+                let record = store.state.records[plant.id] ?? StudyRecord()
+                LabeledContent("習熟度", value: "\(record.mastery) / 3")
+                LabeledContent("記憶済み", value: record.memorized ? "はい" : "基本3形式の正解を集めましょう")
+                ForEach(QuizMode.allCases.filter { $0 != .mixed }) { mode in
+                    AccuracyRow(title: mode.title, accuracy: record.accuracy[mode.rawValue] ?? Accuracy())
+                }
+            }
+            Section {
+                if photos.isEmpty { Text("まだ写真がありません").foregroundStyle(.secondary) }
+                else {
+                    PhotoStrip(photos: photos)
+                    ForEach(photos) { photo in
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(photo.capturedAt == nil ? "撮影日時なし" : photo.capturedAt!.formatted(date: .abbreviated, time: .shortened))
+                                Text(photo.location == nil ? "写真の位置情報なし" : "写真の位置情報あり").font(.caption).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            Button(role: .destructive) { photoToDelete = photo } label: { Image(systemName: "trash") }.buttonStyle(.borderless).accessibilityLabel("この写真を削除")
+                        }
+                    }
+                }
+                Toggle("撮影日時・位置情報も保存", isOn: $useMetadata).disabled(importing)
+                PhotosPicker(selection: $items, maxSelectionCount: 10, matching: .images, preferredItemEncoding: .current) { Label("写真を登録", systemImage: "photo.badge.plus") }.disabled(importing)
+                if importing { ProgressView("写真を読み込んでいます…") }
+            } header: { Text("観察写真") } footer: { Text("選択した写真だけ端末内に保存します。写真によっては撮影日時・GPSが含まれません。撮影日時にタイムゾーンがない場合は端末の時刻設定で解釈します。") }
+            Section("観察場所") {
+                if let point = store.state.locations[plant.id] {
+                    Map {
+                        Marker(plant.jpName, coordinate: CLLocationCoordinate2D(latitude: point.latitude, longitude: point.longitude))
+                    }.frame(height: 230).clipShape(RoundedRectangle(cornerRadius: 12))
+                    Text("\(point.latitude, specifier: "%.5f"), \(point.longitude, specifier: "%.5f") · \(point.source)").font(.caption)
+                    Button("場所の記録を削除", role: .destructive) { deleteLocation = true }
+                }
+                Button { recordLocation() } label: { Label(locator.busy ? "現在地を取得中…" : "現在地を記録", systemImage: "location") }.disabled(locator.busy)
+            }
+        }
+        .navigationTitle(plant.jpName).navigationBarTitleDisplayMode(.inline)
+        .onChange(of: items) { _, selected in
+            guard !selected.isEmpty, !importing else { return }
+            importing = true
+            let metadata = useMetadata
+            Task {
+                for item in selected {
+                    do {
+                        guard let data = try await item.loadTransferable(type: Data.self) else { throw PhotoError.invalid }
+                        await store.addPhoto(data: data, plant: plant.id, useMetadata: metadata)
+                    } catch { store.error = "写真の取得に失敗しました。\(error.localizedDescription)" }
+                }
+                items = []; importing = false
+            }
+        }
+        .confirmationDialog("この写真を削除しますか？", isPresented: Binding(get: { photoToDelete != nil }, set: { if !$0 { photoToDelete = nil } }), titleVisibility: .visible) {
+            Button("削除", role: .destructive) { if let photo = photoToDelete { store.deletePhoto(photo, plant: plant.id) }; photoToDelete = nil }
+        }
+        .confirmationDialog("この属と登録写真の位置情報を削除しますか？", isPresented: $deleteLocation, titleVisibility: .visible) {
+            Button("位置情報を削除", role: .destructive) {
+                store.update { state in
+                    state.locations.removeValue(forKey: plant.id)
+                    if let list = state.photos[plant.id] { state.photos[plant.id] = list.map { var copy = $0; copy.location = nil; return copy } }
+                }
+            }
+        }
+    }
+    private func recordLocation() {
+        locator.request { result in
+            switch result {
+            case .success(let point): store.update { $0.locations[plant.id] = point }
+            case .failure(let error): store.error = error.localizedDescription
+            }
+        }
+    }
+}
+
+struct PhotoStrip: View {
+    @EnvironmentObject private var store: AppStore
+    let photos: [PhotoRecord]
+    var concealMetadata = false
+    @State private var enlarged: PhotoRecord?
+    var body: some View {
+        ScrollView(.horizontal) {
+            HStack(spacing: 12) {
+                ForEach(photos) { photo in
+                    Button { enlarged = photo } label: {
+                        LocalPhoto(url: store.photoURL(photo)).frame(width: 235, height: 180).clipped().clipShape(RoundedRectangle(cornerRadius: 12))
+                    }.buttonStyle(.plain).accessibilityLabel("写真を拡大")
+                }
+            }
+        }
+        .sheet(item: $enlarged) { photo in
+            NavigationStack {
+                LocalPhoto(url: store.photoURL(photo)).padding()
+                    .navigationTitle("観察写真").navigationBarTitleDisplayMode(.inline)
+                    .toolbar { Button("閉じる") { enlarged = nil } }
+            }
+        }
+    }
+}
+struct LocalPhoto: View {
+    let url: URL?
+    @State private var image: UIImage?
+    var body: some View {
+        Group {
+            if let image { Image(uiImage: image).resizable().scaledToFit() }
+            else { Image(systemName: "photo").font(.largeTitle).foregroundStyle(.secondary) }
+        }.task(id: url) {
+            guard let url else { return }
+            let data = await Task.detached(priority: .utility) { try? Data(contentsOf: url) }.value
+            image = data.flatMap { UIImage(data: $0) }
+        }
+    }
+}
+struct ObservationMap: View {
+    @EnvironmentObject private var store: AppStore
+    private var located: [Plant] { store.plants.filter { store.state.locations[$0.id]?.valid == true } }
+    var body: some View {
+        Group {
+            if located.isEmpty { ContentUnavailableView("観察場所がありません", systemImage: "map", description: Text("図鑑の詳細画面から現在地や写真の位置情報を登録できます。")) }
+            else {
+                Map {
+                    ForEach(located) { plant in
+                        if let point = store.state.locations[plant.id] {
+                            Annotation(plant.jpName, coordinate: CLLocationCoordinate2D(latitude: point.latitude, longitude: point.longitude)) {
+                                NavigationLink { PlantDetail(plant: plant) } label: { Image(systemName: "leaf.circle.fill").font(.title).foregroundStyle(.green).background(.background, in: Circle()) }
+                            }
+                        }
+                    }
+                }
+            }
+        }.navigationTitle("観察地図")
+    }
+}

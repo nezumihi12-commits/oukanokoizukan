@@ -1,0 +1,2458 @@
+[
+  {
+    "latin": "Abelia",
+    "read": "アベリア",
+    "family": "スイカズラ科",
+    "oldFamily": "",
+    "jpName": "ツクバネウツギ属",
+    "note": ""
+  },
+  {
+    "latin": "Abies",
+    "read": "アビエス",
+    "family": "マツ科",
+    "oldFamily": "",
+    "jpName": "モミ属",
+    "note": "シラビソ（シラベ）、トドマツ"
+  },
+  {
+    "latin": "Abutilon",
+    "read": "アブチロン",
+    "family": "アオイ科",
+    "oldFamily": "",
+    "jpName": "イチビ属",
+    "note": "ウキツリボク"
+  },
+  {
+    "latin": "Acacia",
+    "read": "アカシア",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "アカシア属",
+    "note": "フサアカシア。ニセアカシアはRobinia。Mimosaの名で流通"
+  },
+  {
+    "latin": "Acer",
+    "read": "エイサー・アーケル",
+    "family": "ムクロジ科",
+    "oldFamily": "カエデ科",
+    "jpName": "カエデ属",
+    "note": "イロハモミジ、イタヤカエデ"
+  },
+  {
+    "latin": "Achillea",
+    "read": "アキレア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ノコギリソウ属",
+    "note": "ヤロー"
+  },
+  {
+    "latin": "Acorus",
+    "read": "アコルス",
+    "family": "ショウブ科",
+    "oldFamily": "セキショウ科",
+    "jpName": "ショウブ属",
+    "note": "セキショウ。ハナショウブはIris"
+  },
+  {
+    "latin": "Actinotus",
+    "read": "アクチノータス",
+    "family": "セリ科",
+    "oldFamily": "",
+    "jpName": "フランネルフラワー",
+    "note": ""
+  },
+  {
+    "latin": "Adiantum",
+    "read": "アジアンタム",
+    "family": "イノモトソウ科",
+    "oldFamily": "",
+    "jpName": "ホウライシダ属",
+    "note": "クジャクシダ、ハコネシダ"
+  },
+  {
+    "latin": "Adonis",
+    "read": "アドニス",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "フクジュソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Agapanthus",
+    "read": "アガパンサス",
+    "family": "ヒガンバナ科",
+    "oldFamily": "ネギ（ユリ）科",
+    "jpName": "ムラサキクンシラン属",
+    "note": "クンシランはClivia。ヒメアガパンサスはTriteleia"
+  },
+  {
+    "latin": "Ageratum",
+    "read": "アゲラタム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "カッコウアザミ属",
+    "note": ""
+  },
+  {
+    "latin": "Ajuga",
+    "read": "アジュガ",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "キランソウ属",
+    "note": "アジュガ、ジュウニヒトエ"
+  },
+  {
+    "latin": "Alchemilla",
+    "read": "アルケミラ",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "ハゴロモグサ属",
+    "note": "レディースマントル"
+  },
+  {
+    "latin": "Allium",
+    "read": "アリウム",
+    "family": "ヒガンバナ科",
+    "oldFamily": "ネギ（ユリ）科",
+    "jpName": "ネギ属",
+    "note": "タマネギ、ニンニク、チャイブ"
+  },
+  {
+    "latin": "Aloe",
+    "read": "アロエ",
+    "family": "ススキノキ科",
+    "oldFamily": "ツルボラン（ユリ）科",
+    "jpName": "アロエ属",
+    "note": "キダチアロエ、千代田錦"
+  },
+  {
+    "latin": "Alstroemeria",
+    "read": "アルストロメリア",
+    "family": "ユリズイセン科",
+    "oldFamily": "",
+    "jpName": "ユリズイセン属",
+    "note": ""
+  },
+  {
+    "latin": "Alternanthera",
+    "read": "アルテルナンテラ",
+    "family": "ヒユ科",
+    "oldFamily": "",
+    "jpName": "ツルノゲイトウ属",
+    "note": "アカバセンニチコウ、モヨウビユ。Telanthera、Achyranthesの名で流通"
+  },
+  {
+    "latin": "Alyssum",
+    "read": "アリッサム",
+    "family": "アブラナ科",
+    "oldFamily": "",
+    "jpName": "アレチナズナ属",
+    "note": "スイートアリッサムはLobularia"
+  },
+  {
+    "latin": "Amaranthus",
+    "read": "アマランサス",
+    "family": "ヒユ科",
+    "oldFamily": "",
+    "jpName": "ヒユ属",
+    "note": "ハゲイトウ、ヒモゲイトウ、イヌビユ。ケイトウはCelosia"
+  },
+  {
+    "latin": "Ammi",
+    "read": "アミ",
+    "family": "セリ科",
+    "oldFamily": "",
+    "jpName": "ドクゼリモドキ属",
+    "note": "ドクゼリモドキ（レースフラワー、ホワイトレースフラワー）"
+  },
+  {
+    "latin": "Amygdalus",
+    "read": "アミグダルス",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "モモ属",
+    "note": "アーモンド。Prunusから分けられた"
+  },
+  {
+    "latin": "Anemone",
+    "read": "アネモネ",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "イチリンソウ属",
+    "note": "ニリンソウ、ハクサンイチゲ、シュウメイギク"
+  },
+  {
+    "latin": "Angelonia",
+    "read": "アンゲロニア",
+    "family": "オオバコ科",
+    "oldFamily": "ゴマノハグサ科",
+    "jpName": "アンゲロンソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Anigozanthos",
+    "read": "アニゴザントス",
+    "family": "ハエモドルム科",
+    "oldFamily": "",
+    "jpName": "アニゴザントス属",
+    "note": "カンガルーポー"
+  },
+  {
+    "latin": "Anthurium",
+    "read": "アンスリウム",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "ベニウチワ属",
+    "note": ""
+  },
+  {
+    "latin": "Antirrhinum",
+    "read": "アンティルリーヌム",
+    "family": "オオバコ科",
+    "oldFamily": "ゴマノハグサ科",
+    "jpName": "キンギョソウ属",
+    "note": "ヒメキンギョソウはLinaria"
+  },
+  {
+    "latin": "Aquilegia",
+    "read": "アキレギア",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "オダマキ属",
+    "note": ""
+  },
+  {
+    "latin": "Arctotis",
+    "read": "アークトチス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ハゴロモギク属",
+    "note": "ジャノメギク。Venidiumを含む"
+  },
+  {
+    "latin": "Ardisia",
+    "read": "アルディシア",
+    "family": "サクラソウ科",
+    "oldFamily": "",
+    "jpName": "ヤブコウジ属",
+    "note": "マンリョウ、カラタチバナ、ヤブコウジ。センリョウはSarcandra"
+  },
+  {
+    "latin": "Arenaria",
+    "read": "アレナリア",
+    "family": "ナデシコ科",
+    "oldFamily": "",
+    "jpName": "ノミノツヅリ属",
+    "note": ""
+  },
+  {
+    "latin": "Argyranthemum",
+    "read": "アルギランセマム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "モクシュンギク属",
+    "note": "マーガレット。以前はChrysanthemum"
+  },
+  {
+    "latin": "Armeniaca",
+    "read": "アルメニアカ",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "アンズ属",
+    "note": "ウメ。Prunusから分けられた"
+  },
+  {
+    "latin": "Armeria",
+    "read": "アルメリア",
+    "family": "イソマツ科",
+    "oldFamily": "",
+    "jpName": "ハマカンザシ属",
+    "note": ""
+  },
+  {
+    "latin": "Asclepias",
+    "read": "アスクレピアス",
+    "family": "キョウチクトウ科",
+    "oldFamily": "ガガイモ科",
+    "jpName": "トウワタ属",
+    "note": "トウワタ、ヤナギトウワタ。フウセントウワタはGomphocarpus"
+  },
+  {
+    "latin": "Asparagus",
+    "read": "アスパラガス",
+    "family": "キジカクシ科",
+    "oldFamily": "キジカクシ（ユリ）科",
+    "jpName": "キジカクシ属",
+    "note": "アスパラガス、キジカクシ。Asparagus asparagoidesがスマイラックスの名で流通"
+  },
+  {
+    "latin": "Asplenium",
+    "read": "アスプレニウム",
+    "family": "チャセンシダ科",
+    "oldFamily": "",
+    "jpName": "チャセンシダ属",
+    "note": "オオタニワタリ、マザーファーン"
+  },
+  {
+    "latin": "Aster",
+    "read": "アスター",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "シオン属",
+    "note": "クジャクアスター。Callistephusの園芸名としても使用"
+  },
+  {
+    "latin": "Astilbe",
+    "read": "アスチルベ",
+    "family": "ユキノシタ科",
+    "oldFamily": "",
+    "jpName": "チダケサシ属",
+    "note": "アワモリショウマ、アカショウマ、トリアシショウマ"
+  },
+  {
+    "latin": "Astrantia",
+    "read": "アストランチア",
+    "family": "セリ科",
+    "oldFamily": "",
+    "jpName": "アストランチア属",
+    "note": ""
+  },
+  {
+    "latin": "Aucuba",
+    "read": "アウクバ",
+    "family": "アオキ科",
+    "oldFamily": "ミズキ科",
+    "jpName": "アオキ属",
+    "note": ""
+  },
+  {
+    "latin": "Bassia",
+    "read": "バッシア",
+    "family": "ヒユ科",
+    "oldFamily": "アカザ科",
+    "jpName": "ムヒョウソウ属",
+    "note": "ホウキギ。Kochiaの名で流通"
+  },
+  {
+    "latin": "Begonia",
+    "read": "ベゴニア",
+    "family": "シュウカイドウ科",
+    "oldFamily": "",
+    "jpName": "シュウカイドウ属",
+    "note": ""
+  },
+  {
+    "latin": "Bellis",
+    "read": "ベリス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヒナギク属",
+    "note": "ヒナギク（デージー）"
+  },
+  {
+    "latin": "Bidens",
+    "read": "ビデンス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "センダングサ属",
+    "note": "ウインターコスモス"
+  },
+  {
+    "latin": "Boronia",
+    "read": "ボロニア",
+    "family": "ミカン科",
+    "oldFamily": "",
+    "jpName": "ボロニア",
+    "note": ""
+  },
+  {
+    "latin": "Bougainvillea",
+    "read": "ブーゲンビレア",
+    "family": "オシロイバナ科",
+    "oldFamily": "",
+    "jpName": "イカダカズラ属",
+    "note": ""
+  },
+  {
+    "latin": "Brassica",
+    "read": "ブラシカ",
+    "family": "アブラナ科",
+    "oldFamily": "",
+    "jpName": "アブラナ属",
+    "note": "ハボタン、キャベツ、ハクサイ、ブロッコリ"
+  },
+  {
+    "latin": "Buddleja",
+    "read": "ブッドレヤ",
+    "family": "ゴマノハグサ科",
+    "oldFamily": "フジウツギ科",
+    "jpName": "フジウツギ属",
+    "note": ""
+  },
+  {
+    "latin": "Bupleurum",
+    "read": "ブプレウルム",
+    "family": "セリ科",
+    "oldFamily": "",
+    "jpName": "ホタルサイコ属",
+    "note": "ツキヌキサイコ"
+  },
+  {
+    "latin": "Caladium",
+    "read": "カラジウム",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "ニシキイモ属",
+    "note": "ヒメハニシキ"
+  },
+  {
+    "latin": "Calendula",
+    "read": "カレンデュラ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "キンセンカ属",
+    "note": "キンレンカはTropaeolum"
+  },
+  {
+    "latin": "Calibrachoa",
+    "read": "カリブラコア",
+    "family": "ナス科",
+    "oldFamily": "",
+    "jpName": "カリブラコア",
+    "note": ""
+  },
+  {
+    "latin": "Callistephus",
+    "read": "カリステフス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "サツマギク属",
+    "note": "エゾギク（アスター）。Asterは別属"
+  },
+  {
+    "latin": "Calluna",
+    "read": "カルーナ",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "ギョリュウモドキ属",
+    "note": "ギョリュウはTamarix"
+  },
+  {
+    "latin": "Camellia",
+    "read": "カメリア",
+    "family": "ツバキ科",
+    "oldFamily": "",
+    "jpName": "ツバキ属",
+    "note": "サザンカ、チャ、キンカチャ。ナツツバキはStewartia"
+  },
+  {
+    "latin": "Campanula",
+    "read": "カンパニュラ",
+    "family": "キキョウ科",
+    "oldFamily": "",
+    "jpName": "ホタルブクロ属",
+    "note": "フウリンソウ、モモバギキョウ"
+  },
+  {
+    "latin": "Canna",
+    "read": "カンナ",
+    "family": "カンナ科",
+    "oldFamily": "",
+    "jpName": "カンナ属",
+    "note": "ダンドク"
+  },
+  {
+    "latin": "Capsicum",
+    "read": "カプシカム",
+    "family": "ナス科",
+    "oldFamily": "",
+    "jpName": "トウガラシ属",
+    "note": "ピーマン、パプリカ"
+  },
+  {
+    "latin": "Carex",
+    "read": "カレックス",
+    "family": "カヤツリグサ科",
+    "oldFamily": "",
+    "jpName": "スゲ属",
+    "note": "コウボウムギ、タガネソウ"
+  },
+  {
+    "latin": "Carthamus",
+    "read": "カルタムス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ベニバナ属",
+    "note": ""
+  },
+  {
+    "latin": "Catharanthus",
+    "read": "カタランサス",
+    "family": "キョウチクトウ科",
+    "oldFamily": "",
+    "jpName": "ニチニチソウ属",
+    "note": "ニチニチソウ（ビンカ）。旧属名のVincaの名でも流通"
+  },
+  {
+    "latin": "Cattleya",
+    "read": "カトレヤ",
+    "family": "ラン科",
+    "oldFamily": "",
+    "jpName": "ヒノデラン属",
+    "note": "カトレヤ"
+  },
+  {
+    "latin": "Celosia",
+    "read": "セロシア",
+    "family": "ヒユ科",
+    "oldFamily": "",
+    "jpName": "ケイトウ属",
+    "note": "ハゲイトウはAmaranthus"
+  },
+  {
+    "latin": "Centaurea",
+    "read": "セントーレア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヤグルマギク属",
+    "note": "ニオイヤグルマギクはAmberboa"
+  },
+  {
+    "latin": "Cerasus",
+    "read": "ケラスス",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "サクラ属",
+    "note": "セイヨウミザクラ（オウトウ）、カラミザクラ。Prunusから分けられた"
+  },
+  {
+    "latin": "Chaenomeles",
+    "read": "カエノメレス",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "ボケ属",
+    "note": "クサボケ"
+  },
+  {
+    "latin": "Chamaecyparis",
+    "read": "カマエキパリス",
+    "family": "ヒノキ科",
+    "oldFamily": "",
+    "jpName": "ヒノキ属",
+    "note": "サワラ"
+  },
+  {
+    "latin": "Chamaedorea",
+    "read": "チャメドレア",
+    "family": "ヤシ科",
+    "oldFamily": "",
+    "jpName": "テーブルヤシ属",
+    "note": ""
+  },
+  {
+    "latin": "Chamelaucium",
+    "read": "カメラウキウム",
+    "family": "フトモモ科",
+    "oldFamily": "",
+    "jpName": "ワックスフラワー",
+    "note": ""
+  },
+  {
+    "latin": "Chlorophytum",
+    "read": "クロロフィツム",
+    "family": "キジカクシ科",
+    "oldFamily": "アンテリクム（ユリ）科",
+    "jpName": "オリヅルラン属",
+    "note": ""
+  },
+  {
+    "latin": "Chrysanthemum",
+    "read": "クリサンセマム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "キク属",
+    "note": "キク（イエギク）、イソギク。一時Dendranthemaとされた"
+  },
+  {
+    "latin": "Citrullus",
+    "read": "キトルルス",
+    "family": "ウリ科",
+    "oldFamily": "",
+    "jpName": "スイカ属",
+    "note": ""
+  },
+  {
+    "latin": "Citrus",
+    "read": "シトラス",
+    "family": "ミカン科",
+    "oldFamily": "",
+    "jpName": "ミカン属",
+    "note": "ダイダイ、ユズ、カラタチ、レモン、ライム"
+  },
+  {
+    "latin": "Clematis",
+    "read": "クレマチス",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "センニンソウ属",
+    "note": "テッセン、カザグルマ、クサボタン"
+  },
+  {
+    "latin": "Codiaeum",
+    "read": "コディアエウム",
+    "family": "トウダイグサ科",
+    "oldFamily": "",
+    "jpName": "ヘンヨウボク属",
+    "note": "ヘンヨウボク（クロトン）。Crotonの名で流通"
+  },
+  {
+    "latin": "Consolida",
+    "read": "コンソリダ",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "ヒエンソウ属",
+    "note": "チドリソウ、ラークスパー。Delphiniumとする見解もある"
+  },
+  {
+    "latin": "Convallaria",
+    "read": "コンバラリア",
+    "family": "キジカクシ科",
+    "oldFamily": "スズラン（ユリ）科",
+    "jpName": "スズラン属",
+    "note": ""
+  },
+  {
+    "latin": "Cordyline",
+    "read": "コルジリネ",
+    "family": "キジカクシ科",
+    "oldFamily": "リュウケツジュ（リュウゼツラン）科",
+    "jpName": "センネンボク属",
+    "note": "ニオイシュロラン。ドラセナの名でも流通する"
+  },
+  {
+    "latin": "Coreopsis",
+    "read": "コレオプシス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "キンケイギク属",
+    "note": "ハルシャギク"
+  },
+  {
+    "latin": "Cornus",
+    "read": "コルヌス",
+    "family": "ミズキ科",
+    "oldFamily": "",
+    "jpName": "サンシュユ属",
+    "note": "ヤマボウシ、ハナミズキ、ゴゼンタチバナ"
+  },
+  {
+    "latin": "Cosmos",
+    "read": "コスモス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "コスモス属",
+    "note": "キバナコスモス、チョコレートコスモス"
+  },
+  {
+    "latin": "Cotinus",
+    "read": "コティヌス",
+    "family": "ウルシ科",
+    "oldFamily": "",
+    "jpName": "ケムリノキ属",
+    "note": "スモークツリー（ケムリノキ、ハグマノキ）"
+  },
+  {
+    "latin": "Craspedia",
+    "read": "クラスペディア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "クラスペディア",
+    "note": ""
+  },
+  {
+    "latin": "Crassula",
+    "read": "クラッスラ",
+    "family": "ベンケイソウ科",
+    "oldFamily": "",
+    "jpName": "クラッスラ属",
+    "note": "花月（カゲツ）"
+  },
+  {
+    "latin": "Crocus",
+    "read": "クロッカス",
+    "family": "アヤメ科",
+    "oldFamily": "",
+    "jpName": "サフラン属",
+    "note": "イヌサフランはColchicum"
+  },
+  {
+    "latin": "Crossandra",
+    "read": "クロッサンドラ",
+    "family": "キツネノマゴ科",
+    "oldFamily": "",
+    "jpName": "キツネノヒガサ属",
+    "note": "ジョウゴバナ（ヘリトリオシベ）"
+  },
+  {
+    "latin": "Crowea",
+    "read": "クロウエア",
+    "family": "ミカン科",
+    "oldFamily": "",
+    "jpName": "サザンクロス",
+    "note": ""
+  },
+  {
+    "latin": "Cucumis",
+    "read": "ククミス",
+    "family": "ウリ科",
+    "oldFamily": "",
+    "jpName": "キュウリ属",
+    "note": "メロン、マクワウリ"
+  },
+  {
+    "latin": "Cucurbita",
+    "read": "ククルビタ",
+    "family": "ウリ科",
+    "oldFamily": "",
+    "jpName": "カボチャ属",
+    "note": "ズッキーニ"
+  },
+  {
+    "latin": "Cuphea",
+    "read": "クフェア",
+    "family": "ミソハギ科",
+    "oldFamily": "",
+    "jpName": "ハナヤナギ属",
+    "note": "メキシコハナヤナギ、タバコソウ（ベニチョウジ）"
+  },
+  {
+    "latin": "Cupressus",
+    "read": "クプレッサス",
+    "family": "ヒノキ科",
+    "oldFamily": "",
+    "jpName": "イトスギ属",
+    "note": ""
+  },
+  {
+    "latin": "Curcuma",
+    "read": "クルクマ",
+    "family": "ショウガ科",
+    "oldFamily": "",
+    "jpName": "ウコン属",
+    "note": "ウコン（ターメリック）、ガジュツ"
+  },
+  {
+    "latin": "Cycas",
+    "read": "サイカス",
+    "family": "ソテツ科",
+    "oldFamily": "",
+    "jpName": "ソテツ属",
+    "note": ""
+  },
+  {
+    "latin": "Cyclamen",
+    "read": "シクラメン",
+    "family": "サクラソウ科",
+    "oldFamily": "",
+    "jpName": "シクラメン属",
+    "note": "シクラメン（カガリビバナ、ブタノマンジュウ）"
+  },
+  {
+    "latin": "Cymbidium",
+    "read": "シンビジウム",
+    "family": "ラン科",
+    "oldFamily": "",
+    "jpName": "シュンラン属",
+    "note": "カンラン、スルガラン、キンリョウヘン"
+  },
+  {
+    "latin": "Cytisus",
+    "read": "キティスス",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "エニシダ属",
+    "note": ""
+  },
+  {
+    "latin": "Dahlia",
+    "read": "ダリア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ダリア属",
+    "note": ""
+  },
+  {
+    "latin": "Daphne",
+    "read": "ダフネ",
+    "family": "ジンチョウゲ科",
+    "oldFamily": "",
+    "jpName": "ジンチョウゲ属",
+    "note": "フジモドキ、オニシバリ、ナニワズ、コショウノキ"
+  },
+  {
+    "latin": "Delphinium",
+    "read": "デルフィニウム",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "オオヒエンソウ属",
+    "note": "ルリヒエンソウ、ヒエンソウはConsolida"
+  },
+  {
+    "latin": "Dendrobium",
+    "read": "デンドロビウム",
+    "family": "ラン科",
+    "oldFamily": "",
+    "jpName": "セッコク属",
+    "note": "セッコク（長生蘭）"
+  },
+  {
+    "latin": "Deutzia",
+    "read": "ドイツィア",
+    "family": "アジサイ科",
+    "oldFamily": "",
+    "jpName": "ウツギ属",
+    "note": "バイカウツギはPhiladelphus"
+  },
+  {
+    "latin": "Dianthus",
+    "read": "ダイアンサス",
+    "family": "ナデシコ科",
+    "oldFamily": "",
+    "jpName": "ナデシコ属",
+    "note": "セキチク、カーネーション"
+  },
+  {
+    "latin": "Dieffenbachia",
+    "read": "ディフェンバキア",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "カスリソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Digitalis",
+    "read": "ジギタリス",
+    "family": "オオバコ科",
+    "oldFamily": "ゴマノハグサ科",
+    "jpName": "ジギタリス属",
+    "note": "キツネノテブクロ"
+  },
+  {
+    "latin": "Dimorphotheca",
+    "read": "ディモルフォセカ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "アフリカキンセンカ属",
+    "note": ""
+  },
+  {
+    "latin": "Dracaena",
+    "read": "ドラセナ",
+    "family": "キジカクシ科",
+    "oldFamily": "リュウケツジュ（リュウゼツラン）科",
+    "jpName": "リュウケツジュ属",
+    "note": "ニオイセンネンボク。センネンボク、青ドラセナ、赤ドラセナはCordyline"
+  },
+  {
+    "latin": "Duranta",
+    "read": "デュランタ",
+    "family": "クマツヅラ科",
+    "oldFamily": "",
+    "jpName": "タイワンレンギョウ属",
+    "note": ""
+  },
+  {
+    "latin": "Echinops",
+    "read": "エキノプス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヒゴタイ属",
+    "note": "ルリタマアザミ"
+  },
+  {
+    "latin": "Enkianthus",
+    "read": "エンキアンサス",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "ドウダンツツジ属",
+    "note": "サラサドウダン"
+  },
+  {
+    "latin": "Epipremnum",
+    "read": "エピプレムナム",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "ハブカズラ属",
+    "note": "オウゴンカズラ（ポトス）。Pothos、Scindapsusを含む"
+  },
+  {
+    "latin": "Equisetum",
+    "read": "エキセタム",
+    "family": "トクサ科",
+    "oldFamily": "",
+    "jpName": "トクサ属",
+    "note": "スギナ（ツクシ）"
+  },
+  {
+    "latin": "Erica",
+    "read": "エリカ",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "エリカ属",
+    "note": ""
+  },
+  {
+    "latin": "Eryngium",
+    "read": "エリンジウム",
+    "family": "セリ科",
+    "oldFamily": "",
+    "jpName": "ヒゴタイサイコ属",
+    "note": "マツカサアザミ"
+  },
+  {
+    "latin": "Eucalyptus",
+    "read": "ユーカリプトゥス",
+    "family": "フトモモ科",
+    "oldFamily": "",
+    "jpName": "ユーカリノキ属",
+    "note": ""
+  },
+  {
+    "latin": "Eupatorium",
+    "read": "ユーパトリウム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヒヨドリバナ属",
+    "note": "フジバカマ"
+  },
+  {
+    "latin": "Euphorbia",
+    "read": "ユーフォルビア",
+    "family": "トウダイグサ科",
+    "oldFamily": "",
+    "jpName": "トウダイグサ属",
+    "note": "ポインセチア、ハナキリン、ハツユキソウ"
+  },
+  {
+    "latin": "Euryops",
+    "read": "ユーリオプス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ユーリオプスデージー",
+    "note": "ゴールデンクラッカー"
+  },
+  {
+    "latin": "Eustoma",
+    "read": "ユーストマ",
+    "family": "リンドウ科",
+    "oldFamily": "",
+    "jpName": "トルコギキョウ属",
+    "note": "Lisianthusの名でも流通する"
+  },
+  {
+    "latin": "Evolvulus",
+    "read": "エボルブルス",
+    "family": "ヒルガオ科",
+    "oldFamily": "",
+    "jpName": "アサガオガラクサ属",
+    "note": "エボルブルス、アメリカンブルー"
+  },
+  {
+    "latin": "Felicia",
+    "read": "フェリシア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ルリヒナギク属",
+    "note": "ルリヒナギク（ブルーデージー）"
+  },
+  {
+    "latin": "Ficus",
+    "read": "フィカス",
+    "family": "クワ科",
+    "oldFamily": "",
+    "jpName": "イチジク属",
+    "note": "インドゴムノキ、イタビカズラ、インドボダイジュ。ボダイジュはTilia"
+  },
+  {
+    "latin": "Forsythia",
+    "read": "フォーサイシア",
+    "family": "モクセイ科",
+    "oldFamily": "",
+    "jpName": "レンギョウ属",
+    "note": ""
+  },
+  {
+    "latin": "Fragaria",
+    "read": "フラガリア",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "オランダイチゴ属",
+    "note": "オランダイチゴ（いわゆるイチゴ）。キイチゴはRubus"
+  },
+  {
+    "latin": "Fraxinus",
+    "read": "フラクシヌス",
+    "family": "モクセイ科",
+    "oldFamily": "",
+    "jpName": "トネリコ属",
+    "note": ""
+  },
+  {
+    "latin": "Freesia",
+    "read": "フリージア",
+    "family": "アヤメ科",
+    "oldFamily": "",
+    "jpName": "フリージア属",
+    "note": ""
+  },
+  {
+    "latin": "Fuchsia",
+    "read": "フクシア",
+    "family": "アカバナ科",
+    "oldFamily": "",
+    "jpName": "フクシア属",
+    "note": "ホクシアともいう"
+  },
+  {
+    "latin": "Gaillardia",
+    "read": "ガイラルディア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "テンニンギク属",
+    "note": "オオテンニンギク"
+  },
+  {
+    "latin": "Gardenia",
+    "read": "ガーデニア",
+    "family": "アカネ科",
+    "oldFamily": "",
+    "jpName": "クチナシ属",
+    "note": ""
+  },
+  {
+    "latin": "Gaultheria",
+    "read": "ゴールテリア",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "シラタマノキ属",
+    "note": "アカモノ、チェッカーベリー。Pernettyaを含む"
+  },
+  {
+    "latin": "Gazania",
+    "read": "ガザニア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "クンショウギク属",
+    "note": ""
+  },
+  {
+    "latin": "Gentiana",
+    "read": "ゲンチアナ",
+    "family": "リンドウ科",
+    "oldFamily": "",
+    "jpName": "リンドウ属",
+    "note": ""
+  },
+  {
+    "latin": "Geranium",
+    "read": "ゲラニウム",
+    "family": "フウロソウ科",
+    "oldFamily": "",
+    "jpName": "フウロソウ属",
+    "note": "ゲンノショウコ、ヒメフウロ。Pelargoniumの園芸名（ゼラニウム）として使用"
+  },
+  {
+    "latin": "Gerbera",
+    "read": "ガーベラ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ガーベラ属",
+    "note": ""
+  },
+  {
+    "latin": "Gilia",
+    "read": "ギリア",
+    "family": "ハナシノブ科",
+    "oldFamily": "",
+    "jpName": "ギリア属",
+    "note": "アメリカハナシノブ（ヒメハナシノブ、サンシキギリア）"
+  },
+  {
+    "latin": "Gladiolus",
+    "read": "グラジオラス",
+    "family": "アヤメ科",
+    "oldFamily": "",
+    "jpName": "トウショウブ属",
+    "note": "グラジオラス。Acidantheraを含む"
+  },
+  {
+    "latin": "Glandularia",
+    "read": "グランドゥラリア",
+    "family": "クマツヅラ科",
+    "oldFamily": "",
+    "jpName": "ビジョザクラ属",
+    "note": "バーベナ（ビジョザクラ）"
+  },
+  {
+    "latin": "Glechoma",
+    "read": "グレコマ",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "カキドオシ属",
+    "note": ""
+  },
+  {
+    "latin": "Gloriosa",
+    "read": "グロリオサ",
+    "family": "イヌサフラン科",
+    "oldFamily": "イヌサフラン（ユリ）科",
+    "jpName": "キツネユリ属",
+    "note": "キツネユリ（ユリグルマ）"
+  },
+  {
+    "latin": "Glycine",
+    "read": "グリシン",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "ダイズ属",
+    "note": "ダイズ（エダマメ）"
+  },
+  {
+    "latin": "Gomphrena",
+    "read": "ゴンフレナ",
+    "family": "ヒユ科",
+    "oldFamily": "",
+    "jpName": "センニチコウ属",
+    "note": ""
+  },
+  {
+    "latin": "Gossypium",
+    "read": "ゴシピウム",
+    "family": "アオイ科",
+    "oldFamily": "",
+    "jpName": "ワタ属",
+    "note": ""
+  },
+  {
+    "latin": "Guzmania",
+    "read": "グズマニア",
+    "family": "パイナップル科",
+    "oldFamily": "",
+    "jpName": "グズマニア",
+    "note": ""
+  },
+  {
+    "latin": "Gypsophila",
+    "read": "ギプソフィラ",
+    "family": "ナデシコ科",
+    "oldFamily": "",
+    "jpName": "カスミソウ属",
+    "note": "シュッコンカスミソウ"
+  },
+  {
+    "latin": "Hedera",
+    "read": "ヘデラ",
+    "family": "ウコギ科",
+    "oldFamily": "",
+    "jpName": "キヅタ属",
+    "note": "キヅタ（フユヅタ）、カナリーキヅタ（オカメヅタ）。ツタ（ナツヅタ）はParthenocissus"
+  },
+  {
+    "latin": "Helianthus",
+    "read": "ヘリアンサス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヒマワリ属",
+    "note": "キクイモ。キクイモモドキはHeliopsis"
+  },
+  {
+    "latin": "Helichrysum",
+    "read": "ヘリクリサム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "カレープラント",
+    "note": "ペーパーデージー"
+  },
+  {
+    "latin": "Heliconia",
+    "read": "ヘリコニア",
+    "family": "オウムバナ科",
+    "oldFamily": "バショウ（オウムバナ）科",
+    "jpName": "オウムバナ属",
+    "note": "ヘリコニア、ヒメゴクラクチョウカ。ゴクラクチョウカはStrelitzia"
+  },
+  {
+    "latin": "Heliopsis",
+    "read": "ヘリオプシス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "キクイモモドキ属",
+    "note": "キクイモはHelianthus"
+  },
+  {
+    "latin": "Helleborus",
+    "read": "ヘレボルス",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "クリスマスローズ属",
+    "note": "レンテンローズ"
+  },
+  {
+    "latin": "Hemerocallis",
+    "read": "ヘメロカリス",
+    "family": "ススキノキ科",
+    "oldFamily": "ヘメロカリス（ユリ）科",
+    "jpName": "ワスレグサ属",
+    "note": "ヤブカンゾウ、ユウスゲ。ワスレナグサはMyosotis"
+  },
+  {
+    "latin": "Heuchera",
+    "read": "ヒューケラ",
+    "family": "ユキノシタ科",
+    "oldFamily": "",
+    "jpName": "ツボサンゴ属",
+    "note": ""
+  },
+  {
+    "latin": "Hibiscus",
+    "read": "ハイビスカス",
+    "family": "アオイ科",
+    "oldFamily": "",
+    "jpName": "フヨウ属",
+    "note": "ムクゲ、ブッソウゲ、ケナフ"
+  },
+  {
+    "latin": "Hippeastrum",
+    "read": "ヒッペアストラム",
+    "family": "ヒガンバナ科",
+    "oldFamily": "",
+    "jpName": "アマリリス属",
+    "note": "ホンアマリリスはAmaryllis"
+  },
+  {
+    "latin": "Hordeum",
+    "read": "ホルデューム",
+    "family": "イネ科",
+    "oldFamily": "",
+    "jpName": "オオムギ属",
+    "note": "ハダカムギ。コムギはTriticum、ライムギはSecale"
+  },
+  {
+    "latin": "Hosta",
+    "read": "ホスタ",
+    "family": "キジカクシ科",
+    "oldFamily": "リュウゼツラン（ユリ）科",
+    "jpName": "ギボウシ属",
+    "note": "タマノカンザシ、トクダマ"
+  },
+  {
+    "latin": "Hyacinthus",
+    "read": "ヒアシンサス",
+    "family": "キジカクシ科",
+    "oldFamily": "ヒアシンス（ユリ）科",
+    "jpName": "ヒアシンス属",
+    "note": ""
+  },
+  {
+    "latin": "Hydrangea",
+    "read": "ハイドランジア",
+    "family": "アジサイ科",
+    "oldFamily": "",
+    "jpName": "アジサイ属",
+    "note": "アメリカノリノキ、ノリウツギ、アマチャ"
+  },
+  {
+    "latin": "Hypericum",
+    "read": "ヒペリカム",
+    "family": "オトギリソウ科",
+    "oldFamily": "",
+    "jpName": "オトギリソウ属",
+    "note": "キンシバイ、ビヨウヤナギ"
+  },
+  {
+    "latin": "Iberis",
+    "read": "イベリス",
+    "family": "アブラナ科",
+    "oldFamily": "",
+    "jpName": "マガリバナ属",
+    "note": "キャンディタフト。ルリマガリバナはBrowallia"
+  },
+  {
+    "latin": "Ilex",
+    "read": "イレックス",
+    "family": "モチノキ科",
+    "oldFamily": "",
+    "jpName": "モチノキ属",
+    "note": "イヌツゲ、セイヨウヒイラギ、タラヨウ、ソヨゴ。ヒイラギはOsmanthus"
+  },
+  {
+    "latin": "Impatiens",
+    "read": "インパチエンス",
+    "family": "ツリフネソウ科",
+    "oldFamily": "",
+    "jpName": "ツリフネソウ属",
+    "note": "ホウセンカ"
+  },
+  {
+    "latin": "Ipomoea",
+    "read": "イポメア",
+    "family": "ヒルガオ科",
+    "oldFamily": "",
+    "jpName": "サツマイモ属",
+    "note": "ヨルガオ、アサガオ、ルコウソウ、エンツァイ（ヨウサイ）。ユウガオはLagenaria"
+  },
+  {
+    "latin": "Iris",
+    "read": "イリス",
+    "family": "アヤメ科",
+    "oldFamily": "",
+    "jpName": "アヤメ属",
+    "note": "ハナショウブ、カキツバタ、ジャーマンアイリス。ショウブはAcorus"
+  },
+  {
+    "latin": "Ixora",
+    "read": "イクソラ",
+    "family": "アカネ科",
+    "oldFamily": "",
+    "jpName": "サンタンカ属",
+    "note": "クササンタンカはPentas"
+  },
+  {
+    "latin": "Jasminum",
+    "read": "ジャスミナム",
+    "family": "モクセイ科",
+    "oldFamily": "",
+    "jpName": "ソケイ属",
+    "note": "オウバイ、キソケイ、マツリカ、ジャスミン"
+  },
+  {
+    "latin": "Kalanchoe",
+    "read": "カランコエ",
+    "family": "ベンケイソウ科",
+    "oldFamily": "",
+    "jpName": "リュウキュウベンケイ属",
+    "note": "セイロンベンケイはBryophyllum"
+  },
+  {
+    "latin": "Kalmia",
+    "read": "カルミア",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "カルミア属",
+    "note": "ハナガサシャクナゲ"
+  },
+  {
+    "latin": "Lactuca",
+    "read": "ラクツカ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "チシャ属",
+    "note": "チシャ（レタス）"
+  },
+  {
+    "latin": "Lampranthus",
+    "read": "ランプランサス",
+    "family": "ハマミズナ科",
+    "oldFamily": "",
+    "jpName": "マツバギク属",
+    "note": ""
+  },
+  {
+    "latin": "Lantana",
+    "read": "ランタナ",
+    "family": "クマツヅラ科",
+    "oldFamily": "",
+    "jpName": "シチヘンゲ属",
+    "note": ""
+  },
+  {
+    "latin": "Lathyrus",
+    "read": "ラティルス",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "レンリソウ属",
+    "note": "スイートピー"
+  },
+  {
+    "latin": "Lavandula",
+    "read": "ラバンデュラ",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "ラベンダー属",
+    "note": ""
+  },
+  {
+    "latin": "Leptospermum",
+    "read": "レプトスペルマム",
+    "family": "フトモモ科",
+    "oldFamily": "",
+    "jpName": "ネズモドキ属",
+    "note": "ギョリュウバイ"
+  },
+  {
+    "latin": "Leucanthemum",
+    "read": "レウカンセマム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "フランスギク属",
+    "note": "シャスタデージー、フランスギク。以前はChrysanthemum"
+  },
+  {
+    "latin": "Liatris",
+    "read": "リアトリス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "キリンギク属",
+    "note": ""
+  },
+  {
+    "latin": "Lilium",
+    "read": "リリウム",
+    "family": "ユリ科",
+    "oldFamily": "",
+    "jpName": "ユリ属",
+    "note": "クロユリはFritillaria。ウバユリはCardiocrinum"
+  },
+  {
+    "latin": "Limonium",
+    "read": "リモニウム",
+    "family": "イソマツ科",
+    "oldFamily": "",
+    "jpName": "イソマツ属",
+    "note": "スターチス、ハナハマサジ、ニワハナビ、ヒロハノハマサジ"
+  },
+  {
+    "latin": "Linaria",
+    "read": "リナリア",
+    "family": "オオバコ科",
+    "oldFamily": "ゴマノハグサ科",
+    "jpName": "ウンラン属",
+    "note": "ヒメキンギョソウ、ホソバウンラン。キンギョソウはAntirrhinum"
+  },
+  {
+    "latin": "Lobelia",
+    "read": "ロベリア",
+    "family": "キキョウ科",
+    "oldFamily": "キキョウ（ミゾカクシ）科",
+    "jpName": "ミゾカクシ属",
+    "note": "サワギキョウ、ルリチョウソウ"
+  },
+  {
+    "latin": "Lobularia",
+    "read": "ロブラリア",
+    "family": "アブラナ科",
+    "oldFamily": "",
+    "jpName": "ニワナズナ属",
+    "note": "スイートアリッサム"
+  },
+  {
+    "latin": "Lotus",
+    "read": "ロータス",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "ミヤコグサ属",
+    "note": ""
+  },
+  {
+    "latin": "Luculia",
+    "read": "ルクリア",
+    "family": "アカネ科",
+    "oldFamily": "",
+    "jpName": "アッサムニオイザクラ",
+    "note": ""
+  },
+  {
+    "latin": "Lupinus",
+    "read": "ルピナス",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "ハウチワマメ属",
+    "note": "ハウチワマメ（ノボリフジ）"
+  },
+  {
+    "latin": "Lycoris",
+    "read": "リコリス",
+    "family": "ヒガンバナ科",
+    "oldFamily": "",
+    "jpName": "ヒガンバナ属",
+    "note": "キツネノカミソリ、ナツズイセン"
+  },
+  {
+    "latin": "Lysimachia",
+    "read": "リシマキア",
+    "family": "サクラソウ科",
+    "oldFamily": "",
+    "jpName": "オカトラノオ属",
+    "note": "クサレダマ"
+  },
+  {
+    "latin": "Lythrum",
+    "read": "リスルム",
+    "family": "ミソハギ科",
+    "oldFamily": "",
+    "jpName": "ミソハギ属",
+    "note": ""
+  },
+  {
+    "latin": "Magnolia",
+    "read": "マグノリア",
+    "family": "モクレン科",
+    "oldFamily": "",
+    "jpName": "モクレン属",
+    "note": "ホオノキ、コブシ、タムシバ、オガタマノキ"
+  },
+  {
+    "latin": "Mandevilla",
+    "read": "マンデビラ",
+    "family": "キョウチクトウ科",
+    "oldFamily": "",
+    "jpName": "マンデビラ",
+    "note": "ディプラデニア。旧属名のDipladeniaの名でも流通"
+  },
+  {
+    "latin": "Matricaria",
+    "read": "マトリカリア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "コシカギク属",
+    "note": "ジャーマンカモミール。Tanacetumの園芸名としても使用"
+  },
+  {
+    "latin": "Matthiola",
+    "read": "マッティオラ",
+    "family": "アブラナ科",
+    "oldFamily": "",
+    "jpName": "アラセイトウ属",
+    "note": "ストック（アラセイトウ）。ニオイアラセイトウはErysimum"
+  },
+  {
+    "latin": "Melampodium",
+    "read": "メランポジウム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "メランポジウム",
+    "note": ""
+  },
+  {
+    "latin": "Mentha",
+    "read": "メンタ",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "ハッカ属",
+    "note": ""
+  },
+  {
+    "latin": "Metasequoia",
+    "read": "メタセコイア",
+    "family": "ヒノキ科",
+    "oldFamily": "スギ科",
+    "jpName": "メタセコイア属",
+    "note": "アケボノスギ"
+  },
+  {
+    "latin": "Mimosa",
+    "read": "ミモザ",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "オジギソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Miscanthus",
+    "read": "ミスカンサス",
+    "family": "イネ科",
+    "oldFamily": "",
+    "jpName": "ススキ属",
+    "note": "Ophiopogon やLiriopeがミスカンサスの名で流通する"
+  },
+  {
+    "latin": "Moluccella",
+    "read": "モルセラ",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "カイガラソウ属",
+    "note": "カイガラソウ（カイガラサルビア）"
+  },
+  {
+    "latin": "Monstera",
+    "read": "モンステラ",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "ホウライショウ属",
+    "note": "マドカズラ"
+  },
+  {
+    "latin": "Muscari",
+    "read": "ムスカリ",
+    "family": "キジカクシ科",
+    "oldFamily": "ヒアシンス（ユリ）科",
+    "jpName": "ムスカリ属",
+    "note": ""
+  },
+  {
+    "latin": "Myosotis",
+    "read": "ミオソティス",
+    "family": "ムラサキ科",
+    "oldFamily": "",
+    "jpName": "ワスレナグサ属",
+    "note": "エゾムラサキ、ノハラワスレナグサ、シンワスレナグサ"
+  },
+  {
+    "latin": "Nandina",
+    "read": "ナンディナ",
+    "family": "メギ科",
+    "oldFamily": "",
+    "jpName": "ナンテン属",
+    "note": ""
+  },
+  {
+    "latin": "Narcissus",
+    "read": "ナルシッサス",
+    "family": "ヒガンバナ科",
+    "oldFamily": "",
+    "jpName": "スイセン属",
+    "note": ""
+  },
+  {
+    "latin": "Nelumbo",
+    "read": "ネルンボ",
+    "family": "ハス科",
+    "oldFamily": "",
+    "jpName": "ハス属",
+    "note": ""
+  },
+  {
+    "latin": "Nemesia",
+    "read": "ネメシア",
+    "family": "ゴマノハグサ科",
+    "oldFamily": "",
+    "jpName": "アフリカウンラン属",
+    "note": ""
+  },
+  {
+    "latin": "Nemophila",
+    "read": "ネモフィラ",
+    "family": "ムラサキ科",
+    "oldFamily": "ハゼリソウ科",
+    "jpName": "ルリカラクサ属",
+    "note": ""
+  },
+  {
+    "latin": "Nephrolepis",
+    "read": "ネフロレピス",
+    "family": "タマシダ科",
+    "oldFamily": "タマシダ（シノブ）科",
+    "jpName": "タマシダ属",
+    "note": ""
+  },
+  {
+    "latin": "Nerine",
+    "read": "ネリネ",
+    "family": "ヒガンバナ科",
+    "oldFamily": "",
+    "jpName": "ダイヤモンドリリー",
+    "note": ""
+  },
+  {
+    "latin": "Nierembergia",
+    "read": "ニーレンベルギア",
+    "family": "ナス科",
+    "oldFamily": "",
+    "jpName": "ギンパイソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Nigella",
+    "read": "ニゲラ",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "クロタネソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Nymphaea",
+    "read": "ニンファエア",
+    "family": "スイレン科",
+    "oldFamily": "",
+    "jpName": "スイレン属",
+    "note": "ヒツジグサ"
+  },
+  {
+    "latin": "Ocimum",
+    "read": "オシマム",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "メボウキ属",
+    "note": "バジル（メボウキ）"
+  },
+  {
+    "latin": "Oenothera",
+    "read": "エノテラ",
+    "family": "アカバナ科",
+    "oldFamily": "",
+    "jpName": "マツヨイグサ属",
+    "note": "ツキミソウ"
+  },
+  {
+    "latin": "Olea",
+    "read": "オレア",
+    "family": "モクセイ科",
+    "oldFamily": "",
+    "jpName": "オリーブ属",
+    "note": ""
+  },
+  {
+    "latin": "Ophiopogon",
+    "read": "オフィオポゴン",
+    "family": "キジカクシ科",
+    "oldFamily": "スズラン（ユリ）科",
+    "jpName": "ジャノヒゲ属",
+    "note": "ノシラン"
+  },
+  {
+    "latin": "Ornithogalum",
+    "read": "オーニソガラム",
+    "family": "キジカクシ科",
+    "oldFamily": "ヒアシンス（ユリ）科",
+    "jpName": "オオアマナ属",
+    "note": "オーニソガラム。アマナはAmana"
+  },
+  {
+    "latin": "Oryza",
+    "read": "オリザ",
+    "family": "イネ科",
+    "oldFamily": "",
+    "jpName": "イネ属",
+    "note": ""
+  },
+  {
+    "latin": "Osteospermum",
+    "read": "オステオスペルマム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "オステオスペルマム",
+    "note": "アフリカンデージー"
+  },
+  {
+    "latin": "Oxalis",
+    "read": "オキザリス",
+    "family": "カタバミ科",
+    "oldFamily": "",
+    "jpName": "カタバミ属",
+    "note": ""
+  },
+  {
+    "latin": "Pachira",
+    "read": "パキラ",
+    "family": "アオイ科",
+    "oldFamily": "パンヤ科",
+    "jpName": "パキラ属",
+    "note": "カイエンナット"
+  },
+  {
+    "latin": "Paeonia",
+    "read": "ペオニア",
+    "family": "ボタン科",
+    "oldFamily": "",
+    "jpName": "ボタン属",
+    "note": "シャクヤク、ヤマシャクヤク"
+  },
+  {
+    "latin": "Papaver",
+    "read": "パパベル",
+    "family": "ケシ科",
+    "oldFamily": "",
+    "jpName": "ケシ属",
+    "note": "アイスランドポピー、シャーレーポピー"
+  },
+  {
+    "latin": "Passiflora",
+    "read": "パッシフローラ",
+    "family": "トケイソウ科",
+    "oldFamily": "",
+    "jpName": "トケイソウ属",
+    "note": "クダモノトケイソウ（パッションフルーツ）"
+  },
+  {
+    "latin": "Pelargonium",
+    "read": "ペラルゴニウム",
+    "family": "フウロソウ科",
+    "oldFamily": "",
+    "jpName": "テンジクアオイ属",
+    "note": "センテッドゼラニウム、ゼラニウム"
+  },
+  {
+    "latin": "Pentas",
+    "read": "ペンタス",
+    "family": "アカネ科",
+    "oldFamily": "",
+    "jpName": "クササンタンカ属",
+    "note": "サンタンカはIxora"
+  },
+  {
+    "latin": "Peperomia",
+    "read": "ペペロミア",
+    "family": "コショウ科",
+    "oldFamily": "",
+    "jpName": "サダソウ属",
+    "note": "シマアオイソウ"
+  },
+  {
+    "latin": "Pericallis",
+    "read": "ペリカリス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "フウキギク属",
+    "note": "シネラリア（サイネリア）。旧属名のCinerariaの名で流通"
+  },
+  {
+    "latin": "Perilla",
+    "read": "ペリラ",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "シソ属",
+    "note": "エゴマ"
+  },
+  {
+    "latin": "Petunia",
+    "read": "ペチュニア",
+    "family": "ナス科",
+    "oldFamily": "",
+    "jpName": "ツクバネアサガオ属",
+    "note": ""
+  },
+  {
+    "latin": "Phalaenopsis",
+    "read": "ファレノプシス",
+    "family": "ラン科",
+    "oldFamily": "",
+    "jpName": "コチョウラン属",
+    "note": ""
+  },
+  {
+    "latin": "Philadelphus",
+    "read": "フィラデルフス",
+    "family": "アジサイ科",
+    "oldFamily": "",
+    "jpName": "バイカウツギ属",
+    "note": "ウツギはDeutzia"
+  },
+  {
+    "latin": "Philodendron",
+    "read": "フィロデンドロン",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "ビロードカズラ属",
+    "note": "センニンカズラ、ホテイカズラ、ヤッコカズラ"
+  },
+  {
+    "latin": "Phlox",
+    "read": "フロックス",
+    "family": "ハナシノブ科",
+    "oldFamily": "",
+    "jpName": "クサキョウチクトウ属",
+    "note": "クサキョウチクトウ（オイランソウ）、シバザクラ"
+  },
+  {
+    "latin": "Phoenix",
+    "read": "フェニックス",
+    "family": "ヤシ科",
+    "oldFamily": "",
+    "jpName": "ナツメヤシ属",
+    "note": "ナツメヤシ（デーツ）、シンノウヤシ、カナリーヤシ、ソテツジュロ"
+  },
+  {
+    "latin": "Phormium",
+    "read": "フォルミウム",
+    "family": "ススキノキ科",
+    "oldFamily": "フォルミウム（リュウゼツラン）科",
+    "jpName": "マオラン属",
+    "note": "ニューサイラン"
+  },
+  {
+    "latin": "Phyla",
+    "read": "フィラ",
+    "family": "クマツヅラ科",
+    "oldFamily": "",
+    "jpName": "イワダレソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Physalis",
+    "read": "フィサリス",
+    "family": "ナス科",
+    "oldFamily": "",
+    "jpName": "センナリホオズキ属",
+    "note": "センナリホオズキ、ホオズキ"
+  },
+  {
+    "latin": "Physocarpus",
+    "read": "フィソカルプス",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "テマリシモツケ属",
+    "note": "シモツケはSpiraea"
+  },
+  {
+    "latin": "Physostegia",
+    "read": "フィソステギア",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "ハナトラノオ属",
+    "note": "カクトラノオ（ハナトラノオ）"
+  },
+  {
+    "latin": "Pieris",
+    "read": "ピエリス",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "アセビ属",
+    "note": ""
+  },
+  {
+    "latin": "Pinus",
+    "read": "ピヌス",
+    "family": "マツ科",
+    "oldFamily": "",
+    "jpName": "マツ属",
+    "note": "アカマツ、クロマツ"
+  },
+  {
+    "latin": "Pittosporum",
+    "read": "ピットスポラム",
+    "family": "トベラ科",
+    "oldFamily": "",
+    "jpName": "トベラ属",
+    "note": "コヤスノキ"
+  },
+  {
+    "latin": "Platycodon",
+    "read": "プラチコドン",
+    "family": "キキョウ科",
+    "oldFamily": "",
+    "jpName": "キキョウ属",
+    "note": ""
+  },
+  {
+    "latin": "Plectranthus",
+    "read": "プレクトランサス",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "サヤバナ属",
+    "note": "キンランジソ（コリウス）。園芸名としてColeusの名を使用"
+  },
+  {
+    "latin": "Polygonatum",
+    "read": "ポリゴナツム",
+    "family": "キジカクシ科",
+    "oldFamily": "スズラン（ユリ）科",
+    "jpName": "アマドコロ属",
+    "note": "ナルコユリ、ワニグチソウ、ヒメイズイ"
+  },
+  {
+    "latin": "Portulaca",
+    "read": "ポーチュラカ",
+    "family": "スベリヒユ科",
+    "oldFamily": "",
+    "jpName": "スベリヒユ属",
+    "note": "マツバボタン"
+  },
+  {
+    "latin": "Primula",
+    "read": "プリムラ",
+    "family": "サクラソウ科",
+    "oldFamily": "",
+    "jpName": "サクラソウ属",
+    "note": "クリンソウ、カッコソウ"
+  },
+  {
+    "latin": "Prunus",
+    "read": "プルヌス",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "スモモ属",
+    "note": "セイヨウスモモ（プルーン）。Amygdalus、Armeniaca、Cerasusなどが分けられた"
+  },
+  {
+    "latin": "Pyracantha",
+    "read": "ピラカンサ",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "タチバナモドキ属",
+    "note": "トキワサンザシ。サンザシはCrataegus"
+  },
+  {
+    "latin": "Ranunculus",
+    "read": "ラナンキュラス",
+    "family": "キンポウゲ科",
+    "oldFamily": "",
+    "jpName": "キンポウゲ属",
+    "note": "ハナキンポウゲ、ハイキンポウゲ"
+  },
+  {
+    "latin": "Rhodanthe",
+    "read": "ローダンセ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ハナカンザシ",
+    "note": "ペーパーカスケード。Helipterum、Acrocliniumを含む"
+  },
+  {
+    "latin": "Rhododendron",
+    "read": "ロードデンドロン",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "ツツジ属",
+    "note": "シャクナゲ、サツキ"
+  },
+  {
+    "latin": "Rhodohypoxis",
+    "read": "ロードヒポキシス",
+    "family": "キンバイザサ科",
+    "oldFamily": "",
+    "jpName": "アッツザクラ",
+    "note": ""
+  },
+  {
+    "latin": "Rosa",
+    "read": "ロサ",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "バラ属",
+    "note": "ハマナス"
+  },
+  {
+    "latin": "Rosmarinus",
+    "read": "ロスマリヌス",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "マンネンロウ属",
+    "note": "マンネンロウ（ローズマリー）"
+  },
+  {
+    "latin": "Rubus",
+    "read": "ルブス",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "キイチゴ属",
+    "note": "ラズベリー、ブラックベリー"
+  },
+  {
+    "latin": "Rudbeckia",
+    "read": "ルドベキア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "オオハンゴンソウ属",
+    "note": "グロリオサデージー。ハンゴンソウはSenecio"
+  },
+  {
+    "latin": "Rumohra",
+    "read": "ルモーラ",
+    "family": "オシダ科",
+    "oldFamily": "",
+    "jpName": "レザーリーフファーン",
+    "note": ""
+  },
+  {
+    "latin": "Saintpaulia",
+    "read": "セントポーリア",
+    "family": "イワタバコ科",
+    "oldFamily": "",
+    "jpName": "アフリカスミレ属",
+    "note": ""
+  },
+  {
+    "latin": "Salix",
+    "read": "サリックス",
+    "family": "ヤナギ科",
+    "oldFamily": "",
+    "jpName": "ヤナギ属",
+    "note": "ハコヤナギはPopulus"
+  },
+  {
+    "latin": "Salvia",
+    "read": "サルビア",
+    "family": "シソ科",
+    "oldFamily": "",
+    "jpName": "アキギリ属",
+    "note": "アキノタムラソウ、セージ"
+  },
+  {
+    "latin": "Sandersonia",
+    "read": "サンダーソニア",
+    "family": "イヌサフラン科",
+    "oldFamily": "",
+    "jpName": "サンダーソニア",
+    "note": ""
+  },
+  {
+    "latin": "Sanguisorba",
+    "read": "サンギソルバ",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "ワレモコウ属",
+    "note": "カライトソウ"
+  },
+  {
+    "latin": "Sansevieria",
+    "read": "サンセベリア",
+    "family": "キジカクシ科",
+    "oldFamily": "リュウケツジュ（リュウゼツラン）科",
+    "jpName": "チトセラン属",
+    "note": "チトセラン（トラノオ）"
+  },
+  {
+    "latin": "Sarcandra",
+    "read": "サルカンドラ",
+    "family": "センリョウ科",
+    "oldFamily": "",
+    "jpName": "センリョウ属",
+    "note": "センリョウ。マンリョウはArdisia"
+  },
+  {
+    "latin": "Saxifraga",
+    "read": "サキシフラガ",
+    "family": "ユキノシタ科",
+    "oldFamily": "",
+    "jpName": "ユキノシタ属",
+    "note": "ダイモンジソウ、クモマグサ"
+  },
+  {
+    "latin": "Scabiosa",
+    "read": "スカビオサ",
+    "family": "スイカズラ科",
+    "oldFamily": "マツムシソウ科",
+    "jpName": "マツムシソウ属",
+    "note": ""
+  },
+  {
+    "latin": "Schefflera",
+    "read": "シェフレラ",
+    "family": "ウコギ科",
+    "oldFamily": "",
+    "jpName": "フカノキ属",
+    "note": "ホンコンカポック、モミジバアラリア。カポックはCeiba"
+  },
+  {
+    "latin": "Schlumbergera",
+    "read": "シュルンベルゲラ",
+    "family": "サボテン科",
+    "oldFamily": "",
+    "jpName": "シャコバサボテン属",
+    "note": "クリスマスカクタス、カニバサボテン"
+  },
+  {
+    "latin": "Scilla",
+    "read": "シラー",
+    "family": "キジカクシ科",
+    "oldFamily": "ヒアシンス（ユリ）科",
+    "jpName": "オオツルボ属",
+    "note": ""
+  },
+  {
+    "latin": "Sedum",
+    "read": "セダム",
+    "family": "ベンケイソウ科",
+    "oldFamily": "",
+    "jpName": "マンネングサ属",
+    "note": "ベンケイソウ、ミセバヤ"
+  },
+  {
+    "latin": "Senecio",
+    "read": "セネシオ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ノボロギク属",
+    "note": "シロタエギク、ハンゴンソウ。オオハンゴンソウはRudbeckia"
+  },
+  {
+    "latin": "Silene",
+    "read": "シレネ",
+    "family": "ナデシコ科",
+    "oldFamily": "",
+    "jpName": "マンテマ属",
+    "note": "ムシトリナデシコ"
+  },
+  {
+    "latin": "Skimmia",
+    "read": "シキミア",
+    "family": "ミカン科",
+    "oldFamily": "",
+    "jpName": "ミヤマシキミ属",
+    "note": "シキミはIllicium"
+  },
+  {
+    "latin": "Smilax",
+    "read": "スマイラックス",
+    "family": "サルトリイバラ科",
+    "oldFamily": "シオデ科",
+    "jpName": "サルトリイバラ属",
+    "note": "サルトリイバラ（サンキライ）。Asparagus asparagoidesがスマイラックスの名で流通"
+  },
+  {
+    "latin": "Solanum",
+    "read": "ソラナム",
+    "family": "ナス科",
+    "oldFamily": "",
+    "jpName": "ナス属",
+    "note": "トマト、ジャガイモ、ツノナス（フォックスフェイス）、フユサンゴ"
+  },
+  {
+    "latin": "Solidago",
+    "read": "ソリダゴ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "アキノキリンソウ属",
+    "note": "セイタカアワダチソウ"
+  },
+  {
+    "latin": "Spathiphyllum",
+    "read": "スパティフィラム",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "ササウチワ属",
+    "note": "スパティフィラム"
+  },
+  {
+    "latin": "Spiraea",
+    "read": "スピラエア",
+    "family": "バラ科",
+    "oldFamily": "",
+    "jpName": "シモツケ属",
+    "note": "ユキヤナギ、コデマリ、シジミバナ。テマリシモツケはPhysocarpus"
+  },
+  {
+    "latin": "Stephanotis",
+    "read": "ステファノティス",
+    "family": "キョウチクトウ科",
+    "oldFamily": "ガガイモ科",
+    "jpName": "アフリカシタキヅル属",
+    "note": "マダガスカルジャスミン。Marsdeniaとする見解もある"
+  },
+  {
+    "latin": "Strelitzia",
+    "read": "ストレリチア",
+    "family": "ゴクラクチョウカ科",
+    "oldFamily": "",
+    "jpName": "ゴクラクチョウカ属",
+    "note": ""
+  },
+  {
+    "latin": "Sutera",
+    "read": "ステラ",
+    "family": "ゴマノハグサ科",
+    "oldFamily": "",
+    "jpName": "バコパ",
+    "note": "園芸名として別属Bacopaの名を使用"
+  },
+  {
+    "latin": "Syringa",
+    "read": "シリンガ",
+    "family": "モクセイ科",
+    "oldFamily": "",
+    "jpName": "ハシドイ属",
+    "note": "ムラサキハシドイ（ライラック、リラ）"
+  },
+  {
+    "latin": "Tagetes",
+    "read": "タゲテス",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "コウオウソウ属",
+    "note": "マリーゴールド（マリゴールド）"
+  },
+  {
+    "latin": "Tanacetum",
+    "read": "タナセタム",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヨモギギク属",
+    "note": "ナツシロギク、ジョチュウギク、タンジー"
+  },
+  {
+    "latin": "Thymophylla",
+    "read": "ティモフィラ",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "カラクサシュンギク属",
+    "note": "ダールベルグデージー"
+  },
+  {
+    "latin": "Tillandsia",
+    "read": "チランジア",
+    "family": "パイナップル科",
+    "oldFamily": "",
+    "jpName": "サルオガセモドキ属",
+    "note": "ハナアナナス、エアプランツ"
+  },
+  {
+    "latin": "Torenia",
+    "read": "トレニア",
+    "family": "アゼナ科",
+    "oldFamily": "ゴマノハグサ科",
+    "jpName": "ハナウリクサ属",
+    "note": "トレニア"
+  },
+  {
+    "latin": "Trachelospermum",
+    "read": "トラケロスペルマム",
+    "family": "キョウチクトウ科",
+    "oldFamily": "",
+    "jpName": "テイカカズラ属",
+    "note": "ハツユキカズラ"
+  },
+  {
+    "latin": "Tricyrtis",
+    "read": "トリキルティス",
+    "family": "ユリ科",
+    "oldFamily": "",
+    "jpName": "ホトトギス属",
+    "note": ""
+  },
+  {
+    "latin": "Trifolium",
+    "read": "トリフォリウム",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "シャジクソウ属",
+    "note": "シロツメクサ（クローバー）、ムラサキツメクサ（アカツメクサ、レッドクローバー）"
+  },
+  {
+    "latin": "Tropaeolum",
+    "read": "トロパエオラム",
+    "family": "ノウゼンハレン科",
+    "oldFamily": "",
+    "jpName": "ノウゼンハレン属",
+    "note": "ノウゼンハレン（キンレンカ、ナスタチウム）"
+  },
+  {
+    "latin": "Tulipa",
+    "read": "ツリパ",
+    "family": "ユリ科",
+    "oldFamily": "",
+    "jpName": "チューリップ属",
+    "note": "アマナは現在はAmana"
+  },
+  {
+    "latin": "Tweedia",
+    "read": "トゥイーディア",
+    "family": "キョウチクトウ科",
+    "oldFamily": "ガガイモ科",
+    "jpName": "ルリトウワタ",
+    "note": "ブルースター、オキシペタラム。Oxypetalumとする見解もある"
+  },
+  {
+    "latin": "Vaccinium",
+    "read": "ウァッキニウム",
+    "family": "ツツジ科",
+    "oldFamily": "",
+    "jpName": "スノキ属",
+    "note": "コケモモ、ブルーベリー"
+  },
+  {
+    "latin": "Vanda",
+    "read": "バンダ",
+    "family": "ラン科",
+    "oldFamily": "",
+    "jpName": "ヒスイラン属",
+    "note": ""
+  },
+  {
+    "latin": "Verbena",
+    "read": "バーベナ",
+    "family": "クマツヅラ科",
+    "oldFamily": "",
+    "jpName": "クマツヅラ属",
+    "note": "シュッコンバーベナ、サンジャクバーベナ（ヤナギハナガサ）"
+  },
+  {
+    "latin": "Veronica",
+    "read": "ベロニカ",
+    "family": "オオバコ科",
+    "oldFamily": "ゴマノハグサ科",
+    "jpName": "クワガタソウ属",
+    "note": "オオイヌノフグリ、ルリトラノオ、トウテイラン。クガイソウはVeronicastrum"
+  },
+  {
+    "latin": "Viburnum",
+    "read": "ビブルナム",
+    "family": "ガマズミ科",
+    "oldFamily": "スイカズラ（レンプクソウ）科",
+    "jpName": "ガマズミ属",
+    "note": "サンゴジュ、ヤブデマリ、ハクサンボク、ゴモジュ、カンボク"
+  },
+  {
+    "latin": "Vinca",
+    "read": "ビンカ",
+    "family": "キョウチクトウ科",
+    "oldFamily": "",
+    "jpName": "ツルニチニチソウ属",
+    "note": "ニチニチソウ（Catharanthus）の園芸名としても使用"
+  },
+  {
+    "latin": "Viola",
+    "read": "ビオラ",
+    "family": "スミレ科",
+    "oldFamily": "",
+    "jpName": "スミレ属",
+    "note": "パンジー"
+  },
+  {
+    "latin": "Vitis",
+    "read": "ビティス",
+    "family": "ブドウ科",
+    "oldFamily": "",
+    "jpName": "ブドウ属",
+    "note": "ヤマブドウ、エビヅル。ノブドウはAmpelopsis"
+  },
+  {
+    "latin": "Weigela",
+    "read": "ウェイゲラ",
+    "family": "スイカズラ科",
+    "oldFamily": "",
+    "jpName": "タニウツギ属",
+    "note": "ハコネウツギ"
+  },
+  {
+    "latin": "Wisteria",
+    "read": "ウィステリア",
+    "family": "マメ科",
+    "oldFamily": "",
+    "jpName": "フジ属",
+    "note": "フジ（ノダフジ）、ヤマフジ（カピタン）、ナツフジ"
+  },
+  {
+    "latin": "Yucca",
+    "read": "ユッカ",
+    "family": "キジカクシ科",
+    "oldFamily": "リュウゼツラン科",
+    "jpName": "イトラン属",
+    "note": "キミガヨラン。「青年の木」は不可"
+  },
+  {
+    "latin": "Zantedeschia",
+    "read": "ザンテデスキア",
+    "family": "サトイモ科",
+    "oldFamily": "",
+    "jpName": "オランダカイウ属",
+    "note": "カラー。園芸名として別属Callaの名を使用"
+  },
+  {
+    "latin": "Zephyranthes",
+    "read": "ゼフィランサス",
+    "family": "ヒガンバナ科",
+    "oldFamily": "",
+    "jpName": "サフランモドキ属",
+    "note": "タマスダレ。キバナタマスダレはSternbergia"
+  },
+  {
+    "latin": "Zinnia",
+    "read": "ジニア",
+    "family": "キク科",
+    "oldFamily": "",
+    "jpName": "ヒャクニチソウ属",
+    "note": ""
+  }
+]

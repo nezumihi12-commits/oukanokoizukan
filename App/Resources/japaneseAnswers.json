@@ -1,0 +1,2934 @@
+{
+  "Abelia": {
+    "pattern": "A",
+    "jpName": "ツクバネウツギ属",
+    "answers": [
+      "ツクバネウツギ",
+      "ツクバネウツギ属"
+    ],
+    "suffix": "属"
+  },
+  "Abies": {
+    "pattern": "B",
+    "jpName": "モミ属",
+    "answers": [
+      "モミ",
+      "シラビソ",
+      "モミ属"
+    ],
+    "suffix": "属"
+  },
+  "Abutilon": {
+    "pattern": "B",
+    "jpName": "イチビ属",
+    "answers": [
+      "イチビ",
+      "ウキツリボク",
+      "イチビ属"
+    ],
+    "suffix": "属"
+  },
+  "Acacia": {
+    "pattern": "B",
+    "jpName": "アカシア属",
+    "answers": [
+      "アカシア",
+      "フサアカシア",
+      "アカシア属"
+    ],
+    "suffix": "属"
+  },
+  "Acer": {
+    "pattern": "B",
+    "jpName": "カエデ属",
+    "answers": [
+      "カエデ",
+      "イロハモミジ",
+      "カエデ属"
+    ],
+    "suffix": "属"
+  },
+  "Achillea": {
+    "pattern": "B",
+    "jpName": "ノコギリソウ属",
+    "answers": [
+      "ノコギリソウ",
+      "ヤロー",
+      "ノコギリソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Acorus": {
+    "pattern": "B",
+    "jpName": "ショウブ属",
+    "answers": [
+      "ショウブ",
+      "セキショウ",
+      "ショウブ属"
+    ],
+    "suffix": "属"
+  },
+  "Actinotus": {
+    "pattern": "C",
+    "jpName": "フランネルフラワー",
+    "answers": [
+      "フランネルフラワー"
+    ],
+    "suffix": ""
+  },
+  "Adiantum": {
+    "pattern": "B",
+    "jpName": "ホウライシダ属",
+    "answers": [
+      "ホウライシダ",
+      "クジャクシダ",
+      "ホウライシダ属"
+    ],
+    "suffix": "属"
+  },
+  "Adonis": {
+    "pattern": "A",
+    "jpName": "フクジュソウ属",
+    "answers": [
+      "フクジュソウ",
+      "フクジュソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Agapanthus": {
+    "pattern": "A",
+    "jpName": "ムラサキクンシラン属",
+    "answers": [
+      "ムラサキクンシラン",
+      "ムラサキクンシラン属"
+    ],
+    "suffix": "属"
+  },
+  "Ageratum": {
+    "pattern": "A",
+    "jpName": "カッコウアザミ属",
+    "answers": [
+      "カッコウアザミ",
+      "カッコウアザミ属"
+    ],
+    "suffix": "属"
+  },
+  "Ajuga": {
+    "pattern": "B",
+    "jpName": "キランソウ属",
+    "answers": [
+      "キランソウ",
+      "アジュガ",
+      "キランソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Alchemilla": {
+    "pattern": "B",
+    "jpName": "ハゴロモグサ属",
+    "answers": [
+      "ハゴロモグサ",
+      "レディースマントル",
+      "ハゴロモグサ属"
+    ],
+    "suffix": "属"
+  },
+  "Allium": {
+    "pattern": "B",
+    "jpName": "ネギ属",
+    "answers": [
+      "ネギ",
+      "タマネギ",
+      "ネギ属"
+    ],
+    "suffix": "属"
+  },
+  "Aloe": {
+    "pattern": "B",
+    "jpName": "アロエ属",
+    "answers": [
+      "アロエ",
+      "キダチアロエ",
+      "アロエ属"
+    ],
+    "suffix": "属"
+  },
+  "Alstroemeria": {
+    "pattern": "A",
+    "jpName": "ユリズイセン属",
+    "answers": [
+      "ユリズイセン",
+      "ユリズイセン属"
+    ],
+    "suffix": "属"
+  },
+  "Alternanthera": {
+    "pattern": "B",
+    "jpName": "ツルノゲイトウ属",
+    "answers": [
+      "ツルノゲイトウ",
+      "アカバセンニチコウ",
+      "ツルノゲイトウ属"
+    ],
+    "suffix": "属"
+  },
+  "Alyssum": {
+    "pattern": "A",
+    "jpName": "アレチナズナ属",
+    "answers": [
+      "アレチナズナ",
+      "アレチナズナ属"
+    ],
+    "suffix": "属"
+  },
+  "Amaranthus": {
+    "pattern": "B",
+    "jpName": "ヒユ属",
+    "answers": [
+      "ヒユ",
+      "ハゲイトウ",
+      "ヒユ属"
+    ],
+    "suffix": "属"
+  },
+  "Ammi": {
+    "pattern": "B",
+    "jpName": "ドクゼリモドキ属",
+    "answers": [
+      "ドクゼリモドキ",
+      "ドクゼリモドキ（レースフラワー",
+      "ドクゼリモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Amygdalus": {
+    "pattern": "B",
+    "jpName": "モモ属",
+    "answers": [
+      "モモ",
+      "アーモンド",
+      "モモ属"
+    ],
+    "suffix": "属"
+  },
+  "Anemone": {
+    "pattern": "B",
+    "jpName": "イチリンソウ属",
+    "answers": [
+      "イチリンソウ",
+      "ニリンソウ",
+      "イチリンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Angelonia": {
+    "pattern": "A",
+    "jpName": "アンゲロンソウ属",
+    "answers": [
+      "アンゲロンソウ",
+      "アンゲロンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Anigozanthos": {
+    "pattern": "B",
+    "jpName": "アニゴザントス属",
+    "answers": [
+      "アニゴザントス",
+      "カンガルーポー",
+      "アニゴザントス属"
+    ],
+    "suffix": "属"
+  },
+  "Anthurium": {
+    "pattern": "A",
+    "jpName": "ベニウチワ属",
+    "answers": [
+      "ベニウチワ",
+      "ベニウチワ属"
+    ],
+    "suffix": "属"
+  },
+  "Antirrhinum": {
+    "pattern": "A",
+    "jpName": "キンギョソウ属",
+    "answers": [
+      "キンギョソウ",
+      "キンギョソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Aquilegia": {
+    "pattern": "A",
+    "jpName": "オダマキ属",
+    "answers": [
+      "オダマキ",
+      "オダマキ属"
+    ],
+    "suffix": "属"
+  },
+  "Arctotis": {
+    "pattern": "B",
+    "jpName": "ハゴロモギク属",
+    "answers": [
+      "ハゴロモギク",
+      "ジャノメギク",
+      "ハゴロモギク属"
+    ],
+    "suffix": "属"
+  },
+  "Ardisia": {
+    "pattern": "B",
+    "jpName": "ヤブコウジ属",
+    "answers": [
+      "ヤブコウジ",
+      "マンリョウ",
+      "ヤブコウジ属"
+    ],
+    "suffix": "属"
+  },
+  "Arenaria": {
+    "pattern": "A",
+    "jpName": "ノミノツヅリ属",
+    "answers": [
+      "ノミノツヅリ",
+      "ノミノツヅリ属"
+    ],
+    "suffix": "属"
+  },
+  "Argyranthemum": {
+    "pattern": "B",
+    "jpName": "モクシュンギク属",
+    "answers": [
+      "モクシュンギク",
+      "マーガレット",
+      "モクシュンギク属"
+    ],
+    "suffix": "属"
+  },
+  "Armeniaca": {
+    "pattern": "B",
+    "jpName": "アンズ属",
+    "answers": [
+      "アンズ",
+      "ウメ",
+      "アンズ属"
+    ],
+    "suffix": "属"
+  },
+  "Armeria": {
+    "pattern": "A",
+    "jpName": "ハマカンザシ属",
+    "answers": [
+      "ハマカンザシ",
+      "ハマカンザシ属"
+    ],
+    "suffix": "属"
+  },
+  "Asclepias": {
+    "pattern": "B",
+    "jpName": "トウワタ属",
+    "answers": [
+      "トウワタ",
+      "トウワタ",
+      "トウワタ属"
+    ],
+    "suffix": "属"
+  },
+  "Asparagus": {
+    "pattern": "B",
+    "jpName": "キジカクシ属",
+    "answers": [
+      "キジカクシ",
+      "アスパラガス",
+      "キジカクシ属"
+    ],
+    "suffix": "属"
+  },
+  "Asplenium": {
+    "pattern": "B",
+    "jpName": "チャセンシダ属",
+    "answers": [
+      "チャセンシダ",
+      "オオタニワタリ",
+      "チャセンシダ属"
+    ],
+    "suffix": "属"
+  },
+  "Aster": {
+    "pattern": "B",
+    "jpName": "シオン属",
+    "answers": [
+      "シオン",
+      "クジャクアスター",
+      "シオン属"
+    ],
+    "suffix": "属"
+  },
+  "Astilbe": {
+    "pattern": "B",
+    "jpName": "チダケサシ属",
+    "answers": [
+      "チダケサシ",
+      "アワモリショウマ",
+      "チダケサシ属"
+    ],
+    "suffix": "属"
+  },
+  "Astrantia": {
+    "pattern": "A",
+    "jpName": "アストランチア属",
+    "answers": [
+      "アストランチア",
+      "アストランチア属"
+    ],
+    "suffix": "属"
+  },
+  "Aucuba": {
+    "pattern": "A",
+    "jpName": "アオキ属",
+    "answers": [
+      "アオキ",
+      "アオキ属"
+    ],
+    "suffix": "属"
+  },
+  "Bassia": {
+    "pattern": "B",
+    "jpName": "ムヒョウソウ属",
+    "answers": [
+      "ムヒョウソウ",
+      "ホウキギ",
+      "ムヒョウソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Begonia": {
+    "pattern": "A",
+    "jpName": "シュウカイドウ属",
+    "answers": [
+      "シュウカイドウ",
+      "シュウカイドウ属"
+    ],
+    "suffix": "属"
+  },
+  "Bellis": {
+    "pattern": "B",
+    "jpName": "ヒナギク属",
+    "answers": [
+      "ヒナギク",
+      "ヒナギク",
+      "ヒナギク属"
+    ],
+    "suffix": "属"
+  },
+  "Bidens": {
+    "pattern": "B",
+    "jpName": "センダングサ属",
+    "answers": [
+      "センダングサ",
+      "ウインターコスモス",
+      "センダングサ属"
+    ],
+    "suffix": "属"
+  },
+  "Boronia": {
+    "pattern": "C",
+    "jpName": "ボロニア",
+    "answers": [
+      "ボロニア"
+    ],
+    "suffix": ""
+  },
+  "Bougainvillea": {
+    "pattern": "A",
+    "jpName": "イカダカズラ属",
+    "answers": [
+      "イカダカズラ",
+      "イカダカズラ属"
+    ],
+    "suffix": "属"
+  },
+  "Brassica": {
+    "pattern": "B",
+    "jpName": "アブラナ属",
+    "answers": [
+      "アブラナ",
+      "ハボタン",
+      "アブラナ属"
+    ],
+    "suffix": "属"
+  },
+  "Buddleja": {
+    "pattern": "A",
+    "jpName": "フジウツギ属",
+    "answers": [
+      "フジウツギ",
+      "フジウツギ属"
+    ],
+    "suffix": "属"
+  },
+  "Bupleurum": {
+    "pattern": "B",
+    "jpName": "ホタルサイコ属",
+    "answers": [
+      "ホタルサイコ",
+      "ツキヌキサイコ",
+      "ホタルサイコ属"
+    ],
+    "suffix": "属"
+  },
+  "Caladium": {
+    "pattern": "B",
+    "jpName": "ニシキイモ属",
+    "answers": [
+      "ニシキイモ",
+      "ヒメハニシキ",
+      "ニシキイモ属"
+    ],
+    "suffix": "属"
+  },
+  "Calendula": {
+    "pattern": "A",
+    "jpName": "キンセンカ属",
+    "answers": [
+      "キンセンカ",
+      "キンセンカ属"
+    ],
+    "suffix": "属"
+  },
+  "Calibrachoa": {
+    "pattern": "C",
+    "jpName": "カリブラコア",
+    "answers": [
+      "カリブラコア"
+    ],
+    "suffix": ""
+  },
+  "Callistephus": {
+    "pattern": "B",
+    "jpName": "サツマギク属",
+    "answers": [
+      "サツマギク",
+      "エゾギク",
+      "サツマギク属"
+    ],
+    "suffix": "属"
+  },
+  "Calluna": {
+    "pattern": "A",
+    "jpName": "ギョリュウモドキ属",
+    "answers": [
+      "ギョリュウモドキ",
+      "ギョリュウモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Camellia": {
+    "pattern": "B",
+    "jpName": "ツバキ属",
+    "answers": [
+      "ツバキ",
+      "サザンカ",
+      "ツバキ属"
+    ],
+    "suffix": "属"
+  },
+  "Campanula": {
+    "pattern": "B",
+    "jpName": "ホタルブクロ属",
+    "answers": [
+      "ホタルブクロ",
+      "フウリンソウ",
+      "ホタルブクロ属"
+    ],
+    "suffix": "属"
+  },
+  "Canna": {
+    "pattern": "B",
+    "jpName": "カンナ属",
+    "answers": [
+      "カンナ",
+      "ダンドク",
+      "カンナ属"
+    ],
+    "suffix": "属"
+  },
+  "Capsicum": {
+    "pattern": "B",
+    "jpName": "トウガラシ属",
+    "answers": [
+      "トウガラシ",
+      "ピーマン",
+      "トウガラシ属"
+    ],
+    "suffix": "属"
+  },
+  "Carex": {
+    "pattern": "B",
+    "jpName": "スゲ属",
+    "answers": [
+      "スゲ",
+      "コウボウムギ",
+      "スゲ属"
+    ],
+    "suffix": "属"
+  },
+  "Carthamus": {
+    "pattern": "A",
+    "jpName": "ベニバナ属",
+    "answers": [
+      "ベニバナ",
+      "ベニバナ属"
+    ],
+    "suffix": "属"
+  },
+  "Catharanthus": {
+    "pattern": "B",
+    "jpName": "ニチニチソウ属",
+    "answers": [
+      "ニチニチソウ",
+      "ニチニチソウ",
+      "ニチニチソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Cattleya": {
+    "pattern": "B",
+    "jpName": "ヒノデラン属",
+    "answers": [
+      "ヒノデラン",
+      "カトレヤ",
+      "ヒノデラン属"
+    ],
+    "suffix": "属"
+  },
+  "Celosia": {
+    "pattern": "A",
+    "jpName": "ケイトウ属",
+    "answers": [
+      "ケイトウ",
+      "ケイトウ属"
+    ],
+    "suffix": "属"
+  },
+  "Centaurea": {
+    "pattern": "A",
+    "jpName": "ヤグルマギク属",
+    "answers": [
+      "ヤグルマギク",
+      "ヤグルマギク属"
+    ],
+    "suffix": "属"
+  },
+  "Cerasus": {
+    "pattern": "B",
+    "jpName": "サクラ属",
+    "answers": [
+      "サクラ",
+      "セイヨウミザクラ",
+      "サクラ属"
+    ],
+    "suffix": "属"
+  },
+  "Chaenomeles": {
+    "pattern": "B",
+    "jpName": "ボケ属",
+    "answers": [
+      "ボケ",
+      "クサボケ",
+      "ボケ属"
+    ],
+    "suffix": "属"
+  },
+  "Chamaecyparis": {
+    "pattern": "B",
+    "jpName": "ヒノキ属",
+    "answers": [
+      "ヒノキ",
+      "サワラ",
+      "ヒノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Chamaedorea": {
+    "pattern": "A",
+    "jpName": "テーブルヤシ属",
+    "answers": [
+      "テーブルヤシ",
+      "テーブルヤシ属"
+    ],
+    "suffix": "属"
+  },
+  "Chamelaucium": {
+    "pattern": "C",
+    "jpName": "ワックスフラワー",
+    "answers": [
+      "ワックスフラワー"
+    ],
+    "suffix": ""
+  },
+  "Chlorophytum": {
+    "pattern": "A",
+    "jpName": "オリヅルラン属",
+    "answers": [
+      "オリヅルラン",
+      "オリヅルラン属"
+    ],
+    "suffix": "属"
+  },
+  "Chrysanthemum": {
+    "pattern": "B",
+    "jpName": "キク属",
+    "answers": [
+      "キク",
+      "キク",
+      "キク属"
+    ],
+    "suffix": "属"
+  },
+  "Citrullus": {
+    "pattern": "A",
+    "jpName": "スイカ属",
+    "answers": [
+      "スイカ",
+      "スイカ属"
+    ],
+    "suffix": "属"
+  },
+  "Citrus": {
+    "pattern": "B",
+    "jpName": "ミカン属",
+    "answers": [
+      "ミカン",
+      "ダイダイ",
+      "ミカン属"
+    ],
+    "suffix": "属"
+  },
+  "Clematis": {
+    "pattern": "B",
+    "jpName": "センニンソウ属",
+    "answers": [
+      "センニンソウ",
+      "テッセン",
+      "センニンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Codiaeum": {
+    "pattern": "B",
+    "jpName": "ヘンヨウボク属",
+    "answers": [
+      "ヘンヨウボク",
+      "ヘンヨウボク",
+      "ヘンヨウボク属"
+    ],
+    "suffix": "属"
+  },
+  "Consolida": {
+    "pattern": "B",
+    "jpName": "ヒエンソウ属",
+    "answers": [
+      "ヒエンソウ",
+      "チドリソウ",
+      "ヒエンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Convallaria": {
+    "pattern": "A",
+    "jpName": "スズラン属",
+    "answers": [
+      "スズラン",
+      "スズラン属"
+    ],
+    "suffix": "属"
+  },
+  "Cordyline": {
+    "pattern": "B",
+    "jpName": "センネンボク属",
+    "answers": [
+      "センネンボク",
+      "ニオイシュロラン",
+      "センネンボク属"
+    ],
+    "suffix": "属"
+  },
+  "Coreopsis": {
+    "pattern": "B",
+    "jpName": "キンケイギク属",
+    "answers": [
+      "キンケイギク",
+      "ハルシャギク",
+      "キンケイギク属"
+    ],
+    "suffix": "属"
+  },
+  "Cornus": {
+    "pattern": "B",
+    "jpName": "サンシュユ属",
+    "answers": [
+      "サンシュユ",
+      "ヤマボウシ",
+      "サンシュユ属"
+    ],
+    "suffix": "属"
+  },
+  "Cosmos": {
+    "pattern": "B",
+    "jpName": "コスモス属",
+    "answers": [
+      "コスモス",
+      "キバナコスモス",
+      "コスモス属"
+    ],
+    "suffix": "属"
+  },
+  "Cotinus": {
+    "pattern": "B",
+    "jpName": "ケムリノキ属",
+    "answers": [
+      "ケムリノキ",
+      "スモークツリー（ケムリノキ",
+      "ケムリノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Craspedia": {
+    "pattern": "C",
+    "jpName": "クラスペディア",
+    "answers": [
+      "クラスペディア"
+    ],
+    "suffix": ""
+  },
+  "Crassula": {
+    "pattern": "A",
+    "jpName": "クラッスラ属",
+    "answers": [
+      "クラッスラ",
+      "クラッスラ属"
+    ],
+    "suffix": "属"
+  },
+  "Crocus": {
+    "pattern": "A",
+    "jpName": "サフラン属",
+    "answers": [
+      "サフラン",
+      "サフラン属"
+    ],
+    "suffix": "属"
+  },
+  "Crossandra": {
+    "pattern": "B",
+    "jpName": "キツネノヒガサ属",
+    "answers": [
+      "キツネノヒガサ",
+      "ジョウゴバナ",
+      "キツネノヒガサ属"
+    ],
+    "suffix": "属"
+  },
+  "Crowea": {
+    "pattern": "C",
+    "jpName": "サザンクロス",
+    "answers": [
+      "サザンクロス"
+    ],
+    "suffix": ""
+  },
+  "Cucumis": {
+    "pattern": "B",
+    "jpName": "キュウリ属",
+    "answers": [
+      "キュウリ",
+      "メロン",
+      "キュウリ属"
+    ],
+    "suffix": "属"
+  },
+  "Cucurbita": {
+    "pattern": "B",
+    "jpName": "カボチャ属",
+    "answers": [
+      "カボチャ",
+      "ズッキーニ",
+      "カボチャ属"
+    ],
+    "suffix": "属"
+  },
+  "Cuphea": {
+    "pattern": "B",
+    "jpName": "ハナヤナギ属",
+    "answers": [
+      "ハナヤナギ",
+      "メキシコハナヤナギ",
+      "ハナヤナギ属"
+    ],
+    "suffix": "属"
+  },
+  "Cupressus": {
+    "pattern": "A",
+    "jpName": "イトスギ属",
+    "answers": [
+      "イトスギ",
+      "イトスギ属"
+    ],
+    "suffix": "属"
+  },
+  "Curcuma": {
+    "pattern": "B",
+    "jpName": "ウコン属",
+    "answers": [
+      "ウコン",
+      "ウコン",
+      "ウコン属"
+    ],
+    "suffix": "属"
+  },
+  "Cycas": {
+    "pattern": "A",
+    "jpName": "ソテツ属",
+    "answers": [
+      "ソテツ",
+      "ソテツ属"
+    ],
+    "suffix": "属"
+  },
+  "Cyclamen": {
+    "pattern": "B",
+    "jpName": "シクラメン属",
+    "answers": [
+      "シクラメン",
+      "シクラメン（カガリビバナ",
+      "シクラメン属"
+    ],
+    "suffix": "属"
+  },
+  "Cymbidium": {
+    "pattern": "B",
+    "jpName": "シュンラン属",
+    "answers": [
+      "シュンラン",
+      "カンラン",
+      "シュンラン属"
+    ],
+    "suffix": "属"
+  },
+  "Cytisus": {
+    "pattern": "A",
+    "jpName": "エニシダ属",
+    "answers": [
+      "エニシダ",
+      "エニシダ属"
+    ],
+    "suffix": "属"
+  },
+  "Dahlia": {
+    "pattern": "A",
+    "jpName": "ダリア属",
+    "answers": [
+      "ダリア",
+      "ダリア属"
+    ],
+    "suffix": "属"
+  },
+  "Daphne": {
+    "pattern": "B",
+    "jpName": "ジンチョウゲ属",
+    "answers": [
+      "ジンチョウゲ",
+      "フジモドキ",
+      "ジンチョウゲ属"
+    ],
+    "suffix": "属"
+  },
+  "Delphinium": {
+    "pattern": "A",
+    "jpName": "オオヒエンソウ属",
+    "answers": [
+      "オオヒエンソウ",
+      "オオヒエンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Dendrobium": {
+    "pattern": "B",
+    "jpName": "セッコク属",
+    "answers": [
+      "セッコク",
+      "セッコク",
+      "セッコク属"
+    ],
+    "suffix": "属"
+  },
+  "Deutzia": {
+    "pattern": "A",
+    "jpName": "ウツギ属",
+    "answers": [
+      "ウツギ",
+      "ウツギ属"
+    ],
+    "suffix": "属"
+  },
+  "Dianthus": {
+    "pattern": "B",
+    "jpName": "ナデシコ属",
+    "answers": [
+      "ナデシコ",
+      "セキチク",
+      "ナデシコ属"
+    ],
+    "suffix": "属"
+  },
+  "Dieffenbachia": {
+    "pattern": "A",
+    "jpName": "カスリソウ属",
+    "answers": [
+      "カスリソウ",
+      "カスリソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Digitalis": {
+    "pattern": "B",
+    "jpName": "ジギタリス属",
+    "answers": [
+      "ジギタリス",
+      "キツネノテブクロ",
+      "ジギタリス属"
+    ],
+    "suffix": "属"
+  },
+  "Dimorphotheca": {
+    "pattern": "A",
+    "jpName": "アフリカキンセンカ属",
+    "answers": [
+      "アフリカキンセンカ",
+      "アフリカキンセンカ属"
+    ],
+    "suffix": "属"
+  },
+  "Dracaena": {
+    "pattern": "B",
+    "jpName": "リュウケツジュ属",
+    "answers": [
+      "リュウケツジュ",
+      "ニオイセンネンボク",
+      "リュウケツジュ属"
+    ],
+    "suffix": "属"
+  },
+  "Duranta": {
+    "pattern": "A",
+    "jpName": "タイワンレンギョウ属",
+    "answers": [
+      "タイワンレンギョウ",
+      "タイワンレンギョウ属"
+    ],
+    "suffix": "属"
+  },
+  "Echinops": {
+    "pattern": "B",
+    "jpName": "ヒゴタイ属",
+    "answers": [
+      "ヒゴタイ",
+      "ルリタマアザミ",
+      "ヒゴタイ属"
+    ],
+    "suffix": "属"
+  },
+  "Enkianthus": {
+    "pattern": "B",
+    "jpName": "ドウダンツツジ属",
+    "answers": [
+      "ドウダンツツジ",
+      "サラサドウダン",
+      "ドウダンツツジ属"
+    ],
+    "suffix": "属"
+  },
+  "Epipremnum": {
+    "pattern": "B",
+    "jpName": "ハブカズラ属",
+    "answers": [
+      "ハブカズラ",
+      "オウゴンカズラ",
+      "ハブカズラ属"
+    ],
+    "suffix": "属"
+  },
+  "Equisetum": {
+    "pattern": "B",
+    "jpName": "トクサ属",
+    "answers": [
+      "トクサ",
+      "スギナ",
+      "トクサ属"
+    ],
+    "suffix": "属"
+  },
+  "Erica": {
+    "pattern": "A",
+    "jpName": "エリカ属",
+    "answers": [
+      "エリカ",
+      "エリカ属"
+    ],
+    "suffix": "属"
+  },
+  "Eryngium": {
+    "pattern": "B",
+    "jpName": "ヒゴタイサイコ属",
+    "answers": [
+      "ヒゴタイサイコ",
+      "マツカサアザミ",
+      "ヒゴタイサイコ属"
+    ],
+    "suffix": "属"
+  },
+  "Eucalyptus": {
+    "pattern": "A",
+    "jpName": "ユーカリノキ属",
+    "answers": [
+      "ユーカリノキ",
+      "ユーカリノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Eupatorium": {
+    "pattern": "B",
+    "jpName": "ヒヨドリバナ属",
+    "answers": [
+      "ヒヨドリバナ",
+      "フジバカマ",
+      "ヒヨドリバナ属"
+    ],
+    "suffix": "属"
+  },
+  "Euphorbia": {
+    "pattern": "B",
+    "jpName": "トウダイグサ属",
+    "answers": [
+      "トウダイグサ",
+      "ポインセチア",
+      "トウダイグサ属"
+    ],
+    "suffix": "属"
+  },
+  "Euryops": {
+    "pattern": "C",
+    "jpName": "ユーリオプスデージー",
+    "answers": [
+      "ユーリオプスデージー"
+    ],
+    "suffix": ""
+  },
+  "Eustoma": {
+    "pattern": "A",
+    "jpName": "トルコギキョウ属",
+    "answers": [
+      "トルコギキョウ",
+      "トルコギキョウ属"
+    ],
+    "suffix": "属"
+  },
+  "Evolvulus": {
+    "pattern": "B",
+    "jpName": "アサガオガラクサ属",
+    "answers": [
+      "アサガオガラクサ",
+      "エボルブルス",
+      "アサガオガラクサ属"
+    ],
+    "suffix": "属"
+  },
+  "Felicia": {
+    "pattern": "B",
+    "jpName": "ルリヒナギク属",
+    "answers": [
+      "ルリヒナギク",
+      "ルリヒナギク",
+      "ルリヒナギク属"
+    ],
+    "suffix": "属"
+  },
+  "Ficus": {
+    "pattern": "B",
+    "jpName": "イチジク属",
+    "answers": [
+      "イチジク",
+      "インドゴムノキ",
+      "イチジク属"
+    ],
+    "suffix": "属"
+  },
+  "Forsythia": {
+    "pattern": "A",
+    "jpName": "レンギョウ属",
+    "answers": [
+      "レンギョウ",
+      "レンギョウ属"
+    ],
+    "suffix": "属"
+  },
+  "Fragaria": {
+    "pattern": "B",
+    "jpName": "オランダイチゴ属",
+    "answers": [
+      "オランダイチゴ",
+      "オランダイチゴ",
+      "オランダイチゴ属"
+    ],
+    "suffix": "属"
+  },
+  "Fraxinus": {
+    "pattern": "A",
+    "jpName": "トネリコ属",
+    "answers": [
+      "トネリコ",
+      "トネリコ属"
+    ],
+    "suffix": "属"
+  },
+  "Freesia": {
+    "pattern": "A",
+    "jpName": "フリージア属",
+    "answers": [
+      "フリージア",
+      "フリージア属"
+    ],
+    "suffix": "属"
+  },
+  "Fuchsia": {
+    "pattern": "A",
+    "jpName": "フクシア属",
+    "answers": [
+      "フクシア",
+      "フクシア属"
+    ],
+    "suffix": "属"
+  },
+  "Gaillardia": {
+    "pattern": "B",
+    "jpName": "テンニンギク属",
+    "answers": [
+      "テンニンギク",
+      "オオテンニンギク",
+      "テンニンギク属"
+    ],
+    "suffix": "属"
+  },
+  "Gardenia": {
+    "pattern": "A",
+    "jpName": "クチナシ属",
+    "answers": [
+      "クチナシ",
+      "クチナシ属"
+    ],
+    "suffix": "属"
+  },
+  "Gaultheria": {
+    "pattern": "B",
+    "jpName": "シラタマノキ属",
+    "answers": [
+      "シラタマノキ",
+      "アカモノ",
+      "シラタマノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Gazania": {
+    "pattern": "A",
+    "jpName": "クンショウギク属",
+    "answers": [
+      "クンショウギク",
+      "クンショウギク属"
+    ],
+    "suffix": "属"
+  },
+  "Gentiana": {
+    "pattern": "A",
+    "jpName": "リンドウ属",
+    "answers": [
+      "リンドウ",
+      "リンドウ属"
+    ],
+    "suffix": "属"
+  },
+  "Geranium": {
+    "pattern": "B",
+    "jpName": "フウロソウ属",
+    "answers": [
+      "フウロソウ",
+      "ゲンノショウコ",
+      "フウロソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Gerbera": {
+    "pattern": "A",
+    "jpName": "ガーベラ属",
+    "answers": [
+      "ガーベラ",
+      "ガーベラ属"
+    ],
+    "suffix": "属"
+  },
+  "Gilia": {
+    "pattern": "B",
+    "jpName": "ギリア属",
+    "answers": [
+      "ギリア",
+      "アメリカハナシノブ（ヒメハナシノブ",
+      "ギリア属"
+    ],
+    "suffix": "属"
+  },
+  "Gladiolus": {
+    "pattern": "B",
+    "jpName": "トウショウブ属",
+    "answers": [
+      "トウショウブ",
+      "グラジオラス",
+      "トウショウブ属"
+    ],
+    "suffix": "属"
+  },
+  "Glandularia": {
+    "pattern": "B",
+    "jpName": "ビジョザクラ属",
+    "answers": [
+      "ビジョザクラ",
+      "バーベナ",
+      "ビジョザクラ属"
+    ],
+    "suffix": "属"
+  },
+  "Glechoma": {
+    "pattern": "A",
+    "jpName": "カキドオシ属",
+    "answers": [
+      "カキドオシ",
+      "カキドオシ属"
+    ],
+    "suffix": "属"
+  },
+  "Gloriosa": {
+    "pattern": "B",
+    "jpName": "キツネユリ属",
+    "answers": [
+      "キツネユリ",
+      "キツネユリ",
+      "キツネユリ属"
+    ],
+    "suffix": "属"
+  },
+  "Glycine": {
+    "pattern": "B",
+    "jpName": "ダイズ属",
+    "answers": [
+      "ダイズ",
+      "ダイズ",
+      "ダイズ属"
+    ],
+    "suffix": "属"
+  },
+  "Gomphrena": {
+    "pattern": "A",
+    "jpName": "センニチコウ属",
+    "answers": [
+      "センニチコウ",
+      "センニチコウ属"
+    ],
+    "suffix": "属"
+  },
+  "Gossypium": {
+    "pattern": "A",
+    "jpName": "ワタ属",
+    "answers": [
+      "ワタ",
+      "ワタ属"
+    ],
+    "suffix": "属"
+  },
+  "Guzmania": {
+    "pattern": "C",
+    "jpName": "グズマニア",
+    "answers": [
+      "グズマニア"
+    ],
+    "suffix": ""
+  },
+  "Gypsophila": {
+    "pattern": "B",
+    "jpName": "カスミソウ属",
+    "answers": [
+      "カスミソウ",
+      "シュッコンカスミソウ",
+      "カスミソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Hedera": {
+    "pattern": "B",
+    "jpName": "キヅタ属",
+    "answers": [
+      "キヅタ",
+      "キヅタ",
+      "キヅタ属"
+    ],
+    "suffix": "属"
+  },
+  "Helianthus": {
+    "pattern": "B",
+    "jpName": "ヒマワリ属",
+    "answers": [
+      "ヒマワリ",
+      "キクイモ",
+      "ヒマワリ属"
+    ],
+    "suffix": "属"
+  },
+  "Helichrysum": {
+    "pattern": "C",
+    "jpName": "カレープラント",
+    "answers": [
+      "カレープラント"
+    ],
+    "suffix": ""
+  },
+  "Heliconia": {
+    "pattern": "B",
+    "jpName": "オウムバナ属",
+    "answers": [
+      "オウムバナ",
+      "ヘリコニア",
+      "オウムバナ属"
+    ],
+    "suffix": "属"
+  },
+  "Heliopsis": {
+    "pattern": "A",
+    "jpName": "キクイモモドキ属",
+    "answers": [
+      "キクイモモドキ",
+      "キクイモモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Helleborus": {
+    "pattern": "B",
+    "jpName": "クリスマスローズ属",
+    "answers": [
+      "クリスマスローズ",
+      "レンテンローズ",
+      "クリスマスローズ属"
+    ],
+    "suffix": "属"
+  },
+  "Hemerocallis": {
+    "pattern": "B",
+    "jpName": "ワスレグサ属",
+    "answers": [
+      "ワスレグサ",
+      "ヤブカンゾウ",
+      "ワスレグサ属"
+    ],
+    "suffix": "属"
+  },
+  "Heuchera": {
+    "pattern": "A",
+    "jpName": "ツボサンゴ属",
+    "answers": [
+      "ツボサンゴ",
+      "ツボサンゴ属"
+    ],
+    "suffix": "属"
+  },
+  "Hibiscus": {
+    "pattern": "B",
+    "jpName": "フヨウ属",
+    "answers": [
+      "フヨウ",
+      "ムクゲ",
+      "フヨウ属"
+    ],
+    "suffix": "属"
+  },
+  "Hippeastrum": {
+    "pattern": "A",
+    "jpName": "アマリリス属",
+    "answers": [
+      "アマリリス",
+      "アマリリス属"
+    ],
+    "suffix": "属"
+  },
+  "Hordeum": {
+    "pattern": "B",
+    "jpName": "オオムギ属",
+    "answers": [
+      "オオムギ",
+      "ハダカムギ",
+      "オオムギ属"
+    ],
+    "suffix": "属"
+  },
+  "Hosta": {
+    "pattern": "B",
+    "jpName": "ギボウシ属",
+    "answers": [
+      "ギボウシ",
+      "タマノカンザシ",
+      "ギボウシ属"
+    ],
+    "suffix": "属"
+  },
+  "Hyacinthus": {
+    "pattern": "A",
+    "jpName": "ヒアシンス属",
+    "answers": [
+      "ヒアシンス",
+      "ヒアシンス属"
+    ],
+    "suffix": "属"
+  },
+  "Hydrangea": {
+    "pattern": "B",
+    "jpName": "アジサイ属",
+    "answers": [
+      "アジサイ",
+      "アメリカノリノキ",
+      "アジサイ属"
+    ],
+    "suffix": "属"
+  },
+  "Hypericum": {
+    "pattern": "B",
+    "jpName": "オトギリソウ属",
+    "answers": [
+      "オトギリソウ",
+      "キンシバイ",
+      "オトギリソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Iberis": {
+    "pattern": "B",
+    "jpName": "マガリバナ属",
+    "answers": [
+      "マガリバナ",
+      "キャンディタフト",
+      "マガリバナ属"
+    ],
+    "suffix": "属"
+  },
+  "Ilex": {
+    "pattern": "B",
+    "jpName": "モチノキ属",
+    "answers": [
+      "モチノキ",
+      "イヌツゲ",
+      "モチノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Impatiens": {
+    "pattern": "B",
+    "jpName": "ツリフネソウ属",
+    "answers": [
+      "ツリフネソウ",
+      "ホウセンカ",
+      "ツリフネソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Ipomoea": {
+    "pattern": "B",
+    "jpName": "サツマイモ属",
+    "answers": [
+      "サツマイモ",
+      "ヨルガオ",
+      "サツマイモ属"
+    ],
+    "suffix": "属"
+  },
+  "Iris": {
+    "pattern": "B",
+    "jpName": "アヤメ属",
+    "answers": [
+      "アヤメ",
+      "ハナショウブ",
+      "アヤメ属"
+    ],
+    "suffix": "属"
+  },
+  "Ixora": {
+    "pattern": "A",
+    "jpName": "サンタンカ属",
+    "answers": [
+      "サンタンカ",
+      "サンタンカ属"
+    ],
+    "suffix": "属"
+  },
+  "Jasminum": {
+    "pattern": "B",
+    "jpName": "ソケイ属",
+    "answers": [
+      "ソケイ",
+      "オウバイ",
+      "ソケイ属"
+    ],
+    "suffix": "属"
+  },
+  "Kalanchoe": {
+    "pattern": "A",
+    "jpName": "リュウキュウベンケイ属",
+    "answers": [
+      "リュウキュウベンケイ",
+      "リュウキュウベンケイ属"
+    ],
+    "suffix": "属"
+  },
+  "Kalmia": {
+    "pattern": "B",
+    "jpName": "カルミア属",
+    "answers": [
+      "カルミア",
+      "ハナガサシャクナゲ",
+      "カルミア属"
+    ],
+    "suffix": "属"
+  },
+  "Lactuca": {
+    "pattern": "B",
+    "jpName": "チシャ属",
+    "answers": [
+      "チシャ",
+      "チシャ",
+      "チシャ属"
+    ],
+    "suffix": "属"
+  },
+  "Lampranthus": {
+    "pattern": "A",
+    "jpName": "マツバギク属",
+    "answers": [
+      "マツバギク",
+      "マツバギク属"
+    ],
+    "suffix": "属"
+  },
+  "Lantana": {
+    "pattern": "A",
+    "jpName": "シチヘンゲ属",
+    "answers": [
+      "シチヘンゲ",
+      "シチヘンゲ属"
+    ],
+    "suffix": "属"
+  },
+  "Lathyrus": {
+    "pattern": "B",
+    "jpName": "レンリソウ属",
+    "answers": [
+      "レンリソウ",
+      "スイートピー",
+      "レンリソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Lavandula": {
+    "pattern": "A",
+    "jpName": "ラベンダー属",
+    "answers": [
+      "ラベンダー",
+      "ラベンダー属"
+    ],
+    "suffix": "属"
+  },
+  "Leptospermum": {
+    "pattern": "B",
+    "jpName": "ネズモドキ属",
+    "answers": [
+      "ネズモドキ",
+      "ギョリュウバイ",
+      "ネズモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Leucanthemum": {
+    "pattern": "B",
+    "jpName": "フランスギク属",
+    "answers": [
+      "フランスギク",
+      "シャスタデージー",
+      "フランスギク属"
+    ],
+    "suffix": "属"
+  },
+  "Liatris": {
+    "pattern": "A",
+    "jpName": "キリンギク属",
+    "answers": [
+      "キリンギク",
+      "キリンギク属"
+    ],
+    "suffix": "属"
+  },
+  "Lilium": {
+    "pattern": "A",
+    "jpName": "ユリ属",
+    "answers": [
+      "ユリ",
+      "ユリ属"
+    ],
+    "suffix": "属"
+  },
+  "Limonium": {
+    "pattern": "B",
+    "jpName": "イソマツ属",
+    "answers": [
+      "イソマツ",
+      "スターチス",
+      "イソマツ属"
+    ],
+    "suffix": "属"
+  },
+  "Linaria": {
+    "pattern": "B",
+    "jpName": "ウンラン属",
+    "answers": [
+      "ウンラン",
+      "ヒメキンギョソウ",
+      "ウンラン属"
+    ],
+    "suffix": "属"
+  },
+  "Lobelia": {
+    "pattern": "B",
+    "jpName": "ミゾカクシ属",
+    "answers": [
+      "ミゾカクシ",
+      "サワギキョウ",
+      "ミゾカクシ属"
+    ],
+    "suffix": "属"
+  },
+  "Lobularia": {
+    "pattern": "B",
+    "jpName": "ニワナズナ属",
+    "answers": [
+      "ニワナズナ",
+      "スイートアリッサム",
+      "ニワナズナ属"
+    ],
+    "suffix": "属"
+  },
+  "Lotus": {
+    "pattern": "A",
+    "jpName": "ミヤコグサ属",
+    "answers": [
+      "ミヤコグサ",
+      "ミヤコグサ属"
+    ],
+    "suffix": "属"
+  },
+  "Luculia": {
+    "pattern": "C",
+    "jpName": "アッサムニオイザクラ",
+    "answers": [
+      "アッサムニオイザクラ"
+    ],
+    "suffix": ""
+  },
+  "Lupinus": {
+    "pattern": "B",
+    "jpName": "ハウチワマメ属",
+    "answers": [
+      "ハウチワマメ",
+      "ハウチワマメ",
+      "ハウチワマメ属"
+    ],
+    "suffix": "属"
+  },
+  "Lycoris": {
+    "pattern": "B",
+    "jpName": "ヒガンバナ属",
+    "answers": [
+      "ヒガンバナ",
+      "キツネノカミソリ",
+      "ヒガンバナ属"
+    ],
+    "suffix": "属"
+  },
+  "Lysimachia": {
+    "pattern": "B",
+    "jpName": "オカトラノオ属",
+    "answers": [
+      "オカトラノオ",
+      "クサレダマ",
+      "オカトラノオ属"
+    ],
+    "suffix": "属"
+  },
+  "Lythrum": {
+    "pattern": "A",
+    "jpName": "ミソハギ属",
+    "answers": [
+      "ミソハギ",
+      "ミソハギ属"
+    ],
+    "suffix": "属"
+  },
+  "Magnolia": {
+    "pattern": "B",
+    "jpName": "モクレン属",
+    "answers": [
+      "モクレン",
+      "ホオノキ",
+      "モクレン属"
+    ],
+    "suffix": "属"
+  },
+  "Mandevilla": {
+    "pattern": "C",
+    "jpName": "マンデビラ",
+    "answers": [
+      "マンデビラ"
+    ],
+    "suffix": ""
+  },
+  "Matricaria": {
+    "pattern": "B",
+    "jpName": "コシカギク属",
+    "answers": [
+      "コシカギク",
+      "ジャーマンカモミール",
+      "コシカギク属"
+    ],
+    "suffix": "属"
+  },
+  "Matthiola": {
+    "pattern": "B",
+    "jpName": "アラセイトウ属",
+    "answers": [
+      "アラセイトウ",
+      "ストック",
+      "アラセイトウ属"
+    ],
+    "suffix": "属"
+  },
+  "Melampodium": {
+    "pattern": "C",
+    "jpName": "メランポジウム",
+    "answers": [
+      "メランポジウム"
+    ],
+    "suffix": ""
+  },
+  "Mentha": {
+    "pattern": "A",
+    "jpName": "ハッカ属",
+    "answers": [
+      "ハッカ",
+      "ハッカ属"
+    ],
+    "suffix": "属"
+  },
+  "Metasequoia": {
+    "pattern": "B",
+    "jpName": "メタセコイア属",
+    "answers": [
+      "メタセコイア",
+      "アケボノスギ",
+      "メタセコイア属"
+    ],
+    "suffix": "属"
+  },
+  "Mimosa": {
+    "pattern": "A",
+    "jpName": "オジギソウ属",
+    "answers": [
+      "オジギソウ",
+      "オジギソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Miscanthus": {
+    "pattern": "A",
+    "jpName": "ススキ属",
+    "answers": [
+      "ススキ",
+      "ススキ属"
+    ],
+    "suffix": "属"
+  },
+  "Moluccella": {
+    "pattern": "B",
+    "jpName": "カイガラソウ属",
+    "answers": [
+      "カイガラソウ",
+      "カイガラソウ",
+      "カイガラソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Monstera": {
+    "pattern": "B",
+    "jpName": "ホウライショウ属",
+    "answers": [
+      "ホウライショウ",
+      "マドカズラ",
+      "ホウライショウ属"
+    ],
+    "suffix": "属"
+  },
+  "Muscari": {
+    "pattern": "A",
+    "jpName": "ムスカリ属",
+    "answers": [
+      "ムスカリ",
+      "ムスカリ属"
+    ],
+    "suffix": "属"
+  },
+  "Myosotis": {
+    "pattern": "B",
+    "jpName": "ワスレナグサ属",
+    "answers": [
+      "ワスレナグサ",
+      "エゾムラサキ",
+      "ワスレナグサ属"
+    ],
+    "suffix": "属"
+  },
+  "Nandina": {
+    "pattern": "A",
+    "jpName": "ナンテン属",
+    "answers": [
+      "ナンテン",
+      "ナンテン属"
+    ],
+    "suffix": "属"
+  },
+  "Narcissus": {
+    "pattern": "A",
+    "jpName": "スイセン属",
+    "answers": [
+      "スイセン",
+      "スイセン属"
+    ],
+    "suffix": "属"
+  },
+  "Nelumbo": {
+    "pattern": "A",
+    "jpName": "ハス属",
+    "answers": [
+      "ハス",
+      "ハス属"
+    ],
+    "suffix": "属"
+  },
+  "Nemesia": {
+    "pattern": "A",
+    "jpName": "アフリカウンラン属",
+    "answers": [
+      "アフリカウンラン",
+      "アフリカウンラン属"
+    ],
+    "suffix": "属"
+  },
+  "Nemophila": {
+    "pattern": "A",
+    "jpName": "ルリカラクサ属",
+    "answers": [
+      "ルリカラクサ",
+      "ルリカラクサ属"
+    ],
+    "suffix": "属"
+  },
+  "Nephrolepis": {
+    "pattern": "A",
+    "jpName": "タマシダ属",
+    "answers": [
+      "タマシダ",
+      "タマシダ属"
+    ],
+    "suffix": "属"
+  },
+  "Nerine": {
+    "pattern": "C",
+    "jpName": "ダイヤモンドリリー",
+    "answers": [
+      "ダイヤモンドリリー"
+    ],
+    "suffix": ""
+  },
+  "Nierembergia": {
+    "pattern": "A",
+    "jpName": "ギンパイソウ属",
+    "answers": [
+      "ギンパイソウ",
+      "ギンパイソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Nigella": {
+    "pattern": "A",
+    "jpName": "クロタネソウ属",
+    "answers": [
+      "クロタネソウ",
+      "クロタネソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Nymphaea": {
+    "pattern": "B",
+    "jpName": "スイレン属",
+    "answers": [
+      "スイレン",
+      "ヒツジグサ",
+      "スイレン属"
+    ],
+    "suffix": "属"
+  },
+  "Ocimum": {
+    "pattern": "B",
+    "jpName": "メボウキ属",
+    "answers": [
+      "メボウキ",
+      "バジル",
+      "メボウキ属"
+    ],
+    "suffix": "属"
+  },
+  "Oenothera": {
+    "pattern": "B",
+    "jpName": "マツヨイグサ属",
+    "answers": [
+      "マツヨイグサ",
+      "ツキミソウ",
+      "マツヨイグサ属"
+    ],
+    "suffix": "属"
+  },
+  "Olea": {
+    "pattern": "A",
+    "jpName": "オリーブ属",
+    "answers": [
+      "オリーブ",
+      "オリーブ属"
+    ],
+    "suffix": "属"
+  },
+  "Ophiopogon": {
+    "pattern": "B",
+    "jpName": "ジャノヒゲ属",
+    "answers": [
+      "ジャノヒゲ",
+      "ノシラン",
+      "ジャノヒゲ属"
+    ],
+    "suffix": "属"
+  },
+  "Ornithogalum": {
+    "pattern": "B",
+    "jpName": "オオアマナ属",
+    "answers": [
+      "オオアマナ",
+      "オーニソガラム",
+      "オオアマナ属"
+    ],
+    "suffix": "属"
+  },
+  "Oryza": {
+    "pattern": "A",
+    "jpName": "イネ属",
+    "answers": [
+      "イネ",
+      "イネ属"
+    ],
+    "suffix": "属"
+  },
+  "Osteospermum": {
+    "pattern": "C",
+    "jpName": "オステオスペルマム",
+    "answers": [
+      "オステオスペルマム"
+    ],
+    "suffix": ""
+  },
+  "Oxalis": {
+    "pattern": "A",
+    "jpName": "カタバミ属",
+    "answers": [
+      "カタバミ",
+      "カタバミ属"
+    ],
+    "suffix": "属"
+  },
+  "Pachira": {
+    "pattern": "B",
+    "jpName": "パキラ属",
+    "answers": [
+      "パキラ",
+      "カイエンナット",
+      "パキラ属"
+    ],
+    "suffix": "属"
+  },
+  "Paeonia": {
+    "pattern": "B",
+    "jpName": "ボタン属",
+    "answers": [
+      "ボタン",
+      "シャクヤク",
+      "ボタン属"
+    ],
+    "suffix": "属"
+  },
+  "Papaver": {
+    "pattern": "B",
+    "jpName": "ケシ属",
+    "answers": [
+      "ケシ",
+      "アイスランドポピー",
+      "ケシ属"
+    ],
+    "suffix": "属"
+  },
+  "Passiflora": {
+    "pattern": "B",
+    "jpName": "トケイソウ属",
+    "answers": [
+      "トケイソウ",
+      "クダモノトケイソウ",
+      "トケイソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Pelargonium": {
+    "pattern": "B",
+    "jpName": "テンジクアオイ属",
+    "answers": [
+      "テンジクアオイ",
+      "センテッドゼラニウム",
+      "テンジクアオイ属"
+    ],
+    "suffix": "属"
+  },
+  "Pentas": {
+    "pattern": "A",
+    "jpName": "クササンタンカ属",
+    "answers": [
+      "クササンタンカ",
+      "クササンタンカ属"
+    ],
+    "suffix": "属"
+  },
+  "Peperomia": {
+    "pattern": "B",
+    "jpName": "サダソウ属",
+    "answers": [
+      "サダソウ",
+      "シマアオイソウ",
+      "サダソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Pericallis": {
+    "pattern": "B",
+    "jpName": "フウキギク属",
+    "answers": [
+      "フウキギク",
+      "シネラリア",
+      "フウキギク属"
+    ],
+    "suffix": "属"
+  },
+  "Perilla": {
+    "pattern": "B",
+    "jpName": "シソ属",
+    "answers": [
+      "シソ",
+      "エゴマ",
+      "シソ属"
+    ],
+    "suffix": "属"
+  },
+  "Petunia": {
+    "pattern": "A",
+    "jpName": "ツクバネアサガオ属",
+    "answers": [
+      "ツクバネアサガオ",
+      "ツクバネアサガオ属"
+    ],
+    "suffix": "属"
+  },
+  "Phalaenopsis": {
+    "pattern": "A",
+    "jpName": "コチョウラン属",
+    "answers": [
+      "コチョウラン",
+      "コチョウラン属"
+    ],
+    "suffix": "属"
+  },
+  "Philadelphus": {
+    "pattern": "A",
+    "jpName": "バイカウツギ属",
+    "answers": [
+      "バイカウツギ",
+      "バイカウツギ属"
+    ],
+    "suffix": "属"
+  },
+  "Philodendron": {
+    "pattern": "B",
+    "jpName": "ビロードカズラ属",
+    "answers": [
+      "ビロードカズラ",
+      "センニンカズラ",
+      "ビロードカズラ属"
+    ],
+    "suffix": "属"
+  },
+  "Phlox": {
+    "pattern": "B",
+    "jpName": "クサキョウチクトウ属",
+    "answers": [
+      "クサキョウチクトウ",
+      "クサキョウチクトウ",
+      "クサキョウチクトウ属"
+    ],
+    "suffix": "属"
+  },
+  "Phoenix": {
+    "pattern": "B",
+    "jpName": "ナツメヤシ属",
+    "answers": [
+      "ナツメヤシ",
+      "ナツメヤシ",
+      "ナツメヤシ属"
+    ],
+    "suffix": "属"
+  },
+  "Phormium": {
+    "pattern": "B",
+    "jpName": "マオラン属",
+    "answers": [
+      "マオラン",
+      "ニューサイラン",
+      "マオラン属"
+    ],
+    "suffix": "属"
+  },
+  "Phyla": {
+    "pattern": "A",
+    "jpName": "イワダレソウ属",
+    "answers": [
+      "イワダレソウ",
+      "イワダレソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Physalis": {
+    "pattern": "B",
+    "jpName": "センナリホオズキ属",
+    "answers": [
+      "センナリホオズキ",
+      "センナリホオズキ",
+      "センナリホオズキ属"
+    ],
+    "suffix": "属"
+  },
+  "Physocarpus": {
+    "pattern": "A",
+    "jpName": "テマリシモツケ属",
+    "answers": [
+      "テマリシモツケ",
+      "テマリシモツケ属"
+    ],
+    "suffix": "属"
+  },
+  "Physostegia": {
+    "pattern": "B",
+    "jpName": "ハナトラノオ属",
+    "answers": [
+      "ハナトラノオ",
+      "カクトラノオ",
+      "ハナトラノオ属"
+    ],
+    "suffix": "属"
+  },
+  "Pieris": {
+    "pattern": "A",
+    "jpName": "アセビ属",
+    "answers": [
+      "アセビ",
+      "アセビ属"
+    ],
+    "suffix": "属"
+  },
+  "Pinus": {
+    "pattern": "B",
+    "jpName": "マツ属",
+    "answers": [
+      "マツ",
+      "アカマツ",
+      "マツ属"
+    ],
+    "suffix": "属"
+  },
+  "Pittosporum": {
+    "pattern": "B",
+    "jpName": "トベラ属",
+    "answers": [
+      "トベラ",
+      "コヤスノキ",
+      "トベラ属"
+    ],
+    "suffix": "属"
+  },
+  "Platycodon": {
+    "pattern": "A",
+    "jpName": "キキョウ属",
+    "answers": [
+      "キキョウ",
+      "キキョウ属"
+    ],
+    "suffix": "属"
+  },
+  "Plectranthus": {
+    "pattern": "B",
+    "jpName": "サヤバナ属",
+    "answers": [
+      "サヤバナ",
+      "キンランジソ",
+      "サヤバナ属"
+    ],
+    "suffix": "属"
+  },
+  "Polygonatum": {
+    "pattern": "B",
+    "jpName": "アマドコロ属",
+    "answers": [
+      "アマドコロ",
+      "ナルコユリ",
+      "アマドコロ属"
+    ],
+    "suffix": "属"
+  },
+  "Portulaca": {
+    "pattern": "B",
+    "jpName": "スベリヒユ属",
+    "answers": [
+      "スベリヒユ",
+      "マツバボタン",
+      "スベリヒユ属"
+    ],
+    "suffix": "属"
+  },
+  "Primula": {
+    "pattern": "B",
+    "jpName": "サクラソウ属",
+    "answers": [
+      "サクラソウ",
+      "クリンソウ",
+      "サクラソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Prunus": {
+    "pattern": "B",
+    "jpName": "スモモ属",
+    "answers": [
+      "スモモ",
+      "セイヨウスモモ",
+      "スモモ属"
+    ],
+    "suffix": "属"
+  },
+  "Pyracantha": {
+    "pattern": "B",
+    "jpName": "タチバナモドキ属",
+    "answers": [
+      "タチバナモドキ",
+      "トキワサンザシ",
+      "タチバナモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Ranunculus": {
+    "pattern": "B",
+    "jpName": "キンポウゲ属",
+    "answers": [
+      "キンポウゲ",
+      "ハナキンポウゲ",
+      "キンポウゲ属"
+    ],
+    "suffix": "属"
+  },
+  "Rhodanthe": {
+    "pattern": "C",
+    "jpName": "ハナカンザシ",
+    "answers": [
+      "ハナカンザシ"
+    ],
+    "suffix": ""
+  },
+  "Rhododendron": {
+    "pattern": "B",
+    "jpName": "ツツジ属",
+    "answers": [
+      "ツツジ",
+      "シャクナゲ",
+      "ツツジ属"
+    ],
+    "suffix": "属"
+  },
+  "Rhodohypoxis": {
+    "pattern": "C",
+    "jpName": "アッツザクラ",
+    "answers": [
+      "アッツザクラ"
+    ],
+    "suffix": ""
+  },
+  "Rosa": {
+    "pattern": "B",
+    "jpName": "バラ属",
+    "answers": [
+      "バラ",
+      "ハマナス",
+      "バラ属"
+    ],
+    "suffix": "属"
+  },
+  "Rosmarinus": {
+    "pattern": "B",
+    "jpName": "マンネンロウ属",
+    "answers": [
+      "マンネンロウ",
+      "マンネンロウ",
+      "マンネンロウ属"
+    ],
+    "suffix": "属"
+  },
+  "Rubus": {
+    "pattern": "B",
+    "jpName": "キイチゴ属",
+    "answers": [
+      "キイチゴ",
+      "ラズベリー",
+      "キイチゴ属"
+    ],
+    "suffix": "属"
+  },
+  "Rudbeckia": {
+    "pattern": "B",
+    "jpName": "オオハンゴンソウ属",
+    "answers": [
+      "オオハンゴンソウ",
+      "グロリオサデージー",
+      "オオハンゴンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Rumohra": {
+    "pattern": "C",
+    "jpName": "レザーリーフファーン",
+    "answers": [
+      "レザーリーフファーン"
+    ],
+    "suffix": ""
+  },
+  "Saintpaulia": {
+    "pattern": "A",
+    "jpName": "アフリカスミレ属",
+    "answers": [
+      "アフリカスミレ",
+      "アフリカスミレ属"
+    ],
+    "suffix": "属"
+  },
+  "Salix": {
+    "pattern": "A",
+    "jpName": "ヤナギ属",
+    "answers": [
+      "ヤナギ",
+      "ヤナギ属"
+    ],
+    "suffix": "属"
+  },
+  "Salvia": {
+    "pattern": "B",
+    "jpName": "アキギリ属",
+    "answers": [
+      "アキギリ",
+      "アキノタムラソウ",
+      "アキギリ属"
+    ],
+    "suffix": "属"
+  },
+  "Sandersonia": {
+    "pattern": "C",
+    "jpName": "サンダーソニア",
+    "answers": [
+      "サンダーソニア"
+    ],
+    "suffix": ""
+  },
+  "Sanguisorba": {
+    "pattern": "B",
+    "jpName": "ワレモコウ属",
+    "answers": [
+      "ワレモコウ",
+      "カライトソウ",
+      "ワレモコウ属"
+    ],
+    "suffix": "属"
+  },
+  "Sansevieria": {
+    "pattern": "B",
+    "jpName": "チトセラン属",
+    "answers": [
+      "チトセラン",
+      "チトセラン",
+      "チトセラン属"
+    ],
+    "suffix": "属"
+  },
+  "Sarcandra": {
+    "pattern": "B",
+    "jpName": "センリョウ属",
+    "answers": [
+      "センリョウ",
+      "センリョウ",
+      "センリョウ属"
+    ],
+    "suffix": "属"
+  },
+  "Saxifraga": {
+    "pattern": "B",
+    "jpName": "ユキノシタ属",
+    "answers": [
+      "ユキノシタ",
+      "ダイモンジソウ",
+      "ユキノシタ属"
+    ],
+    "suffix": "属"
+  },
+  "Scabiosa": {
+    "pattern": "A",
+    "jpName": "マツムシソウ属",
+    "answers": [
+      "マツムシソウ",
+      "マツムシソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Schefflera": {
+    "pattern": "B",
+    "jpName": "フカノキ属",
+    "answers": [
+      "フカノキ",
+      "ホンコンカポック",
+      "フカノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Schlumbergera": {
+    "pattern": "B",
+    "jpName": "シャコバサボテン属",
+    "answers": [
+      "シャコバサボテン",
+      "クリスマスカクタス",
+      "シャコバサボテン属"
+    ],
+    "suffix": "属"
+  },
+  "Scilla": {
+    "pattern": "A",
+    "jpName": "オオツルボ属",
+    "answers": [
+      "オオツルボ",
+      "オオツルボ属"
+    ],
+    "suffix": "属"
+  },
+  "Sedum": {
+    "pattern": "B",
+    "jpName": "マンネングサ属",
+    "answers": [
+      "マンネングサ",
+      "ベンケイソウ",
+      "マンネングサ属"
+    ],
+    "suffix": "属"
+  },
+  "Senecio": {
+    "pattern": "B",
+    "jpName": "ノボロギク属",
+    "answers": [
+      "ノボロギク",
+      "シロタエギク",
+      "ノボロギク属"
+    ],
+    "suffix": "属"
+  },
+  "Silene": {
+    "pattern": "B",
+    "jpName": "マンテマ属",
+    "answers": [
+      "マンテマ",
+      "ムシトリナデシコ",
+      "マンテマ属"
+    ],
+    "suffix": "属"
+  },
+  "Skimmia": {
+    "pattern": "A",
+    "jpName": "ミヤマシキミ属",
+    "answers": [
+      "ミヤマシキミ",
+      "ミヤマシキミ属"
+    ],
+    "suffix": "属"
+  },
+  "Smilax": {
+    "pattern": "B",
+    "jpName": "サルトリイバラ属",
+    "answers": [
+      "サルトリイバラ",
+      "サルトリイバラ",
+      "サルトリイバラ属"
+    ],
+    "suffix": "属"
+  },
+  "Solanum": {
+    "pattern": "B",
+    "jpName": "ナス属",
+    "answers": [
+      "ナス",
+      "トマト",
+      "ナス属"
+    ],
+    "suffix": "属"
+  },
+  "Solidago": {
+    "pattern": "B",
+    "jpName": "アキノキリンソウ属",
+    "answers": [
+      "アキノキリンソウ",
+      "セイタカアワダチソウ",
+      "アキノキリンソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Spathiphyllum": {
+    "pattern": "B",
+    "jpName": "ササウチワ属",
+    "answers": [
+      "ササウチワ",
+      "スパティフィラム",
+      "ササウチワ属"
+    ],
+    "suffix": "属"
+  },
+  "Spiraea": {
+    "pattern": "B",
+    "jpName": "シモツケ属",
+    "answers": [
+      "シモツケ",
+      "ユキヤナギ",
+      "シモツケ属"
+    ],
+    "suffix": "属"
+  },
+  "Stephanotis": {
+    "pattern": "B",
+    "jpName": "アフリカシタキヅル属",
+    "answers": [
+      "アフリカシタキヅル",
+      "マダガスカルジャスミン",
+      "アフリカシタキヅル属"
+    ],
+    "suffix": "属"
+  },
+  "Strelitzia": {
+    "pattern": "A",
+    "jpName": "ゴクラクチョウカ属",
+    "answers": [
+      "ゴクラクチョウカ",
+      "ゴクラクチョウカ属"
+    ],
+    "suffix": "属"
+  },
+  "Sutera": {
+    "pattern": "C",
+    "jpName": "バコパ",
+    "answers": [
+      "バコパ"
+    ],
+    "suffix": ""
+  },
+  "Syringa": {
+    "pattern": "B",
+    "jpName": "ハシドイ属",
+    "answers": [
+      "ハシドイ",
+      "ムラサキハシドイ（ライラック",
+      "ハシドイ属"
+    ],
+    "suffix": "属"
+  },
+  "Tagetes": {
+    "pattern": "B",
+    "jpName": "コウオウソウ属",
+    "answers": [
+      "コウオウソウ",
+      "マリーゴールド",
+      "コウオウソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Tanacetum": {
+    "pattern": "B",
+    "jpName": "ヨモギギク属",
+    "answers": [
+      "ヨモギギク",
+      "ナツシロギク",
+      "ヨモギギク属"
+    ],
+    "suffix": "属"
+  },
+  "Thymophylla": {
+    "pattern": "B",
+    "jpName": "カラクサシュンギク属",
+    "answers": [
+      "カラクサシュンギク",
+      "ダールベルグデージー",
+      "カラクサシュンギク属"
+    ],
+    "suffix": "属"
+  },
+  "Tillandsia": {
+    "pattern": "B",
+    "jpName": "サルオガセモドキ属",
+    "answers": [
+      "サルオガセモドキ",
+      "ハナアナナス",
+      "サルオガセモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Torenia": {
+    "pattern": "B",
+    "jpName": "ハナウリクサ属",
+    "answers": [
+      "ハナウリクサ",
+      "トレニア",
+      "ハナウリクサ属"
+    ],
+    "suffix": "属"
+  },
+  "Trachelospermum": {
+    "pattern": "B",
+    "jpName": "テイカカズラ属",
+    "answers": [
+      "テイカカズラ",
+      "ハツユキカズラ",
+      "テイカカズラ属"
+    ],
+    "suffix": "属"
+  },
+  "Tricyrtis": {
+    "pattern": "A",
+    "jpName": "ホトトギス属",
+    "answers": [
+      "ホトトギス",
+      "ホトトギス属"
+    ],
+    "suffix": "属"
+  },
+  "Trifolium": {
+    "pattern": "B",
+    "jpName": "シャジクソウ属",
+    "answers": [
+      "シャジクソウ",
+      "シロツメクサ",
+      "シャジクソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Tropaeolum": {
+    "pattern": "B",
+    "jpName": "ノウゼンハレン属",
+    "answers": [
+      "ノウゼンハレン",
+      "ノウゼンハレン（キンレンカ",
+      "ノウゼンハレン属"
+    ],
+    "suffix": "属"
+  },
+  "Tulipa": {
+    "pattern": "A",
+    "jpName": "チューリップ属",
+    "answers": [
+      "チューリップ",
+      "チューリップ属"
+    ],
+    "suffix": "属"
+  },
+  "Tweedia": {
+    "pattern": "C",
+    "jpName": "ルリトウワタ",
+    "answers": [
+      "ルリトウワタ"
+    ],
+    "suffix": ""
+  },
+  "Vaccinium": {
+    "pattern": "B",
+    "jpName": "スノキ属",
+    "answers": [
+      "スノキ",
+      "コケモモ",
+      "スノキ属"
+    ],
+    "suffix": "属"
+  },
+  "Vanda": {
+    "pattern": "A",
+    "jpName": "ヒスイラン属",
+    "answers": [
+      "ヒスイラン",
+      "ヒスイラン属"
+    ],
+    "suffix": "属"
+  },
+  "Verbena": {
+    "pattern": "B",
+    "jpName": "クマツヅラ属",
+    "answers": [
+      "クマツヅラ",
+      "シュッコンバーベナ",
+      "クマツヅラ属"
+    ],
+    "suffix": "属"
+  },
+  "Veronica": {
+    "pattern": "B",
+    "jpName": "クワガタソウ属",
+    "answers": [
+      "クワガタソウ",
+      "オオイヌノフグリ",
+      "クワガタソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Viburnum": {
+    "pattern": "B",
+    "jpName": "ガマズミ属",
+    "answers": [
+      "ガマズミ",
+      "サンゴジュ",
+      "ガマズミ属"
+    ],
+    "suffix": "属"
+  },
+  "Vinca": {
+    "pattern": "A",
+    "jpName": "ツルニチニチソウ属",
+    "answers": [
+      "ツルニチニチソウ",
+      "ツルニチニチソウ属"
+    ],
+    "suffix": "属"
+  },
+  "Viola": {
+    "pattern": "B",
+    "jpName": "スミレ属",
+    "answers": [
+      "スミレ",
+      "パンジー",
+      "スミレ属"
+    ],
+    "suffix": "属"
+  },
+  "Vitis": {
+    "pattern": "B",
+    "jpName": "ブドウ属",
+    "answers": [
+      "ブドウ",
+      "ヤマブドウ",
+      "ブドウ属"
+    ],
+    "suffix": "属"
+  },
+  "Weigela": {
+    "pattern": "B",
+    "jpName": "タニウツギ属",
+    "answers": [
+      "タニウツギ",
+      "ハコネウツギ",
+      "タニウツギ属"
+    ],
+    "suffix": "属"
+  },
+  "Wisteria": {
+    "pattern": "B",
+    "jpName": "フジ属",
+    "answers": [
+      "フジ",
+      "フジ",
+      "フジ属"
+    ],
+    "suffix": "属"
+  },
+  "Yucca": {
+    "pattern": "B",
+    "jpName": "イトラン属",
+    "answers": [
+      "イトラン",
+      "キミガヨラン",
+      "イトラン属"
+    ],
+    "suffix": "属"
+  },
+  "Zantedeschia": {
+    "pattern": "B",
+    "jpName": "オランダカイウ属",
+    "answers": [
+      "オランダカイウ",
+      "カラー",
+      "オランダカイウ属"
+    ],
+    "suffix": "属"
+  },
+  "Zephyranthes": {
+    "pattern": "B",
+    "jpName": "サフランモドキ属",
+    "answers": [
+      "サフランモドキ",
+      "タマスダレ",
+      "サフランモドキ属"
+    ],
+    "suffix": "属"
+  },
+  "Zinnia": {
+    "pattern": "A",
+    "jpName": "ヒャクニチソウ属",
+    "answers": [
+      "ヒャクニチソウ",
+      "ヒャクニチソウ属"
+    ],
+    "suffix": "属"
+  }
+}
