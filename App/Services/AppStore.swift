@@ -5,6 +5,7 @@ final class AppStore: ObservableObject {
     @Published private(set) var state = AppState()
     @Published private(set) var plants: [Plant] = []
     @Published private(set) var japanese: [String: JapaneseAnswer] = [:]
+    @Published private(set) var renderCatalog = PlantRenderCatalog(version: 1, isPlaceholder: true, definitions: [:])
     @Published var error: String?
     @Published private(set) var ready = false
     private var repository: DiskRepository?
@@ -15,6 +16,9 @@ final class AppStore: ObservableObject {
                   let answersURL = Bundle.main.url(forResource: "japaneseAnswers", withExtension: "json") else { throw StorageError.unavailable }
             plants = try JSONDecoder().decode([Plant].self, from: Data(contentsOf: plantsURL))
             japanese = try JSONDecoder().decode([String: JapaneseAnswer].self, from: Data(contentsOf: answersURL))
+            if let renderURL = Bundle.main.url(forResource: "plantRenderDefinitions", withExtension: "json") {
+                renderCatalog = try JSONDecoder().decode(PlantRenderCatalog.self, from: Data(contentsOf: renderURL))
+            }
             let disk = try DiskRepository()
             repository = disk
             state = try disk.load()
@@ -37,9 +41,23 @@ final class AppStore: ObservableObject {
     var weak: Int { state.records.values.filter(\.weak).count }
     var today: Int { state.dailyCounts[AppState.dayKey(Date()), default: 0] }
     var photographed: Int { state.photos.values.filter { !$0.isEmpty }.count }
+    var bloomed: Int { state.records.values.filter(\.hasBloomed).count }
+    func renderDefinition(for id: String) -> PlantRenderDefinition { renderCatalog.definitions[id] ?? PlantRenderCatalog.fallback }
+    func duePlants(at date: Date) -> [Plant] {
+        let byID = Dictionary(uniqueKeysWithValues: plants.map { ($0.id, $0) })
+        return ReviewEngine.dueIDs(in: state, at: date).compactMap { byID[$0] }
+    }
+    func reviewQuestions(for selected: [Plant]) -> [Question] {
+        selected.flatMap { plant in
+            QuizMode.core.map { QuizEngine.question(plant, mode: $0, all: plants, japanese: japanese) }
+        }
+    }
+    func toggleFavorite(_ plantID: String) {
+        update { $0.records[plantID, default: StudyRecord()].favorite.toggle(); $0.records[plantID]?.plantID = plantID }
+    }
     func photoURL(_ photo: PhotoRecord) -> URL? { photoDirectory?.appendingPathComponent(photo.filename) }
-    func record(_ question: Question, grade: Grade) -> Bool {
-        update { $0.answer(plant: question.plant.id, mode: question.mode, correct: grade.fullCorrect, date: Date()) }
+    func record(_ question: Question, grade: Grade, review: ReviewPolicy = .automatic) -> Bool {
+        update { $0.answer(plant: question.plant.id, mode: question.mode, correct: grade.fullCorrect, date: Date(), points: grade.points, review: review) }
     }
     func addPhoto(data: Data, plant: String, useMetadata: Bool) async {
         guard ready, let directory = photoDirectory else { return }
@@ -100,6 +118,7 @@ final class AppStore: ObservableObject {
         try archive.validate(knownPlants: Set(plants.map(\.id)))
         // New file IDs protect current photos until the state file commits atomically.
         var next = archive.state
+        try next.migrateToV2()
         var written: [URL] = []
         do {
             for (plant, photos) in archive.state.photos {

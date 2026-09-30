@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<g stroke-linecap="round" stroke-linejoin="round">
+<circle cx="128" cy="128" r="72" fill="#a58ac7" stroke="#31543b" stroke-width="4"/><circle cx="173.0" cy="128.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="167.0" cy="150.5" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="150.5" cy="167.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="128.0" cy="173.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="105.5" cy="167.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="89.0" cy="150.5" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="83.0" cy="128.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="89.0" cy="105.5" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="105.5" cy="89.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="128.0" cy="83.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="150.5" cy="89.0" r="9" fill="#f2c4d2" opacity=".8"/><circle cx="167.0" cy="105.5" r="9" fill="#f2c4d2" opacity=".8"/>
+</g>
+</svg>

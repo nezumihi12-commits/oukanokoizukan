@@ -26,7 +26,7 @@ const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 manifest.sha256 = crypto.createHash('sha256').update(bytes).digest('hex');
 manifest.attachment = path.basename(process.argv[2]);
 manifest.count = genera.length;
-manifest.resources = {};
+manifest.resources = manifest.resources || {};
 for (const [relative, value] of Object.entries(resources)) {
   const output = JSON.stringify(value, null, 2);
   fs.writeFileSync(path.join(root, relative), output);

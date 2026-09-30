@@ -1,5 +1,7 @@
 # 現行機能の抽出と移植判断
 
+これはv0.1のWeb移植時点の記録です。v0.2で追加した庭・復習・保存形式v2・v1移行は [V02-GARDEN.md](V02-GARDEN.md) が最新仕様です。以下の「庭は静的」「v1以外は拒否」はv0.1時点の説明で、v0.2では更新されています。
+
 ## 参照した実体
 
 添付`index (1).html`を読み取り、公開リポジトリHEAD `b14aab4a8433e665113826cc4a375ad4ebb3286f`の`index.html`と比較。改行を除いて一致。添付を正本とし、GENERAリテラルの全307件と`getJpInfo`の結果を抽出した。6項目はlatin / read / family / oldFamily / jpName / note。配列順・文字列は変更していない。

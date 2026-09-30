@@ -13,8 +13,15 @@ struct DiskRepository: StateRepository {
     }
     func load() throws -> AppState {
         guard FileManager.default.fileExists(atPath: stateURL.path) else { return AppState() }
-        let value = try JSONDecoder().decode(AppState.self, from: Data(contentsOf: stateURL))
-        guard value.schemaVersion == 1 else { throw StorageError.unsupportedVersion }
+        let original = try Data(contentsOf: stateURL)
+        var value = try JSONDecoder().decode(AppState.self, from: original)
+        guard (1...2).contains(value.schemaVersion) else { throw StorageError.unsupportedVersion }
+        if value.schemaVersion == 1 {
+            try value.migrateToV2()
+            let backup = directory.appendingPathComponent("state-v1-before-v2.json")
+            if !FileManager.default.fileExists(atPath: backup.path) { try original.write(to: backup, options: .atomic) }
+            try save(value)
+        }
         return value
     }
     func save(_ state: AppState) throws {

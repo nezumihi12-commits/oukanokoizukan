@@ -23,10 +23,10 @@ struct HanazukanApp: App {
 struct RootView: View {
     var body: some View {
         TabView {
+            NavigationStack { GardenView() }.tabItem { Label("庭", systemImage: "sun.max") }
             NavigationStack { StudyHome() }.tabItem { Label("学習", systemImage: "leaf") }
             NavigationStack { CatalogView() }.tabItem { Label("図鑑", systemImage: "books.vertical") }
             NavigationStack { StatisticsView() }.tabItem { Label("記録", systemImage: "chart.bar") }
-            NavigationStack { GardenView() }.tabItem { Label("庭", systemImage: "sun.max") }
         }
     }
 }

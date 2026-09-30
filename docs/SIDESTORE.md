@@ -2,6 +2,8 @@
 
 このアプリはiOS 17以上が必要です。unsigned IPAはそのまま開くだけではインストールできません。SideStoreで署名して導入します。
 
+署名時の`appIdName`エラーを避けるため、ホーム画面のアプリ名は`Hanazukan`（英字）にしています。アプリ内は日本語です。旧ZIPを使い「An invalid value '花図鑑' was provided for the parameter 'appIdName'」が出た場合は、`project.yml`の`CFBundleDisplayName`を`Hanazukan`に変更し、同じproperties内に`CFBundleName: Hanazukan`を追加して再ビルドしてください。Bundle IDは変更不要です。関連報告: https://github.com/SideStore/SideStore/issues/1489
+
 ## SideStoreがすでに使える場合
 
 1. Actions成功後のArtifact ZIPを展開して、**Hanazukan-unsigned.ipa**をiPhoneの「ファイル」に保存。

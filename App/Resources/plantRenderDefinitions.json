@@ -1,0 +1,2462 @@
+{
+  "version": 1,
+  "isPlaceholder": true,
+  "definitions": {
+    "Abelia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Abies": {
+      "skeleton": "S10_conifer",
+      "leaf": "L02_needle",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "Abutilon": {
+      "skeleton": "S06_shrub",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F10_bell",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Acacia": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L07_pinnate",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Acer": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Achillea": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F02_daisy",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Acorus": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Actinotus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Adiantum": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "Adonis": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Agapanthus": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ageratum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ajuga": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Alchemilla": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Allium": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Aloe": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F12_tubular",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Alstroemeria": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F08_lily",
+      "inflorescence": "I06_umbel",
+      "accent": "veins",
+      "hue": 0
+    },
+    "Alternanthera": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Alyssum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F13_cruciform",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Amaranthus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ammi": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Amygdalus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Anemone": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Angelonia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Anigozanthos": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F12_tubular",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Anthurium": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L10_heart_round",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Antirrhinum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Aquilegia": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L08_trifoliate",
+      "flower": "F10_bell",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Arctotis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ardisia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Arenaria": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Argyranthemum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Armeniaca": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Armeria": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Asclepias": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Asparagus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Asplenium": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "Aster": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Astilbe": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Astrantia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Aucuba": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Bassia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Begonia": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Bellis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Bidens": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Boronia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Bougainvillea": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Brassica": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F13_cruciform",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Buddleja": {
+      "skeleton": "S06_shrub",
+      "leaf": "L02_needle",
+      "flower": "F12_tubular",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Bupleurum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Caladium": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L10_heart_round",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "veins",
+      "hue": 0
+    },
+    "Calendula": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Calibrachoa": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Callistephus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Calluna": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F10_bell",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Camellia": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Campanula": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Canna": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Capsicum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Carex": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Carthamus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Catharanthus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cattleya": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L11_standard_broad",
+      "flower": "F06_orchid",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Celosia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Centaurea": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cerasus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Chaenomeles": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Chamaecyparis": {
+      "skeleton": "S10_conifer",
+      "leaf": "L03_scale",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "Chamaedorea": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Chamelaucium": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Chlorophytum": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Chrysanthemum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Citrullus": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Citrus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Clematis": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Codiaeum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "veins",
+      "hue": 0
+    },
+    "Consolida": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Convallaria": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cordyline": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Coreopsis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cornus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cosmos": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cotinus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Craspedia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Crassula": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Crocus": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Crossandra": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Crowea": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cucumis": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Cucurbita": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Cuphea": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cupressus": {
+      "skeleton": "S10_conifer",
+      "leaf": "L03_scale",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "Curcuma": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cycas": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cyclamen": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L10_heart_round",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cymbidium": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F06_orchid",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Cytisus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L08_trifoliate",
+      "flower": "F05_pea",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Dahlia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Daphne": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Delphinium": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Dendrobium": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L11_standard_broad",
+      "flower": "F06_orchid",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Deutzia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Dianthus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Dieffenbachia": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "veins",
+      "hue": 0
+    },
+    "Digitalis": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Dimorphotheca": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Dracaena": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Duranta": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Echinops": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Enkianthus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Epipremnum": {
+      "skeleton": "S05_vine",
+      "leaf": "L10_heart_round",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Equisetum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "Erica": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F10_bell",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Eryngium": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Eucalyptus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Eupatorium": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Euphorbia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Euryops": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Eustoma": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Evolvulus": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Felicia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ficus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L13_large_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Forsythia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Fragaria": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L08_trifoliate",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Fraxinus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Freesia": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Fuchsia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gaillardia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gardenia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gaultheria": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Gazania": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gentiana": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Geranium": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gerbera": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gilia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gladiolus": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Glandularia": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Glechoma": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I09_axillary",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gloriosa": {
+      "skeleton": "S05_vine",
+      "leaf": "L02_needle",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Glycine": {
+      "skeleton": "S05_vine",
+      "leaf": "L08_trifoliate",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gomphrena": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gossypium": {
+      "skeleton": "S06_shrub",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F15_mallow",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Guzmania": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Gypsophila": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hedera": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Helianthus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Helichrysum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Heliconia": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Heliopsis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Helleborus": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L06_palmate_compound",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hemerocallis": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Heuchera": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F10_bell",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hibiscus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F15_mallow",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hippeastrum": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hordeum": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hosta": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hyacinthus": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hydrangea": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Hypericum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Iberis": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ilex": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Impatiens": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Ipomoea": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Iris": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F09_iris",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ixora": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Jasminum": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Kalanchoe": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Kalmia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lactuca": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F02_daisy",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lampranthus": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F02_daisy",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lantana": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lathyrus": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Lavandula": {
+      "skeleton": "S06_shrub",
+      "leaf": "L05_strap",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Leptospermum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Leucanthemum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Liatris": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lilium": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L02_needle",
+      "flower": "F08_lily",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Limonium": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Linaria": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lobelia": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lobularia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F13_cruciform",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lotus": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L07_pinnate",
+      "flower": "F05_pea",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Luculia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lupinus": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L06_palmate_compound",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lycoris": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lysimachia": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Lythrum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Magnolia": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Mandevilla": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I02_corymb",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Matricaria": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Matthiola": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Melampodium": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Mentha": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Metasequoia": {
+      "skeleton": "S10_conifer",
+      "leaf": "L07_pinnate",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "Mimosa": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Miscanthus": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Moluccella": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Monstera": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Muscari": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Myosotis": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nandina": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Narcissus": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nelumbo": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L10_heart_round",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nemesia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nemophila": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nephrolepis": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nerine": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nierembergia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nigella": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Nymphaea": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ocimum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Oenothera": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Olea": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ophiopogon": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Ornithogalum": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Oryza": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Osteospermum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Oxalis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L08_trifoliate",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pachira": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L06_palmate_compound",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Paeonia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Papaver": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Passiflora": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Pelargonium": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pentas": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Peperomia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pericallis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Perilla": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Petunia": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Phalaenopsis": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F06_orchid",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Philadelphus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Philodendron": {
+      "skeleton": "S05_vine",
+      "leaf": "L13_large_broad",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Phlox": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Phoenix": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Phormium": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L05_strap",
+      "flower": "F12_tubular",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Phyla": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Physalis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Physocarpus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Physostegia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pieris": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pinus": {
+      "skeleton": "S10_conifer",
+      "leaf": "L02_needle",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pittosporum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Platycodon": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Plectranthus": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Polygonatum": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F12_tubular",
+      "inflorescence": "I09_axillary",
+      "accent": "none",
+      "hue": 0
+    },
+    "Portulaca": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Primula": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Prunus": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Pyracantha": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Ranunculus": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rhodanthe": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rhododendron": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rhodohypoxis": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rosa": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rosmarinus": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I09_axillary",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rubus": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rudbeckia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Rumohra": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "Saintpaulia": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Salix": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Salvia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Sandersonia": {
+      "skeleton": "S05_vine",
+      "leaf": "L02_needle",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Sanguisorba": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Sansevieria": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F12_tubular",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Sarcandra": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Saxifraga": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Scabiosa": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Schefflera": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L06_palmate_compound",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "Schlumbergera": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F12_tubular",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Scilla": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Sedum": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Senecio": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Silene": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Skimmia": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Smilax": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Solanum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Solidago": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F02_daisy",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Spathiphyllum": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L02_needle",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Spiraea": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Stephanotis": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Strelitzia": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Sutera": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Syringa": {
+      "skeleton": "S06_shrub",
+      "leaf": "L10_heart_round",
+      "flower": "F12_tubular",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Tagetes": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Tanacetum": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F02_daisy",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Thymophylla": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Tillandsia": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Torenia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Trachelospermum": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "Tricyrtis": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "veins",
+      "hue": 0
+    },
+    "Trifolium": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L08_trifoliate",
+      "flower": "F05_pea",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Tropaeolum": {
+      "skeleton": "S05_vine",
+      "leaf": "L10_heart_round",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Tulipa": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Tweedia": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Vaccinium": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Vanda": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F06_orchid",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Verbena": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "Veronica": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Viburnum": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Vinca": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Viola": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L10_heart_round",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Vitis": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "Weigela": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "Wisteria": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "Yucca": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "Zantedeschia": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "Zephyranthes": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "Zinnia": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    }
+  }
+}

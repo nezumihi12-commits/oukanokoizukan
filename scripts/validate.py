@@ -23,3 +23,21 @@ for relative, digest in manifest.get('resources', {}).items():
 assert (root / '.github/workflows/ios.yml').is_file()
 assert (root / 'project.yml').is_file()
 print('PASS: 307 unique genera, six original fields, Japanese answer coverage, resource hashes, project files')
+
+render = json.loads((root / 'App/Resources/plantRenderDefinitions.json').read_text(encoding='utf-8'))
+assert set(render['definitions']) == set(ids)
+assert render['isPlaceholder'] is True
+for definition in render['definitions'].values():
+    for kind in ('skeleton', 'leaf', 'flower', 'inflorescence'):
+        name = definition[kind]
+        if name == 'none':
+            assert kind in ('flower', 'inflorescence')
+            continue
+        folder = root / 'App/Resources/Assets.xcassets' / (name + '.imageset')
+        assert (folder / 'part.png').is_file(), name
+        assert json.loads((folder / 'Contents.json').read_text())['images'][0]['filename'] == 'part.png'
+assert len(list((root / 'Art/CoreV0').rglob('*.svg'))) == 54
+project = (root / 'project.yml').read_text(encoding='utf-8')
+assert "MARKETING_VERSION: '0.2.0'" in project
+assert 'CFBundleDisplayName: Hanazukan' in project
+print('PASS: 307 render mappings, 54 Core v0 SVG modules, asset references, v0.2 and SideStore naming')

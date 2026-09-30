@@ -25,6 +25,7 @@ struct StatisticsView: View {
         List {
             Section("学習の歩み") {
                 LabeledContent("記憶済み", value: "\(store.memorized) / \(store.plants.count) 属")
+                LabeledContent("開花実績", value: "\(store.bloomed) 属")
                 LabeledContent("苦手", value: "\(store.weak) 属")
                 LabeledContent("写真登録", value: "\(store.photographed) 属")
                 TimelineView(.periodic(from: .now, by: 30)) { _ in LabeledContent("今日の回答", value: "\(store.today) 問") }
@@ -39,7 +40,7 @@ struct StatisticsView: View {
                 ForEach(store.state.sessions) { session in
                     VStack(alignment: .leading, spacing: 6) {
                         Text(session.startedAt.formatted(date: .abbreviated, time: .shortened)).font(.headline)
-                        Text(session.mode.title).font(.subheadline)
+                        Text(session.gardenReview == true ? "庭の手入れ" : session.mode.title).font(.subheadline)
                         Text("\(session.answered)/\(session.planned)問 · 正解\(session.correct)問 · \(session.points, specifier: "%.1f")点 · \(Int(session.endedAt.timeIntervalSince(session.startedAt)))秒").font(.caption)
                         if !session.completed { Text("途中終了").font(.caption).foregroundStyle(.secondary) }
                     }.padding(.vertical, 3)
@@ -91,25 +92,5 @@ struct StatisticsView: View {
             let value = record.accuracy[mode.rawValue] ?? Accuracy()
             return Accuracy(correct: total.correct + value.correct, total: total.total + value.total)
         }
-    }
-}
-struct GardenView: View {
-    @EnvironmentObject private var store: AppStore
-    var body: some View {
-        ScrollView {
-            VStack(spacing: 24) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 28).fill(LinearGradient(colors: [.cyan.opacity(0.15), .green.opacity(0.3)], startPoint: .top, endPoint: .bottom))
-                    VStack(spacing: 20) {
-                        Image(systemName: "sun.max.fill").font(.system(size: 48)).foregroundStyle(.orange)
-                        Image(systemName: "person.crop.circle.dashed").font(.system(size: 72)).foregroundStyle(.secondary)
-                        HStack { ForEach(0..<5) { _ in Image(systemName: "leaf.fill").foregroundStyle(.green) } }
-                    }.padding(40)
-                }.frame(height: 300)
-                Text("これから育つ庭").font(.title.bold())
-                Text("庭とキャラクターは設計待ちのプレースホルダーです。学習データから、開花やイベントをつなげられる土台を用意しています。").foregroundStyle(.secondary)
-                Text("いまの記憶済み：\(store.memorized) 属").font(.headline)
-            }.padding(24)
-        }.navigationTitle("庭")
     }
 }

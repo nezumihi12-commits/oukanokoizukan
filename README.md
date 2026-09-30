@@ -1,8 +1,10 @@
-# 花図鑑 — SwiftUI ネイティブ版
+# 花図鑑 v0.2 — 記憶の庭園
+
+**v0.2を既存アプリへ更新する手順は [V02-GARDEN.md](docs/V02-GARDEN.md)。** 基本3形式の正解が初開花につながり、中央庭園で復習と色彩の回復を続けられるようになりました。既存の図鑑・写真・成績を保持し、保存形式v1をv2へ移行します。
 
 Windowsで編集し、GitHub ActionsのmacOSランナーでビルドし、SideStoreでiPhoneに導入するためのプロジェクトです。iOS / iPadOS **17.0以上**。アプリ本体に外部パッケージ依存はありません。
 
-**この納品物はソースプロジェクトです。IPAではありません。** Windows上で植物データの整合性、Swift構文、YAML設定を検査しました。Xcodeでの型検査・ビルド、XCTest実行、SideStore導入・実機動作は未実施です。最初のActionsでテストとデバイス用ビルドを実行してください。テストが失敗した場合はIPAを出力しない構成です。
+**この納品物はソースプロジェクトです。IPAではありません。** v0.1は指定リポジトリのActions成功を確認し、実機起動済みとの共有会話も確認しました。今回のv0.2はWindows上の構文・データ・素材参照検査までで、Xcode型検査・XCTest・iOS実機は未実施です。更新後のActionsでテストとデバイスビルドを実行してください。テストが失敗した場合はIPAを出力しません。
 
 ## 収録機能
 
@@ -14,9 +16,11 @@ Windowsで編集し、GitHub ActionsのmacOSランナーでビルドし、SideSt
 - 属別・形式別正答率、3形式の平均による習熟度、記憶済み、日別回答数、完了／途中終了の履歴。
 - PhotosPickerによる複数写真登録、拡大、削除、EXIF日時・GPS読取、現在地の記録、MapKit地図。
 - 端末内JSONの原子的保存、写真込みバックアップの書き出し・復元。
-- 庭の仮画面、GardenState / CharacterState / イベント条件、同期・通知・Widget用スナップショット・App Intent接続用ルーターの土台。
+- 基本3形式で初開花、中央庭園、段階制復習、記憶鮮度の5段階表示、おすすめ最大5属、全復習待ちの連続手入れ、お気に入り固定。
+- 共有会話のCore v0 SVG 54パーツを復元した通常状態の画像と307属の描画定義。退色はアプリ側の効果のみ。最終アートではありません。
+- GardenZone / HabitatDefinition / Observation / CharacterEvent、同期・通知・Widget用スナップショット・App Intent接続用ルーターの土台。
 
-Firebase/Cloudinaryへの接続、Web版からの既存成績・写真の自動移行、完成したゲーム、Widget拡張、Shortcutsアクション公開、通知設定画面は含みません。東方Project・風見幽香の画像・台詞は含みません。詳細は [移植仕様](docs/MIGRATION.md)。
+Firebase/Cloudinaryへの接続、Web版からの既存成績・写真の自動移行、中央庭園以外の区画、報酬・ショップ、Widget拡張、Shortcutsアクション公開、通知設定画面は含みません。東方Project・風見幽香の画像・正式台詞は含みません。v0.1移植の詳細は [移植仕様](docs/MIGRATION.md)。
 
 ## 最短のビルド手順（Mac不要）
 

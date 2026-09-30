@@ -1,18 +1,20 @@
-# 納品時の検証結果
+# v0.2 検証状況
 
-検査日: 2026-09-30 / Windows
+2026-09-30 / Windows。基準はoukanokoizukan/mainの9d636ba。
 
-- PASS: 307属、307個の一意なLatin ID、元の6項目、配列順を保持。
-- PASS: 添付HTMLと公開GitHubのindex.htmlは改行コードを除いて一致。
-- PASS: 元getJpInfoに由来する和名正解候補が全307属を網羅。
-- PASS: genera.json / japaneseAnswers.jsonのSHA-256がsource-manifest.jsonと一致。
-- PASS: 14個のSwiftファイルをtree-sitter-swiftで構文解析。構文エラーなし。
-- PASS: project.yml / ios.ymlのYAML構文と参照先パス。
-- PASS: アプリアイコンの各サイズ、RGB、不透明画像、ファイル参照。
-- PASS: ZIPに.github/workflows/ios.yml、全ソース・リソース・説明書を収録。
+実行して確認したこと:
+- 元307属と和名正解候補の一意性・項目・ハッシュ。
+- 全307属の描画定義が実在する54部品へ参照できること。
+- SVG 54件、PNG 54件（512px RGBA）、画像カタログ参照。
+- 19 Swiftファイルのtree-sitter構文解析、YAML構文・パス。
+- 8属の部品合成プレビューを画像として目視確認（SwiftUIスクリーンショットではない）。
+- 完全版ZIP・更新用分割ZIPのCRCと、比較元へ重ねた場合の全ファイル一致。
+- 既存GitHub Actionsが比較元v0.1で成功済みであること。今回workflow自体は変更なし。
 
-XCTestは14メソッドを実装。全307属×基本3形式の正答テストも含む。
-**XCTestの実行、Xcodeの型検査、iOS Simulator、device build、IPA作成、SideStore、実機UIの確認は未実施。**
-これらはWindows上の構文・整合性検査では保証できない。GitHub Actionsがテスト成功後にデバイス用IPAを生成する。
+未実行:
+- **v0.2のXcode型検査、XCTest 25メソッド、Simulator、unsigned IPA生成、SideStore導入。**
+- 端末上での既存データ移行、写真・位置・復習UIの実動作。
 
-プロジェクト作成のみで、ユーザーのGitHubリポジトリへの変更・pushは行っていない。
+新規ReviewTestsは開花条件、永久実績、全Stage、早期・同日回答、部分正解・不正解、鮮度5段階、時計逆行、優先順、全件待ち、3問まとめ判定、写真除外、v1移行、再移行、元ファイル退避、307描画参照を対象とする。既存の採点・写真・保存テストも残した。
+
+GitHubへの書き込み接続がないため、v0.2のアップロード・Actions起動は行っていない。構文検査はコンパイラーの型検査の代わりではない。

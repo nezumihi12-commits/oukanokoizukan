@@ -78,6 +78,10 @@ struct PlantDetail: View {
             }
             Section("学習記録") {
                 let record = store.state.records[plant.id] ?? StudyRecord()
+                if record.hasBloomed { NavigationLink("庭の記憶・復習予定を見る") { PlantMemoryDetail(plant: plant) } }
+                LabeledContent("属名 → 科名", value: record.clearedLatinToFamily ? "クリア" : "未クリア")
+                LabeledContent("和名 → 属名", value: record.clearedJapaneseToLatin ? "クリア" : "未クリア")
+                LabeledContent("属名 → 和名", value: record.clearedLatinToJapanese ? "クリア" : "未クリア")
                 LabeledContent("習熟度", value: "\(record.mastery) / 3")
                 LabeledContent("記憶済み", value: record.memorized ? "はい" : "基本3形式の正解を集めましょう")
                 ForEach(QuizMode.allCases.filter { $0 != .mixed }) { mode in

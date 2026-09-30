@@ -1,0 +1,5835 @@
+[
+  {
+    "plantID": "Abelia",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "卵形広葉",
+      "flower": "筒状ベル形",
+      "inflorescence": "房状",
+      "accent": "枝垂れ小枝"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Abies",
+    "sourceDetails": {
+      "skeleton": "針葉樹",
+      "leaf": "針葉",
+      "flower": "球果",
+      "inflorescence": "球果",
+      "accent": "円錐樹形"
+    },
+    "mappedParts": {
+      "skeleton": "S10_conifer",
+      "leaf": "L02_needle",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Abutilon",
+    "sourceDetails": {
+      "skeleton": "低木/草本",
+      "leaf": "掌状〜心形葉",
+      "flower": "鐘形アオイ型",
+      "inflorescence": "単生",
+      "accent": "目立つ雄蕊柱"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F10_bell",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Acacia",
+    "sourceDetails": {
+      "skeleton": "低木/高木",
+      "leaf": "羽状複葉/葉状柄",
+      "flower": "球状小花",
+      "inflorescence": "球状/穂状",
+      "accent": "黄色球状花"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L07_pinnate",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Acer",
+    "sourceDetails": {
+      "skeleton": "落葉高木",
+      "leaf": "掌状裂葉",
+      "flower": "小花",
+      "inflorescence": "房状",
+      "accent": "翼果・紅葉"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Achillea",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "羽状細裂葉",
+      "flower": "小型キク型",
+      "inflorescence": "平たい散房",
+      "accent": "細かい葉と平たい花房"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F02_daisy",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Acorus",
+    "sourceDetails": {
+      "skeleton": "湿地株立ち",
+      "leaf": "剣状葉",
+      "flower": "肉穂状小花",
+      "inflorescence": "肉穂花序",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Actinotus",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "細裂葉",
+      "flower": "星状総苞花",
+      "inflorescence": "散形",
+      "accent": "フランネル質感"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Adiantum",
+    "sourceDetails": {
+      "skeleton": "シダ",
+      "leaf": "小羽片シダ葉",
+      "flower": "なし",
+      "inflorescence": "胞子",
+      "accent": "黒い細葉柄"
+    },
+    "mappedParts": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Adonis",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "細裂葉",
+      "flower": "杯状多弁",
+      "inflorescence": "単生",
+      "accent": "黄色大花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Agapanthus",
+    "sourceDetails": {
+      "skeleton": "株立ち球根草本",
+      "leaf": "帯状葉",
+      "flower": "漏斗状小花",
+      "inflorescence": "球状散形",
+      "accent": "長い花茎"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ageratum",
+    "sourceDetails": {
+      "skeleton": "低い直立草本",
+      "leaf": "広葉",
+      "flower": "筒状小花",
+      "inflorescence": "ふわっとした頭花",
+      "accent": "青紫のふわふわ花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ajuga",
+    "sourceDetails": {
+      "skeleton": "匍匐ロゼット",
+      "leaf": "広葉",
+      "flower": "唇形",
+      "inflorescence": "穂状",
+      "accent": "地被・葉色"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Alchemilla",
+    "sourceDetails": {
+      "skeleton": "低い株立ち草本",
+      "leaf": "掌状円形葉",
+      "flower": "極小黄緑花",
+      "inflorescence": "散房",
+      "accent": "水滴をためる葉"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Allium",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "線形/筒状葉",
+      "flower": "星形小花",
+      "inflorescence": "球状散形",
+      "accent": "球状花序"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Aloe",
+    "sourceDetails": {
+      "skeleton": "多肉ロゼット",
+      "leaf": "肉厚剣状葉",
+      "flower": "筒状花",
+      "inflorescence": "総状/穂状",
+      "accent": "鋸歯ある多肉葉"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F12_tubular",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Alstroemeria",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "披針葉",
+      "flower": "ユリ型",
+      "inflorescence": "散形",
+      "accent": "斑点花弁"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F08_lily",
+      "inflorescence": "I06_umbel",
+      "accent": "veins",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Alternanthera",
+    "sourceDetails": {
+      "skeleton": "匍匐/低草本",
+      "leaf": "小型広葉",
+      "flower": "小型球状",
+      "inflorescence": "頭状",
+      "accent": "赤紫葉"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Alyssum",
+    "sourceDetails": {
+      "skeleton": "低い叢生草本",
+      "leaf": "小型披針葉",
+      "flower": "4弁十字形",
+      "inflorescence": "密な総状",
+      "accent": "小花の絨毯"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F13_cruciform",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Amaranthus",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "小花",
+      "inflorescence": "垂下/直立穂",
+      "accent": "長い花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ammi",
+    "sourceDetails": {
+      "skeleton": "高性直立草本",
+      "leaf": "細裂葉",
+      "flower": "小型5弁",
+      "inflorescence": "複散形",
+      "accent": "レース状花序"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Amygdalus",
+    "sourceDetails": {
+      "skeleton": "落葉小高木",
+      "leaf": "楕円〜披針葉",
+      "flower": "サクラ型5弁",
+      "inflorescence": "単生/房状",
+      "accent": "春花・核果"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Anemone",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "掌状深裂葉",
+      "flower": "杯状多弁風",
+      "inflorescence": "単生",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Angelonia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "唇形/筒状",
+      "inflorescence": "長い総状",
+      "accent": "縦に並ぶ小花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Anigozanthos",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "剣状葉",
+      "flower": "筒状毛花",
+      "inflorescence": "総状",
+      "accent": "カンガルーポー形"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F12_tubular",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Anthurium",
+    "sourceDetails": {
+      "skeleton": "熱帯大葉草本",
+      "leaf": "大型心形葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "光沢ハート形仏炎苞"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L10_heart_round",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Antirrhinum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "口形/唇形",
+      "inflorescence": "長い総状",
+      "accent": "キンギョ形花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Aquilegia",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "三出/複葉",
+      "flower": "距のある鐘形",
+      "inflorescence": "単生/集散",
+      "accent": "後方に伸びる距"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L08_trifoliate",
+      "flower": "F10_bell",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Arctotis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ardisia",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "光沢広葉",
+      "flower": "小花",
+      "inflorescence": "房状",
+      "accent": "赤い実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Arenaria",
+    "sourceDetails": {
+      "skeleton": "低い叢生草本",
+      "leaf": "小型線形葉",
+      "flower": "小型5弁",
+      "inflorescence": "単生/集散",
+      "accent": "クッション状"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Argyranthemum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Armeniaca",
+    "sourceDetails": {
+      "skeleton": "落葉小高木",
+      "leaf": "楕円〜披針葉",
+      "flower": "サクラ型5弁",
+      "inflorescence": "単生/房状",
+      "accent": "春花・核果"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Armeria",
+    "sourceDetails": {
+      "skeleton": "低い株立ち草本",
+      "leaf": "線形葉",
+      "flower": "小花",
+      "inflorescence": "球状頭花",
+      "accent": "細い花茎の球花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Asclepias",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "独特の反転花",
+      "inflorescence": "球状散形",
+      "accent": "王冠状副花冠"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Asparagus",
+    "sourceDetails": {
+      "skeleton": "繊細枝葉草本",
+      "leaf": "細い葉状枝",
+      "flower": "小花",
+      "inflorescence": "散生",
+      "accent": "羽毛状の枝葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Asplenium",
+    "sourceDetails": {
+      "skeleton": "シダ",
+      "leaf": "大型シダ葉",
+      "flower": "なし",
+      "inflorescence": "胞子",
+      "accent": "ロゼット状フロンド"
+    },
+    "mappedParts": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Aster",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": "園芸品種差大"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Astilbe",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "複葉",
+      "flower": "小型花",
+      "inflorescence": "羽毛状円錐",
+      "accent": "ふわっとした花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Astrantia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "羽状〜細裂葉",
+      "flower": "小花+星状総苞",
+      "inflorescence": "散形",
+      "accent": "星形総苞"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Aucuba",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "大型光沢広葉",
+      "flower": "小花",
+      "inflorescence": "房状",
+      "accent": "斑入り葉・赤実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Bassia",
+    "sourceDetails": {
+      "skeleton": "球状草本",
+      "leaf": "細披針葉",
+      "flower": "小花",
+      "inflorescence": "散生",
+      "accent": "こんもり球形・紅葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Begonia",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "左右非対称葉",
+      "flower": "小花",
+      "inflorescence": "房状",
+      "accent": "葉模様"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Bellis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Bidens",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Boronia",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "細葉/複葉",
+      "flower": "星形4弁",
+      "inflorescence": "房状",
+      "accent": "油点葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Bougainvillea",
+    "sourceDetails": {
+      "skeleton": "つる低木",
+      "leaf": "卵形広葉",
+      "flower": "小花+鮮色苞葉",
+      "inflorescence": "房状",
+      "accent": "三角形の鮮色苞葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Brassica",
+    "sourceDetails": {
+      "skeleton": "ロゼット/直立草本",
+      "leaf": "大型ロゼット葉",
+      "flower": "4弁十字形",
+      "inflorescence": "総状",
+      "accent": "葉牡丹形も想定"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F13_cruciform",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Buddleja",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "披針葉",
+      "flower": "小型筒状",
+      "inflorescence": "長い円錐",
+      "accent": "蝶を呼ぶ花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L02_needle",
+      "flower": "F12_tubular",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Bupleurum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針/抱茎葉",
+      "flower": "小型花",
+      "inflorescence": "散形",
+      "accent": "黄緑花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Caladium",
+    "sourceDetails": {
+      "skeleton": "熱帯大葉草本",
+      "leaf": "大型心形葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "強い葉色・斑"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L10_heart_round",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "veins",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Calendula",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Calibrachoa",
+    "sourceDetails": {
+      "skeleton": "匍匐/こんもり草本",
+      "leaf": "広葉",
+      "flower": "漏斗形",
+      "inflorescence": "単生",
+      "accent": "花色バリエーション"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Callistephus",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Calluna",
+    "sourceDetails": {
+      "skeleton": "小型常緑低木",
+      "leaf": "微小針状葉",
+      "flower": "鐘形/壺形",
+      "inflorescence": "穂状",
+      "accent": "ヒース状"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F10_bell",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Camellia",
+    "sourceDetails": {
+      "skeleton": "常緑低木/小高木",
+      "leaf": "光沢楕円葉",
+      "flower": "ツバキ型多弁",
+      "inflorescence": "単生",
+      "accent": "厚い光沢葉"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Campanula",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "広葉",
+      "flower": "鐘形",
+      "inflorescence": "単生/総状",
+      "accent": "鐘花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Canna",
+    "sourceDetails": {
+      "skeleton": "大型根茎草本",
+      "leaf": "大型披針葉",
+      "flower": "非対称大花",
+      "inflorescence": "穂状",
+      "accent": "バナナ状葉"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Capsicum",
+    "sourceDetails": {
+      "skeleton": "小低木/草本",
+      "leaf": "広葉",
+      "flower": "星形小花",
+      "inflorescence": "単生/集散",
+      "accent": "カラフル果実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Carex",
+    "sourceDetails": {
+      "skeleton": "スゲ型叢生",
+      "leaf": "線形草葉",
+      "flower": "小花",
+      "inflorescence": "穂状",
+      "accent": "細葉の株"
+    },
+    "mappedParts": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Carthamus",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "アザミ型頭花",
+      "inflorescence": "頭花",
+      "accent": "棘状総苞"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Catharanthus",
+    "sourceDetails": {
+      "skeleton": "こんもり草本",
+      "leaf": "光沢広葉",
+      "flower": "風車形5裂",
+      "inflorescence": "単生",
+      "accent": "平たい5弁花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cattleya",
+    "sourceDetails": {
+      "skeleton": "ラン型/着生",
+      "leaf": "厚い革質葉",
+      "flower": "大型ラン型",
+      "inflorescence": "花茎",
+      "accent": "大輪リップ"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L11_standard_broad",
+      "flower": "F06_orchid",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Celosia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "鶏冠/羽毛状",
+      "inflorescence": "穂状",
+      "accent": "鶏冠・羽毛形"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Centaurea",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "ヤグルマ型頭花",
+      "inflorescence": "頭花",
+      "accent": "細裂花弁"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cerasus",
+    "sourceDetails": {
+      "skeleton": "落葉小高木",
+      "leaf": "楕円〜披針葉",
+      "flower": "サクラ型5弁",
+      "inflorescence": "単生/房状",
+      "accent": "春花・核果"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Chaenomeles",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "楕円葉",
+      "flower": "5弁大花",
+      "inflorescence": "短枝に房状",
+      "accent": "枝に密着して咲く"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Chamaecyparis",
+    "sourceDetails": {
+      "skeleton": "針葉樹",
+      "leaf": "鱗片葉",
+      "flower": "球果",
+      "inflorescence": "球果",
+      "accent": "扁平な枝葉"
+    },
+    "mappedParts": {
+      "skeleton": "S10_conifer",
+      "leaf": "L03_scale",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Chamaedorea",
+    "sourceDetails": {
+      "skeleton": "小型ヤシ",
+      "leaf": "羽状葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "細幹ヤシ"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Chamelaucium",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "針状細葉",
+      "flower": "ワックス状5弁",
+      "inflorescence": "枝先房状",
+      "accent": "ワックス質"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Chlorophytum",
+    "sourceDetails": {
+      "skeleton": "株立ちロゼット",
+      "leaf": "線形帯状葉",
+      "flower": "小型星形",
+      "inflorescence": "弓なり花茎",
+      "accent": "ランナー子株"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Chrysanthemum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": "園芸品種差大"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Citrullus",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "掌状/裂葉",
+      "flower": "黄色5裂漏斗",
+      "inflorescence": "単生",
+      "accent": "巻きひげ・大型果実"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Citrus",
+    "sourceDetails": {
+      "skeleton": "常緑小高木",
+      "leaf": "光沢広葉",
+      "flower": "白5弁",
+      "inflorescence": "単生/房状",
+      "accent": "柑橘果実"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Clematis",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "複葉",
+      "flower": "大輪花被片",
+      "inflorescence": "単生/房状",
+      "accent": "つる・羽毛状果実"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Codiaeum",
+    "sourceDetails": {
+      "skeleton": "熱帯低木",
+      "leaf": "大型多形葉",
+      "flower": "小花",
+      "inflorescence": "総状",
+      "accent": "赤黄斑の葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "veins",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Consolida",
+    "sourceDetails": {
+      "skeleton": "高性直立草本",
+      "leaf": "掌状深裂葉",
+      "flower": "距のある花",
+      "inflorescence": "長い総状",
+      "accent": "青系の花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Convallaria",
+    "sourceDetails": {
+      "skeleton": "地下茎群生",
+      "leaf": "幅広帯状葉",
+      "flower": "鐘形",
+      "inflorescence": "片側総状",
+      "accent": "下垂する白鐘花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cordyline",
+    "sourceDetails": {
+      "skeleton": "幹立ち観葉",
+      "leaf": "長い帯状葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "葉色バリエーション"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Coreopsis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cornus",
+    "sourceDetails": {
+      "skeleton": "落葉低木/高木",
+      "leaf": "対生広葉",
+      "flower": "小花+総苞",
+      "inflorescence": "散房",
+      "accent": "大きな白色総苞"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cosmos",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cotinus",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "丸〜卵形葉",
+      "flower": "小花",
+      "inflorescence": "煙状円錐",
+      "accent": "煙のような花序"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Craspedia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "小花球状",
+      "inflorescence": "球状頭花",
+      "accent": "黄色球体"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Crassula",
+    "sourceDetails": {
+      "skeleton": "多肉分枝",
+      "leaf": "肉厚葉",
+      "flower": "小型星形",
+      "inflorescence": "集散",
+      "accent": "多肉枝葉"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Crocus",
+    "sourceDetails": {
+      "skeleton": "小型球根草本",
+      "leaf": "細線形葉",
+      "flower": "杯状6花被",
+      "inflorescence": "単生",
+      "accent": "地際から咲く"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Crossandra",
+    "sourceDetails": {
+      "skeleton": "低木/草本",
+      "leaf": "光沢広葉",
+      "flower": "筒状扇形",
+      "inflorescence": "穂状",
+      "accent": "扇状花弁"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Crowea",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "細長い広葉",
+      "flower": "星形5弁",
+      "inflorescence": "単生/房状",
+      "accent": "ピンク星花"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cucumis",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "掌状/裂葉",
+      "flower": "黄色5裂漏斗",
+      "inflorescence": "単生",
+      "accent": "巻きひげ・大型果実"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cucurbita",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "掌状/裂葉",
+      "flower": "黄色5裂漏斗",
+      "inflorescence": "単生",
+      "accent": "巻きひげ・大型果実"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cuphea",
+    "sourceDetails": {
+      "skeleton": "小低木/草本",
+      "leaf": "小広葉",
+      "flower": "筒状/左右非対称",
+      "inflorescence": "葉腋/房状",
+      "accent": "細長い筒花"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cupressus",
+    "sourceDetails": {
+      "skeleton": "針葉樹",
+      "leaf": "鱗片葉",
+      "flower": "球果",
+      "inflorescence": "球果",
+      "accent": "円柱〜円錐樹形"
+    },
+    "mappedParts": {
+      "skeleton": "S10_conifer",
+      "leaf": "L03_scale",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Curcuma",
+    "sourceDetails": {
+      "skeleton": "大型根茎草本",
+      "leaf": "大型披針葉",
+      "flower": "小花+苞葉",
+      "inflorescence": "穂状",
+      "accent": "色付き苞葉"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cycas",
+    "sourceDetails": {
+      "skeleton": "ソテツ型",
+      "leaf": "羽状葉",
+      "flower": "球果",
+      "inflorescence": "球果",
+      "accent": "太幹+放射状葉冠"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cyclamen",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "心形斑葉",
+      "flower": "反り返る花弁",
+      "inflorescence": "単生花茎",
+      "accent": "反転花弁"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L10_heart_round",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cymbidium",
+    "sourceDetails": {
+      "skeleton": "ラン型/株立ち",
+      "leaf": "長い帯状葉",
+      "flower": "ラン型",
+      "inflorescence": "総状",
+      "accent": "長い花茎"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F06_orchid",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Cytisus",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "三出小葉",
+      "flower": "蝶形花",
+      "inflorescence": "枝に多数",
+      "accent": "細枝に密花"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L08_trifoliate",
+      "flower": "F05_pea",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Dahlia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": "園芸品種差大"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Daphne",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "広葉",
+      "flower": "筒状4裂",
+      "inflorescence": "房状",
+      "accent": "香り花"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Delphinium",
+    "sourceDetails": {
+      "skeleton": "高性直立草本",
+      "leaf": "掌状深裂葉",
+      "flower": "距のある花",
+      "inflorescence": "長い総状",
+      "accent": "青系の花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Dendrobium",
+    "sourceDetails": {
+      "skeleton": "ラン型/着生",
+      "leaf": "茎に互生葉",
+      "flower": "ラン型",
+      "inflorescence": "茎節に房状",
+      "accent": "カン状茎"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L11_standard_broad",
+      "flower": "F06_orchid",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Deutzia",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "広葉",
+      "flower": "白5弁",
+      "inflorescence": "房状",
+      "accent": "白花低木"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Dianthus",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "細線形葉",
+      "flower": "ナデシコ型鋸歯花弁",
+      "inflorescence": "単生/集散",
+      "accent": "細裂花弁"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Dieffenbachia",
+    "sourceDetails": {
+      "skeleton": "熱帯大葉草本",
+      "leaf": "大型斑入り葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "斑入り大型葉"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "veins",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Digitalis",
+    "sourceDetails": {
+      "skeleton": "高性ロゼット草本",
+      "leaf": "大型ロゼット葉",
+      "flower": "鐘状筒花",
+      "inflorescence": "長い総状",
+      "accent": "片側に並ぶ鐘花"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Dimorphotheca",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Dracaena",
+    "sourceDetails": {
+      "skeleton": "幹立ち観葉",
+      "leaf": "長い帯状葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "葉色バリエーション"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Duranta",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "広葉",
+      "flower": "小型5裂花",
+      "inflorescence": "房状",
+      "accent": "紫花+橙色実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Echinops",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "小花球状",
+      "inflorescence": "球状頭花",
+      "accent": "青い刺状球体"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Enkianthus",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "小型広葉",
+      "flower": "壺/鐘形",
+      "inflorescence": "下垂房状",
+      "accent": "紅葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Epipremnum",
+    "sourceDetails": {
+      "skeleton": "つる観葉",
+      "leaf": "心形広葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "斑入りつる葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L10_heart_round",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Equisetum",
+    "sourceDetails": {
+      "skeleton": "節状茎草本",
+      "leaf": "退化葉",
+      "flower": "なし",
+      "inflorescence": "胞子穂",
+      "accent": "節状中空茎"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Erica",
+    "sourceDetails": {
+      "skeleton": "小型常緑低木",
+      "leaf": "微小針状葉",
+      "flower": "鐘形/壺形",
+      "inflorescence": "穂状",
+      "accent": "ヒース状"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F10_bell",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Eryngium",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "棘状裂葉",
+      "flower": "小花球状",
+      "inflorescence": "頭状",
+      "accent": "青い刺状総苞"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Eucalyptus",
+    "sourceDetails": {
+      "skeleton": "常緑高木",
+      "leaf": "細長い銀青葉",
+      "flower": "多数雄蕊型",
+      "inflorescence": "房状",
+      "accent": "銀葉"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Eupatorium",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "筒状小花",
+      "inflorescence": "散房",
+      "accent": "ふわっとした房"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Euphorbia",
+    "sourceDetails": {
+      "skeleton": "草本/低木/多肉",
+      "leaf": "多形",
+      "flower": "小花+苞葉",
+      "inflorescence": "集散",
+      "accent": "属内形態差大・苞葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Euryops",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Eustoma",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "灰緑広葉",
+      "flower": "大輪杯状",
+      "inflorescence": "枝先単生/房状",
+      "accent": "バラ風花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Evolvulus",
+    "sourceDetails": {
+      "skeleton": "匍匐草本",
+      "leaf": "小型広葉",
+      "flower": "漏斗形",
+      "inflorescence": "単生",
+      "accent": "青花グラウンドカバー"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Felicia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ficus",
+    "sourceDetails": {
+      "skeleton": "高木/つる観葉",
+      "leaf": "大型広葉",
+      "flower": "隠頭花序",
+      "inflorescence": "果実状",
+      "accent": "気根/イチジク果実"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L13_large_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I01_single",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Forsythia",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "広葉",
+      "flower": "黄色4裂筒花",
+      "inflorescence": "枝に単生",
+      "accent": "葉前に黄花"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Fragaria",
+    "sourceDetails": {
+      "skeleton": "匍匐ロゼット",
+      "leaf": "三出葉",
+      "flower": "白5弁",
+      "inflorescence": "集散",
+      "accent": "ランナー・赤果"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L08_trifoliate",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Fraxinus",
+    "sourceDetails": {
+      "skeleton": "落葉高木",
+      "leaf": "羽状複葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "翼果"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Freesia",
+    "sourceDetails": {
+      "skeleton": "球根株立ち",
+      "leaf": "剣状葉",
+      "flower": "漏斗状",
+      "inflorescence": "片側総状",
+      "accent": "曲がる花茎"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Fuchsia",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "広葉",
+      "flower": "下垂筒状",
+      "inflorescence": "単生/房状",
+      "accent": "長い萼と下垂花"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gaillardia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gardenia",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "光沢広葉",
+      "flower": "白い大輪筒状/八重",
+      "inflorescence": "単生",
+      "accent": "厚い光沢葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gaultheria",
+    "sourceDetails": {
+      "skeleton": "低木/匍匐",
+      "leaf": "小型光沢葉",
+      "flower": "壺形",
+      "inflorescence": "房状",
+      "accent": "赤白の実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gazania",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gentiana",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "対生披針葉",
+      "flower": "筒状鐘形",
+      "inflorescence": "単生/房状",
+      "accent": "青い閉じ気味花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Geranium",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "掌状裂葉",
+      "flower": "5弁",
+      "inflorescence": "散形/集散",
+      "accent": "丸い葉"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gerbera",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gilia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "細裂葉",
+      "flower": "筒状5裂",
+      "inflorescence": "球状/散房",
+      "accent": "小花集団"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gladiolus",
+    "sourceDetails": {
+      "skeleton": "高性球根草本",
+      "leaf": "剣状葉",
+      "flower": "漏斗状大花",
+      "inflorescence": "片側穂状",
+      "accent": "剣葉+縦花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Glandularia",
+    "sourceDetails": {
+      "skeleton": "匍匐/直立草本",
+      "leaf": "広葉",
+      "flower": "小型5裂筒花",
+      "inflorescence": "球状房",
+      "accent": "小花の半球"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Glechoma",
+    "sourceDetails": {
+      "skeleton": "匍匐草本",
+      "leaf": "円〜腎形葉",
+      "flower": "唇形",
+      "inflorescence": "葉腋",
+      "accent": "地這い"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I09_axillary",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gloriosa",
+    "sourceDetails": {
+      "skeleton": "つる球根草本",
+      "leaf": "披針葉",
+      "flower": "反り返るユリ型",
+      "inflorescence": "単生",
+      "accent": "巻きひげ状葉先"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L02_needle",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Glycine",
+    "sourceDetails": {
+      "skeleton": "つる/直立草本",
+      "leaf": "三出葉",
+      "flower": "蝶形花",
+      "inflorescence": "総状",
+      "accent": "莢"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L08_trifoliate",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gomphrena",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "紙質球状",
+      "inflorescence": "球状頭花",
+      "accent": "紙質球花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gossypium",
+    "sourceDetails": {
+      "skeleton": "低木/草本",
+      "leaf": "掌状裂葉",
+      "flower": "アオイ型",
+      "inflorescence": "単生",
+      "accent": "綿毛果"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F15_mallow",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Guzmania",
+    "sourceDetails": {
+      "skeleton": "ロゼット着生草本",
+      "leaf": "帯状葉",
+      "flower": "小花+鮮色苞葉",
+      "inflorescence": "穂状",
+      "accent": "中央の鮮色苞"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Gypsophila",
+    "sourceDetails": {
+      "skeleton": "細枝分枝草本",
+      "leaf": "細披針葉",
+      "flower": "小型5弁",
+      "inflorescence": "霞状円錐",
+      "accent": "霞のような小花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hedera",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "掌状裂葉",
+      "flower": "小花",
+      "inflorescence": "散形",
+      "accent": "付着根"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Helianthus",
+    "sourceDetails": {
+      "skeleton": "高性直立草本",
+      "leaf": "大型広葉",
+      "flower": "大型キク型",
+      "inflorescence": "頭花",
+      "accent": "大型花盤"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Helichrysum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "紙質キク型",
+      "inflorescence": "頭花",
+      "accent": "紙質総苞"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Heliconia",
+    "sourceDetails": {
+      "skeleton": "大型根茎草本",
+      "leaf": "バナナ状大型葉",
+      "flower": "小花+大型苞葉",
+      "inflorescence": "垂下/直立穂",
+      "accent": "カラフル大型苞葉"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Heliopsis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Helleborus",
+    "sourceDetails": {
+      "skeleton": "株立ち常緑草本",
+      "leaf": "掌状複葉",
+      "flower": "下向き杯状",
+      "inflorescence": "単生/集散",
+      "accent": "早春花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L06_palmate_compound",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hemerocallis",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "長い線形葉",
+      "flower": "ユリ型",
+      "inflorescence": "花茎分枝",
+      "accent": "漏斗形大花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Heuchera",
+    "sourceDetails": {
+      "skeleton": "ロゼット草本",
+      "leaf": "丸〜掌状葉",
+      "flower": "小型鐘花",
+      "inflorescence": "細い円錐",
+      "accent": "カラーリーフ"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F10_bell",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hibiscus",
+    "sourceDetails": {
+      "skeleton": "低木/草本",
+      "leaf": "掌状〜広葉",
+      "flower": "大型アオイ型",
+      "inflorescence": "単生",
+      "accent": "長い雄蕊柱"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F15_mallow",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hippeastrum",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "帯状葉",
+      "flower": "大型ラッパ花",
+      "inflorescence": "花茎頂生",
+      "accent": "太い花茎"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hordeum",
+    "sourceDetails": {
+      "skeleton": "イネ科叢生",
+      "leaf": "線形草葉",
+      "flower": "小花",
+      "inflorescence": "穂/円錐",
+      "accent": "穂"
+    },
+    "mappedParts": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hosta",
+    "sourceDetails": {
+      "skeleton": "ロゼット草本",
+      "leaf": "大型幅広葉",
+      "flower": "漏斗状鐘花",
+      "inflorescence": "長い花茎",
+      "accent": "葉鑑賞価値"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hyacinthus",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "帯状葉",
+      "flower": "小型壺/鐘花",
+      "inflorescence": "密な総状",
+      "accent": "密花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hydrangea",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "大型鋸歯広葉",
+      "flower": "小花+装飾花",
+      "inflorescence": "球状/円錐",
+      "accent": "装飾花の大房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Hypericum",
+    "sourceDetails": {
+      "skeleton": "低木/草本",
+      "leaf": "対生広葉",
+      "flower": "黄色5弁",
+      "inflorescence": "単生/房状",
+      "accent": "長い多数雄蕊"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Iberis",
+    "sourceDetails": {
+      "skeleton": "低い株立ち草本",
+      "leaf": "細広葉",
+      "flower": "4弁不整形",
+      "inflorescence": "平たい房",
+      "accent": "外側花弁大"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ilex",
+    "sourceDetails": {
+      "skeleton": "常緑低木/高木",
+      "leaf": "光沢広葉",
+      "flower": "小花",
+      "inflorescence": "房状",
+      "accent": "赤実/鋸歯葉"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Impatiens",
+    "sourceDetails": {
+      "skeleton": "多汁質草本",
+      "leaf": "鋸歯広葉",
+      "flower": "距のある不整形花",
+      "inflorescence": "単生/房状",
+      "accent": "距・はじける果実"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ipomoea",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "心形/掌状葉",
+      "flower": "大型漏斗形",
+      "inflorescence": "単生",
+      "accent": "つる"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Iris",
+    "sourceDetails": {
+      "skeleton": "剣葉株立ち",
+      "leaf": "剣状葉",
+      "flower": "アヤメ型",
+      "inflorescence": "花茎",
+      "accent": "垂れ弁+立ち弁"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L05_strap",
+      "flower": "F09_iris",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ixora",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "対生広葉",
+      "flower": "細筒状星形",
+      "inflorescence": "球状房",
+      "accent": "密な花房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Jasminum",
+    "sourceDetails": {
+      "skeleton": "つる/低木",
+      "leaf": "複葉/広葉",
+      "flower": "筒状星形",
+      "inflorescence": "房状",
+      "accent": "香り花"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Kalanchoe",
+    "sourceDetails": {
+      "skeleton": "多肉分枝",
+      "leaf": "肉厚広葉",
+      "flower": "4裂筒花",
+      "inflorescence": "集散",
+      "accent": "多肉葉"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Kalmia",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "革質広葉",
+      "flower": "皿状5裂",
+      "inflorescence": "房状",
+      "accent": "幾何学的花冠"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lactuca",
+    "sourceDetails": {
+      "skeleton": "葉物草本",
+      "leaf": "広葉/切れ込み葉",
+      "flower": "小型キク型",
+      "inflorescence": "円錐",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F02_daisy",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lampranthus",
+    "sourceDetails": {
+      "skeleton": "多肉匍匐",
+      "leaf": "細い肉厚葉",
+      "flower": "多弁デージー型",
+      "inflorescence": "単生",
+      "accent": "鮮色多弁"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F02_daisy",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lantana",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "鋸歯広葉",
+      "flower": "小型筒状",
+      "inflorescence": "球状房",
+      "accent": "花色変化"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lathyrus",
+    "sourceDetails": {
+      "skeleton": "つる草本",
+      "leaf": "羽状葉+巻きひげ",
+      "flower": "蝶形花",
+      "inflorescence": "総状",
+      "accent": "巻きひげ"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lavandula",
+    "sourceDetails": {
+      "skeleton": "小低木",
+      "leaf": "細線形葉",
+      "flower": "唇形小花",
+      "inflorescence": "穂状",
+      "accent": "紫の花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L05_strap",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Leptospermum",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "小型針状葉",
+      "flower": "5弁多数雄蕊",
+      "inflorescence": "枝に散生",
+      "accent": "ギョリュウ状"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Leucanthemum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Liatris",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク科小花",
+      "inflorescence": "長い穂状",
+      "accent": "上から咲く花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lilium",
+    "sourceDetails": {
+      "skeleton": "高性球根草本",
+      "leaf": "披針葉",
+      "flower": "大型ユリ型",
+      "inflorescence": "単生/総状",
+      "accent": "大花"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L02_needle",
+      "flower": "F08_lily",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Limonium",
+    "sourceDetails": {
+      "skeleton": "ロゼット草本",
+      "leaf": "匙形葉",
+      "flower": "紙質小花",
+      "inflorescence": "分枝円錐",
+      "accent": "紙質花・枝分かれ"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Linaria",
+    "sourceDetails": {
+      "skeleton": "細身直立草本",
+      "leaf": "線形葉",
+      "flower": "距のある唇形",
+      "inflorescence": "総状",
+      "accent": "小型キンギョソウ風"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L05_strap",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lobelia",
+    "sourceDetails": {
+      "skeleton": "直立/匍匐草本",
+      "leaf": "広葉",
+      "flower": "唇形5裂",
+      "inflorescence": "総状/単生",
+      "accent": "左右非対称花"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lobularia",
+    "sourceDetails": {
+      "skeleton": "低い叢生草本",
+      "leaf": "小型披針葉",
+      "flower": "4弁十字形",
+      "inflorescence": "密な総状",
+      "accent": "小花の絨毯"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F13_cruciform",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lotus",
+    "sourceDetails": {
+      "skeleton": "匍匐草本",
+      "leaf": "複葉",
+      "flower": "蝶形花",
+      "inflorescence": "小房",
+      "accent": "地這いマメ"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L07_pinnate",
+      "flower": "F05_pea",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Luculia",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "大型広葉",
+      "flower": "筒状5裂",
+      "inflorescence": "大きな房",
+      "accent": "ピンクの大房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L13_large_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lupinus",
+    "sourceDetails": {
+      "skeleton": "高性直立草本",
+      "leaf": "掌状複葉",
+      "flower": "蝶形花",
+      "inflorescence": "長い総状",
+      "accent": "塔状花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L06_palmate_compound",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lycoris",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "線形葉",
+      "flower": "反り返るユリ型",
+      "inflorescence": "散形",
+      "accent": "細長い花被片"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lysimachia",
+    "sourceDetails": {
+      "skeleton": "直立/匍匐草本",
+      "leaf": "広葉",
+      "flower": "黄色星形",
+      "inflorescence": "穂状/単生",
+      "accent": "属内形態差"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Lythrum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "小型6弁",
+      "inflorescence": "長い穂状",
+      "accent": "紫花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Magnolia",
+    "sourceDetails": {
+      "skeleton": "落葉/常緑高木",
+      "leaf": "大型広葉",
+      "flower": "大型モクレン型",
+      "inflorescence": "単生",
+      "accent": "厚い大花被片"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Mandevilla",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "光沢広葉",
+      "flower": "大型漏斗形",
+      "inflorescence": "房状",
+      "accent": "光沢つる葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I02_corymb",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Matricaria",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Matthiola",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "4弁/八重",
+      "inflorescence": "総状",
+      "accent": "縦花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Melampodium",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Mentha",
+    "sourceDetails": {
+      "skeleton": "直立地下茎草本",
+      "leaf": "鋸歯卵形葉",
+      "flower": "唇形小花",
+      "inflorescence": "穂状",
+      "accent": "芳香葉"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Metasequoia",
+    "sourceDetails": {
+      "skeleton": "落葉針葉樹",
+      "leaf": "羽状に見える線形葉",
+      "flower": "球果",
+      "inflorescence": "球果",
+      "accent": "円錐樹形"
+    },
+    "mappedParts": {
+      "skeleton": "S10_conifer",
+      "leaf": "L07_pinnate",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Mimosa",
+    "sourceDetails": {
+      "skeleton": "小低木/草本",
+      "leaf": "羽状複葉",
+      "flower": "球状小花",
+      "inflorescence": "球状",
+      "accent": "就眠運動"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Miscanthus",
+    "sourceDetails": {
+      "skeleton": "イネ科叢生",
+      "leaf": "線形草葉",
+      "flower": "小花",
+      "inflorescence": "穂/円錐",
+      "accent": "穂"
+    },
+    "mappedParts": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Moluccella",
+    "sourceDetails": {
+      "skeleton": "高性直立草本",
+      "leaf": "広葉",
+      "flower": "小花+緑色萼",
+      "inflorescence": "穂状",
+      "accent": "ベル状緑萼"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Monstera",
+    "sourceDetails": {
+      "skeleton": "つる熱帯観葉",
+      "leaf": "大型切れ込み葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "穴・切れ込み葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Muscari",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "帯状葉",
+      "flower": "小型壺/鐘花",
+      "inflorescence": "密な総状",
+      "accent": "密花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Myosotis",
+    "sourceDetails": {
+      "skeleton": "小型株立ち草本",
+      "leaf": "披針葉",
+      "flower": "小型5弁",
+      "inflorescence": "巻散",
+      "accent": "青い小花"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nandina",
+    "sourceDetails": {
+      "skeleton": "細幹低木",
+      "leaf": "羽状複葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "赤実・紅葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Narcissus",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "帯状葉",
+      "flower": "副花冠ラッパ型",
+      "inflorescence": "花茎",
+      "accent": "中央の副花冠"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nelumbo",
+    "sourceDetails": {
+      "skeleton": "水生抽水",
+      "leaf": "大型円形盾状葉",
+      "flower": "大型ハス型",
+      "inflorescence": "単生",
+      "accent": "花托・高く立つ葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L10_heart_round",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nemesia",
+    "sourceDetails": {
+      "skeleton": "低い直立草本",
+      "leaf": "細広葉",
+      "flower": "二唇形/距あり",
+      "inflorescence": "総状",
+      "accent": "小型カラフル花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nemophila",
+    "sourceDetails": {
+      "skeleton": "低い叢生草本",
+      "leaf": "切れ込み葉",
+      "flower": "5弁杯状",
+      "inflorescence": "単生",
+      "accent": "青花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nephrolepis",
+    "sourceDetails": {
+      "skeleton": "シダ",
+      "leaf": "羽状シダ葉",
+      "flower": "なし",
+      "inflorescence": "胞子",
+      "accent": "アーチ状フロンド"
+    },
+    "mappedParts": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nerine",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "線形葉",
+      "flower": "反り返るユリ型",
+      "inflorescence": "散形",
+      "accent": "細長い花被片"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nierembergia",
+    "sourceDetails": {
+      "skeleton": "低い叢生草本",
+      "leaf": "細葉",
+      "flower": "漏斗/皿状",
+      "inflorescence": "単生",
+      "accent": "白紫の平たい花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nigella",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "糸状細裂葉",
+      "flower": "杯状",
+      "inflorescence": "単生",
+      "accent": "糸状苞・風船果"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Nymphaea",
+    "sourceDetails": {
+      "skeleton": "水生浮葉",
+      "leaf": "浮葉円形切れ込み",
+      "flower": "大型スイレン型",
+      "inflorescence": "単生",
+      "accent": "水面葉"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ocimum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "唇形小花",
+      "inflorescence": "穂状",
+      "accent": "芳香葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Oenothera",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "4弁杯状",
+      "inflorescence": "単生/穂状",
+      "accent": "夕方開花イメージ"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F18_cup_saucer",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Olea",
+    "sourceDetails": {
+      "skeleton": "常緑小高木",
+      "leaf": "細長い銀緑葉",
+      "flower": "小花",
+      "inflorescence": "房状",
+      "accent": "銀葉・オリーブ果"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ophiopogon",
+    "sourceDetails": {
+      "skeleton": "草状株立ち",
+      "leaf": "細い線形葉",
+      "flower": "小型鐘花",
+      "inflorescence": "総状",
+      "accent": "濃緑の葉束"
+    },
+    "mappedParts": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ornithogalum",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "帯状葉",
+      "flower": "星形6弁",
+      "inflorescence": "総状/散房",
+      "accent": "白い星花"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Oryza",
+    "sourceDetails": {
+      "skeleton": "イネ科叢生",
+      "leaf": "線形草葉",
+      "flower": "小花",
+      "inflorescence": "穂/円錐",
+      "accent": "穂"
+    },
+    "mappedParts": {
+      "skeleton": "S11_grass_clump",
+      "leaf": "L04_grass",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Osteospermum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Oxalis",
+    "sourceDetails": {
+      "skeleton": "小型草本",
+      "leaf": "三出葉",
+      "flower": "5弁",
+      "inflorescence": "単生/散形",
+      "accent": "クローバー状葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L08_trifoliate",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pachira",
+    "sourceDetails": {
+      "skeleton": "熱帯小高木",
+      "leaf": "掌状複葉",
+      "flower": "多数雄蕊大花",
+      "inflorescence": "単生",
+      "accent": "編み幹表現可"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L06_palmate_compound",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Paeonia",
+    "sourceDetails": {
+      "skeleton": "低木/大型草本",
+      "leaf": "複葉",
+      "flower": "大型ボタン型",
+      "inflorescence": "単生",
+      "accent": "豪華大輪"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L07_pinnate",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Papaver",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "裂葉",
+      "flower": "4弁大花",
+      "inflorescence": "単生",
+      "accent": "丸い蒴果"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Passiflora",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "掌状裂葉",
+      "flower": "トケイソウ型",
+      "inflorescence": "単生",
+      "accent": "副花冠・巻きひげ"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pelargonium",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "掌状裂葉",
+      "flower": "5弁",
+      "inflorescence": "散形/集散",
+      "accent": "丸い葉"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pentas",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "対生広葉",
+      "flower": "細筒状星形",
+      "inflorescence": "球状房",
+      "accent": "密な花房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Peperomia",
+    "sourceDetails": {
+      "skeleton": "小型観葉草本",
+      "leaf": "肉厚広葉",
+      "flower": "小花",
+      "inflorescence": "細い肉穂状",
+      "accent": "肉厚葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pericallis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Perilla",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広い鋸歯葉",
+      "flower": "唇形小花",
+      "inflorescence": "穂状",
+      "accent": "紫/緑の芳香葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Petunia",
+    "sourceDetails": {
+      "skeleton": "匍匐/こんもり草本",
+      "leaf": "広葉",
+      "flower": "漏斗形",
+      "inflorescence": "単生",
+      "accent": "花色バリエーション"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Phalaenopsis",
+    "sourceDetails": {
+      "skeleton": "ラン型/着生",
+      "leaf": "厚い帯状葉",
+      "flower": "大型ラン型",
+      "inflorescence": "弓なり総状",
+      "accent": "気根"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F06_orchid",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Philadelphus",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "広葉",
+      "flower": "白5弁",
+      "inflorescence": "房状",
+      "accent": "白花低木"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Philodendron",
+    "sourceDetails": {
+      "skeleton": "つる/株立ち熱帯観葉",
+      "leaf": "大型多形葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "大型葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L13_large_broad",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Phlox",
+    "sourceDetails": {
+      "skeleton": "直立/匍匐草本",
+      "leaf": "細広葉",
+      "flower": "5裂筒花",
+      "inflorescence": "房状",
+      "accent": "密な花房"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Phoenix",
+    "sourceDetails": {
+      "skeleton": "ヤシ型",
+      "leaf": "羽状葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "幹+葉冠"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Phormium",
+    "sourceDetails": {
+      "skeleton": "大型剣葉株立ち",
+      "leaf": "長い剣状葉",
+      "flower": "管状花",
+      "inflorescence": "長い花茎",
+      "accent": "カラーリーフ"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L05_strap",
+      "flower": "F12_tubular",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Phyla",
+    "sourceDetails": {
+      "skeleton": "匍匐草本",
+      "leaf": "小広葉",
+      "flower": "小型筒状",
+      "inflorescence": "球状穂",
+      "accent": "地被"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Physalis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "小型星花",
+      "inflorescence": "単生",
+      "accent": "紙風船状萼"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Physocarpus",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "広葉",
+      "flower": "小型5弁",
+      "inflorescence": "球状/散房",
+      "accent": "白〜桃の花房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Physostegia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "唇形筒花",
+      "inflorescence": "穂状",
+      "accent": "縦花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pieris",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "革質広葉",
+      "flower": "壺形",
+      "inflorescence": "下垂総状",
+      "accent": "新芽色"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pinus",
+    "sourceDetails": {
+      "skeleton": "針葉樹",
+      "leaf": "針葉束",
+      "flower": "球果",
+      "inflorescence": "球果",
+      "accent": "松葉・球果"
+    },
+    "mappedParts": {
+      "skeleton": "S10_conifer",
+      "leaf": "L02_needle",
+      "flower": "F01_cone",
+      "inflorescence": "I10_cone_spore",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pittosporum",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "光沢広葉",
+      "flower": "小型5弁",
+      "inflorescence": "房状",
+      "accent": "果実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Platycodon",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "大きな鐘形",
+      "inflorescence": "単生",
+      "accent": "風船状つぼみ"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Plectranthus",
+    "sourceDetails": {
+      "skeleton": "株立ち観葉草本",
+      "leaf": "色葉/鋸歯葉",
+      "flower": "唇形",
+      "inflorescence": "穂状",
+      "accent": "葉鑑賞価値"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Polygonatum",
+    "sourceDetails": {
+      "skeleton": "弓なり地下茎草本",
+      "leaf": "披針葉",
+      "flower": "下垂筒状",
+      "inflorescence": "葉腋",
+      "accent": "弓なり茎"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L02_needle",
+      "flower": "F12_tubular",
+      "inflorescence": "I09_axillary",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Portulaca",
+    "sourceDetails": {
+      "skeleton": "多肉匍匐",
+      "leaf": "肉厚細葉",
+      "flower": "5弁/多弁",
+      "inflorescence": "単生",
+      "accent": "鮮色花"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Primula",
+    "sourceDetails": {
+      "skeleton": "ロゼット草本",
+      "leaf": "しわのある広葉",
+      "flower": "5裂筒花",
+      "inflorescence": "散形/段状",
+      "accent": "ロゼット"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Prunus",
+    "sourceDetails": {
+      "skeleton": "落葉小高木",
+      "leaf": "楕円〜披針葉",
+      "flower": "サクラ型5弁",
+      "inflorescence": "単生/房状",
+      "accent": "春花・核果"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Pyracantha",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "小型広葉",
+      "flower": "白5弁",
+      "inflorescence": "房状",
+      "accent": "大量の赤橙実・棘"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Ranunculus",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "裂葉",
+      "flower": "杯状多弁",
+      "inflorescence": "単生/房状",
+      "accent": "光沢花弁"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rhodanthe",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "紙質キク型",
+      "inflorescence": "頭花",
+      "accent": "紙質総苞"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rhododendron",
+    "sourceDetails": {
+      "skeleton": "常緑/落葉低木",
+      "leaf": "革質広葉",
+      "flower": "漏斗状大花",
+      "inflorescence": "球状房",
+      "accent": "大きな花房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F11_trumpet",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rhodohypoxis",
+    "sourceDetails": {
+      "skeleton": "小型球根草本",
+      "leaf": "線形葉",
+      "flower": "星形",
+      "inflorescence": "単生",
+      "accent": "低い草丈"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rosa",
+    "sourceDetails": {
+      "skeleton": "低木/つる",
+      "leaf": "羽状複葉",
+      "flower": "バラ型",
+      "inflorescence": "単生/房状",
+      "accent": "棘・多弁"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F16_rose_multi",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rosmarinus",
+    "sourceDetails": {
+      "skeleton": "常緑小低木",
+      "leaf": "針状細葉",
+      "flower": "唇形",
+      "inflorescence": "葉腋",
+      "accent": "芳香細葉"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L14_ericoid",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I09_axillary",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rubus",
+    "sourceDetails": {
+      "skeleton": "低木/つる",
+      "leaf": "複葉",
+      "flower": "5弁",
+      "inflorescence": "房状",
+      "accent": "集合果・棘"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rudbeckia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Rumohra",
+    "sourceDetails": {
+      "skeleton": "シダ",
+      "leaf": "羽状シダ葉",
+      "flower": "なし",
+      "inflorescence": "胞子",
+      "accent": "アーチ状フロンド"
+    },
+    "mappedParts": {
+      "skeleton": "S12_fern",
+      "leaf": "L01_fern_frond",
+      "flower": "none",
+      "inflorescence": "none",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Saintpaulia",
+    "sourceDetails": {
+      "skeleton": "小型ロゼット草本",
+      "leaf": "毛のある丸葉",
+      "flower": "5裂花",
+      "inflorescence": "短い花茎",
+      "accent": "ビロード葉"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Salix",
+    "sourceDetails": {
+      "skeleton": "落葉高木/低木",
+      "leaf": "披針葉",
+      "flower": "小花",
+      "inflorescence": "尾状花序",
+      "accent": "枝垂れ/ネコヤナギ"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L02_needle",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Salvia",
+    "sourceDetails": {
+      "skeleton": "直立草本/低木",
+      "leaf": "広葉",
+      "flower": "唇形",
+      "inflorescence": "穂状",
+      "accent": "色付き萼"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Sandersonia",
+    "sourceDetails": {
+      "skeleton": "つる/直立球根草本",
+      "leaf": "披針葉",
+      "flower": "提灯状鐘花",
+      "inflorescence": "葉腋/総状",
+      "accent": "オレンジ提灯花"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L02_needle",
+      "flower": "F10_bell",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Sanguisorba",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "羽状複葉",
+      "flower": "小花球状/穂状",
+      "inflorescence": "頭状/穂状",
+      "accent": "暗赤の花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F03_globe",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Sansevieria",
+    "sourceDetails": {
+      "skeleton": "多肉剣葉株立ち",
+      "leaf": "肉厚剣状葉",
+      "flower": "細筒状小花",
+      "inflorescence": "総状",
+      "accent": "縞模様の直立葉"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F12_tubular",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Sarcandra",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "広葉",
+      "flower": "極小花",
+      "inflorescence": "穂状",
+      "accent": "赤実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Saxifraga",
+    "sourceDetails": {
+      "skeleton": "小型ロゼット/匍匐",
+      "leaf": "丸〜裂葉",
+      "flower": "5弁",
+      "inflorescence": "花茎",
+      "accent": "大文字形など"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Scabiosa",
+    "sourceDetails": {
+      "skeleton": "株立ち草本",
+      "leaf": "裂葉",
+      "flower": "小花集合",
+      "inflorescence": "頭状",
+      "accent": "ピンクッション形"
+    },
+    "mappedParts": {
+      "skeleton": "S02_clumping_herb",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Schefflera",
+    "sourceDetails": {
+      "skeleton": "熱帯低木/小高木",
+      "leaf": "掌状複葉",
+      "flower": "小花",
+      "inflorescence": "散形/円錐",
+      "accent": "傘状葉"
+    },
+    "mappedParts": {
+      "skeleton": "S07_broadleaf_tree",
+      "leaf": "L06_palmate_compound",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Schlumbergera",
+    "sourceDetails": {
+      "skeleton": "多肉節状",
+      "leaf": "葉状節",
+      "flower": "大型筒状",
+      "inflorescence": "茎端単生",
+      "accent": "節状垂下茎"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F12_tubular",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Scilla",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "帯状葉",
+      "flower": "星形",
+      "inflorescence": "総状",
+      "accent": "青花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F14_five_star",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Sedum",
+    "sourceDetails": {
+      "skeleton": "多肉匍匐/株立ち",
+      "leaf": "肉厚葉",
+      "flower": "星形",
+      "inflorescence": "集散",
+      "accent": "多肉葉"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L12_succulent",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Senecio",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": "属内形態差大"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Silene",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "細広葉",
+      "flower": "5弁/深裂",
+      "inflorescence": "集散",
+      "accent": "膨らむ萼"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I08_cyme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Skimmia",
+    "sourceDetails": {
+      "skeleton": "常緑低木",
+      "leaf": "光沢広葉",
+      "flower": "小型星花",
+      "inflorescence": "円錐",
+      "accent": "赤実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Smilax",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "広葉",
+      "flower": "小花",
+      "inflorescence": "散形",
+      "accent": "巻きひげ・赤実"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I06_umbel",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Solanum",
+    "sourceDetails": {
+      "skeleton": "草本/低木",
+      "leaf": "広葉",
+      "flower": "星形",
+      "inflorescence": "房状",
+      "accent": "多様な果実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Solidago",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針葉",
+      "flower": "小型キク型",
+      "inflorescence": "円錐",
+      "accent": "黄色の細かい花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L02_needle",
+      "flower": "F02_daisy",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Spathiphyllum",
+    "sourceDetails": {
+      "skeleton": "熱帯株立ち草本",
+      "leaf": "大型披針葉",
+      "flower": "肉穂花序+白仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "白い帆形仏炎苞"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L02_needle",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Spiraea",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "広葉",
+      "flower": "小型5弁",
+      "inflorescence": "球状/散房",
+      "accent": "白〜桃の花房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Stephanotis",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "厚い光沢葉",
+      "flower": "白い筒状星花",
+      "inflorescence": "房状",
+      "accent": "革質葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Strelitzia",
+    "sourceDetails": {
+      "skeleton": "大型根茎草本",
+      "leaf": "バナナ状大型葉",
+      "flower": "極楽鳥花型",
+      "inflorescence": "花茎",
+      "accent": "舟形苞+鳥形花"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L13_large_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Sutera",
+    "sourceDetails": {
+      "skeleton": "匍匐草本",
+      "leaf": "小型広葉",
+      "flower": "小型5裂",
+      "inflorescence": "単生",
+      "accent": "小花マット"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Syringa",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "心形広葉",
+      "flower": "小型筒状4裂",
+      "inflorescence": "大きな円錐",
+      "accent": "ライラック花房"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L10_heart_round",
+      "flower": "F12_tubular",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tagetes",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tanacetum",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "羽状裂葉",
+      "flower": "小型キク型/ボタン型",
+      "inflorescence": "散房",
+      "accent": "芳香葉"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L07_pinnate",
+      "flower": "F02_daisy",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Thymophylla",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tillandsia",
+    "sourceDetails": {
+      "skeleton": "着生ロゼット",
+      "leaf": "細い銀葉",
+      "flower": "筒状小花+苞葉",
+      "inflorescence": "穂状",
+      "accent": "エアプランツ・銀葉"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L11_standard_broad",
+      "flower": "F12_tubular",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Torenia",
+    "sourceDetails": {
+      "skeleton": "低い草本",
+      "leaf": "広葉",
+      "flower": "唇形/筒状",
+      "inflorescence": "単生",
+      "accent": "小型カラフル花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F04_bilabiate",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Trachelospermum",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "光沢広葉",
+      "flower": "風車形5裂",
+      "inflorescence": "房状",
+      "accent": "つる・斑入り品種"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "tendril",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tricyrtis",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "広葉",
+      "flower": "星形斑点花",
+      "inflorescence": "葉腋/房状",
+      "accent": "斑点花"
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "veins",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Trifolium",
+    "sourceDetails": {
+      "skeleton": "匍匐/直立草本",
+      "leaf": "三出葉",
+      "flower": "蝶形小花",
+      "inflorescence": "球状頭花",
+      "accent": "クローバー葉"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L08_trifoliate",
+      "flower": "F05_pea",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tropaeolum",
+    "sourceDetails": {
+      "skeleton": "つる/匍匐草本",
+      "leaf": "円形盾状葉",
+      "flower": "距のある漏斗花",
+      "inflorescence": "単生",
+      "accent": "盾状葉"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L10_heart_round",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tulipa",
+    "sourceDetails": {
+      "skeleton": "球根ロゼット",
+      "leaf": "幅広帯状葉",
+      "flower": "杯状6花被",
+      "inflorescence": "単生",
+      "accent": "チューリップ花形"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F08_lily",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Tweedia",
+    "sourceDetails": {
+      "skeleton": "つる/直立草本",
+      "leaf": "広葉",
+      "flower": "星形5弁",
+      "inflorescence": "房状",
+      "accent": "青い星花"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Vaccinium",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "小型広葉",
+      "flower": "壺形",
+      "inflorescence": "房状",
+      "accent": "ブルーベリー果"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Vanda",
+    "sourceDetails": {
+      "skeleton": "ラン型/着生",
+      "leaf": "厚い帯状葉",
+      "flower": "大型ラン型",
+      "inflorescence": "弓なり総状",
+      "accent": "気根"
+    },
+    "mappedParts": {
+      "skeleton": "S09_orchid_epiphyte",
+      "leaf": "L05_strap",
+      "flower": "F06_orchid",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Verbena",
+    "sourceDetails": {
+      "skeleton": "匍匐/直立草本",
+      "leaf": "広葉",
+      "flower": "小型5裂筒花",
+      "inflorescence": "球状房",
+      "accent": "小花の半球"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Veronica",
+    "sourceDetails": {
+      "skeleton": "直立/匍匐草本",
+      "leaf": "広葉",
+      "flower": "4裂小花",
+      "inflorescence": "穂状/総状",
+      "accent": "青花穂"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Viburnum",
+    "sourceDetails": {
+      "skeleton": "低木",
+      "leaf": "広葉",
+      "flower": "小花",
+      "inflorescence": "散房",
+      "accent": "花房・実"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I02_corymb",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Vinca",
+    "sourceDetails": {
+      "skeleton": "匍匐草本",
+      "leaf": "光沢広葉",
+      "flower": "風車形5裂",
+      "inflorescence": "単生",
+      "accent": "地被"
+    },
+    "mappedParts": {
+      "skeleton": "S04_groundcover",
+      "leaf": "L11_standard_broad",
+      "flower": "F14_five_star",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Viola",
+    "sourceDetails": {
+      "skeleton": "小型ロゼット草本",
+      "leaf": "心形葉",
+      "flower": "スミレ型",
+      "inflorescence": "単生",
+      "accent": "距"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L10_heart_round",
+      "flower": "F17_spurred_violet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Vitis",
+    "sourceDetails": {
+      "skeleton": "つる植物",
+      "leaf": "掌状裂葉",
+      "flower": "小花",
+      "inflorescence": "円錐",
+      "accent": "巻きひげ・果房"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L09_palmate_lobed",
+      "flower": "F14_five_star",
+      "inflorescence": "I05_panicle",
+      "accent": "fruit",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Weigela",
+    "sourceDetails": {
+      "skeleton": "落葉低木",
+      "leaf": "広葉",
+      "flower": "筒状鐘形",
+      "inflorescence": "枝に房状",
+      "accent": "ピンク花低木"
+    },
+    "mappedParts": {
+      "skeleton": "S06_shrub",
+      "leaf": "L11_standard_broad",
+      "flower": "F10_bell",
+      "inflorescence": "I02_corymb",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Wisteria",
+    "sourceDetails": {
+      "skeleton": "木質つる",
+      "leaf": "羽状複葉",
+      "flower": "蝶形花",
+      "inflorescence": "長い下垂総状",
+      "accent": "長く垂れる花房"
+    },
+    "mappedParts": {
+      "skeleton": "S05_vine",
+      "leaf": "L07_pinnate",
+      "flower": "F05_pea",
+      "inflorescence": "I04_raceme",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Yucca",
+    "sourceDetails": {
+      "skeleton": "大型剣葉株立ち",
+      "leaf": "硬い剣状葉",
+      "flower": "鐘形白花",
+      "inflorescence": "大きな円錐",
+      "accent": "硬い放射状葉"
+    },
+    "mappedParts": {
+      "skeleton": "S08_tropical_large_herb",
+      "leaf": "L05_strap",
+      "flower": "F10_bell",
+      "inflorescence": "I05_panicle",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Zantedeschia",
+    "sourceDetails": {
+      "skeleton": "株立ち球根草本",
+      "leaf": "大型矢じり葉",
+      "flower": "肉穂花序+仏炎苞",
+      "inflorescence": "肉穂花序",
+      "accent": "漏斗状仏炎苞"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L13_large_broad",
+      "flower": "F07_spadix_spathe",
+      "inflorescence": "I03_spike",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Zephyranthes",
+    "sourceDetails": {
+      "skeleton": "小型球根草本",
+      "leaf": "細線形葉",
+      "flower": "上向き漏斗形",
+      "inflorescence": "単生",
+      "accent": "雨後開花イメージ"
+    },
+    "mappedParts": {
+      "skeleton": "S03_rosette_bulb",
+      "leaf": "L05_strap",
+      "flower": "F11_trumpet",
+      "inflorescence": "I01_single",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  },
+  {
+    "plantID": "Zinnia",
+    "sourceDetails": {
+      "skeleton": "直立草本",
+      "leaf": "披針〜広葉",
+      "flower": "キク型頭花",
+      "inflorescence": "頭花",
+      "accent": ""
+    },
+    "mappedParts": {
+      "skeleton": "S01_upright_herb",
+      "leaf": "L11_standard_broad",
+      "flower": "F02_daisy",
+      "inflorescence": "I07_globose_head",
+      "accent": "none",
+      "hue": 0
+    },
+    "status": "Core v0 approximate composition; not final botanical art"
+  }
+]

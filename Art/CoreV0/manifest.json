@@ -1,0 +1,83 @@
+{
+  "version": "0.1-prototype",
+  "purpose": "SwiftUI庭描画方式の検証用。最終アートではない。",
+  "coordinateSystem": {
+    "partCanvas": [
+      256,
+      256
+    ],
+    "rootAnchor": [
+      128,
+      240
+    ],
+    "notes": "骨格・花序はrootAnchorが地面側。葉・花は中央基準で、最終的には骨格側のattachment slotsへ配置。"
+  },
+  "recommendedRuntime": "SVGは制作原本。iOS実装ではPDF/PNGへビルド時変換、またはSwiftUI Canvas/Path化を推奨。",
+  "categories": {
+    "skeletons": [
+      "S01_upright_herb",
+      "S02_clumping_herb",
+      "S03_rosette_bulb",
+      "S04_groundcover",
+      "S05_vine",
+      "S06_shrub",
+      "S07_broadleaf_tree",
+      "S08_tropical_large_herb",
+      "S09_orchid_epiphyte",
+      "S10_conifer",
+      "S11_grass_clump",
+      "S12_fern"
+    ],
+    "leaves": [
+      "L01_fern_frond",
+      "L02_needle",
+      "L03_scale",
+      "L04_grass",
+      "L05_strap",
+      "L06_palmate_compound",
+      "L07_pinnate",
+      "L08_trifoliate",
+      "L09_palmate_lobed",
+      "L10_heart_round",
+      "L11_standard_broad",
+      "L12_succulent",
+      "L13_large_broad",
+      "L14_ericoid"
+    ],
+    "flowers": [
+      "F01_cone",
+      "F02_daisy",
+      "F03_globe",
+      "F04_bilabiate",
+      "F05_pea",
+      "F06_orchid",
+      "F07_spadix_spathe",
+      "F08_lily",
+      "F09_iris",
+      "F10_bell",
+      "F11_trumpet",
+      "F12_tubular",
+      "F13_cruciform",
+      "F14_five_star",
+      "F15_mallow",
+      "F16_rose_multi",
+      "F17_spurred_violet",
+      "F18_cup_saucer"
+    ],
+    "inflorescences": [
+      "I01_single",
+      "I02_corymb",
+      "I03_spike",
+      "I04_raceme",
+      "I05_panicle",
+      "I06_umbel",
+      "I07_globose_head",
+      "I08_cyme",
+      "I09_axillary",
+      "I10_cone_spore"
+    ]
+  },
+  "style": {
+    "intent": "デフォルメ植物・フラットベクター・太めの輪郭。忘却状態は別画像を作らず彩度/透明度フィルタで表現。"
+  }
+}

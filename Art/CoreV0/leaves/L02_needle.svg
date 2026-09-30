@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<g stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M128 235 C128 170 128 95 128 25" fill="none" stroke="#5a7d4d" stroke-width="8"/>
+<path d="M128 55 L55 27 M128 59 L198 29" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 75 L65 47 M128 79 L188 49" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 95 L75 67 M128 99 L178 69" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 115 L55 87 M128 119 L198 89" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 135 L65 107 M128 139 L188 109" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 155 L75 127 M128 159 L178 129" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 175 L55 147 M128 179 L198 149" stroke="#5f8f63" stroke-width="5"/>
+<path d="M128 195 L65 167 M128 199 L188 169" stroke="#5f8f63" stroke-width="5"/>
+</g>
+</svg>

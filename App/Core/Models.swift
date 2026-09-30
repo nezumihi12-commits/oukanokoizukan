@@ -48,6 +48,46 @@ struct Accuracy: Codable, Equatable {
 struct StudyRecord: Codable {
     var accuracy: [String: Accuracy] = [:]
     var lastStudiedAt: Date?
+    var plantID = ""
+    var clearedLatinToFamily = false
+    var clearedJapaneseToLatin = false
+    var clearedLatinToJapanese = false
+    var hasBloomed = false
+    var firstBloomedAt: Date?
+    var reviewStage = 0
+    var lastReviewedAt: Date?
+    var nextReviewAt: Date?
+    var lastReviewResult: ReviewResult?
+    // Freshness at freshnessUpdatedAt; the displayed value is derived for the current time.
+    var memoryFreshness = 1.0
+    var freshnessUpdatedAt: Date?
+    var favorite = false
+
+    init() {}
+    enum CodingKeys: String, CodingKey {
+        case accuracy, lastStudiedAt, plantID, clearedLatinToFamily, clearedJapaneseToLatin
+        case clearedLatinToJapanese, hasBloomed, firstBloomedAt, reviewStage, lastReviewedAt
+        case nextReviewAt, lastReviewResult, memoryFreshness, freshnessUpdatedAt, favorite
+    }
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        accuracy = try c.decodeIfPresent([String: Accuracy].self, forKey: .accuracy) ?? [:]
+        lastStudiedAt = try c.decodeIfPresent(Date.self, forKey: .lastStudiedAt)
+        plantID = try c.decodeIfPresent(String.self, forKey: .plantID) ?? ""
+        clearedLatinToFamily = try c.decodeIfPresent(Bool.self, forKey: .clearedLatinToFamily) ?? ((accuracy["latin2family"]?.correct ?? 0) > 0)
+        clearedJapaneseToLatin = try c.decodeIfPresent(Bool.self, forKey: .clearedJapaneseToLatin) ?? ((accuracy["jp2latin"]?.correct ?? 0) > 0)
+        clearedLatinToJapanese = try c.decodeIfPresent(Bool.self, forKey: .clearedLatinToJapanese) ?? ((accuracy["latin2jp"]?.correct ?? 0) > 0)
+        hasBloomed = try c.decodeIfPresent(Bool.self, forKey: .hasBloomed) ?? false
+        firstBloomedAt = try c.decodeIfPresent(Date.self, forKey: .firstBloomedAt)
+        reviewStage = try c.decodeIfPresent(Int.self, forKey: .reviewStage) ?? 0
+        lastReviewedAt = try c.decodeIfPresent(Date.self, forKey: .lastReviewedAt)
+        nextReviewAt = try c.decodeIfPresent(Date.self, forKey: .nextReviewAt)
+        lastReviewResult = try c.decodeIfPresent(ReviewResult.self, forKey: .lastReviewResult)
+        memoryFreshness = try c.decodeIfPresent(Double.self, forKey: .memoryFreshness) ?? 1
+        freshnessUpdatedAt = try c.decodeIfPresent(Date.self, forKey: .freshnessUpdatedAt)
+        favorite = try c.decodeIfPresent(Bool.self, forKey: .favorite) ?? false
+    }
+    var clearedAll: Bool { clearedLatinToFamily && clearedJapaneseToLatin && clearedLatinToJapanese }
     var average: Double? {
         let tried = QuizMode.core.compactMap { accuracy[$0.rawValue] }.filter { $0.total > 0 }
         return tried.isEmpty ? nil : tried.map(\.rate).reduce(0, +) / Double(tried.count)
@@ -64,6 +104,14 @@ struct StudyRecord: Codable {
         if correct { value.correct += 1 }
         accuracy[mode.rawValue] = value
         lastStudiedAt = date
+        if correct {
+            switch mode {
+            case .latin2family: clearedLatinToFamily = true
+            case .jp2latin: clearedJapaneseToLatin = true
+            case .latin2jp: clearedLatinToJapanese = true
+            default: break
+            }
+        }
     }
 }
 
@@ -93,12 +141,14 @@ struct SessionRecord: Codable, Identifiable {
     var correct: Int
     var points: Double
     var completed: Bool
+    var gardenReview: Bool? = nil
 }
 
 struct GardenState: Codable {
     var unlockedPlants: Set<String> = []
     var points = 0
     var furniture: [String] = []
+    var plantZones: [String: String]? = nil
 }
 struct CharacterState: Codable {
     var characterID = "placeholder"
@@ -112,7 +162,7 @@ enum EventCondition: Codable {
 }
 
 struct AppState: Codable {
-    var schemaVersion = 1
+    var schemaVersion = 2
     var records: [String: StudyRecord] = [:]
     var photos: [String: [PhotoRecord]] = [:]
     var locations: [String: GeoPoint] = [:]
@@ -127,8 +177,44 @@ struct AppState: Codable {
         let c = calendar.dateComponents([.year, .month, .day], from: date)
         return String(format: "%04d-%02d-%02d", c.year!, c.month!, c.day!)
     }
-    mutating func answer(plant: String, mode: QuizMode, correct: Bool, date: Date) {
-        records[plant, default: StudyRecord()].record(mode: mode, correct: correct, date: date)
+    mutating func answer(plant: String, mode: QuizMode, correct: Bool, date: Date, points: Double = 0, review: ReviewPolicy = .automatic) {
+        var record = records[plant, default: StudyRecord()]
+        record.plantID = plant
+        let alreadyBloomed = record.hasBloomed
+        record.record(mode: mode, correct: correct, date: date)
+        if !alreadyBloomed && record.clearedAll {
+            ReviewEngine.bloom(&record, at: date)
+        } else if alreadyBloomed && QuizMode.core.contains(mode) {
+            switch review {
+            case .automatic: ReviewEngine.review(&record, result: correct ? .correct : points > 0 ? .partial : .incorrect, at: date)
+            case .deferred: break
+            case .completed(let result): ReviewEngine.review(&record, result: result, at: date)
+            }
+        }
+        records[plant] = record
+        if record.hasBloomed {
+            garden.unlockedPlants.insert(plant)
+            if garden.plantZones == nil { garden.plantZones = [:] }
+            if garden.plantZones?[plant] == nil { garden.plantZones?[plant] = GardenZone.central.id }
+        }
         dailyCounts[Self.dayKey(date), default: 0] += 1
+    }
+    mutating func migrateToV2(at date: Date = Date()) throws {
+        guard (1...2).contains(schemaVersion) else { throw StorageError.unsupportedVersion }
+        for id in Array(records.keys) {
+            guard var record = records[id] else { continue }
+            record.plantID = id
+            record.clearedLatinToFamily = record.clearedLatinToFamily || (record.accuracy["latin2family"]?.correct ?? 0) > 0
+            record.clearedJapaneseToLatin = record.clearedJapaneseToLatin || (record.accuracy["jp2latin"]?.correct ?? 0) > 0
+            record.clearedLatinToJapanese = record.clearedLatinToJapanese || (record.accuracy["latin2jp"]?.correct ?? 0) > 0
+            if !record.hasBloomed && record.clearedAll { ReviewEngine.bloom(&record, at: date) }
+            if record.hasBloomed {
+                garden.unlockedPlants.insert(id)
+                if garden.plantZones == nil { garden.plantZones = [:] }
+                if garden.plantZones?[id] == nil { garden.plantZones?[id] = GardenZone.central.id }
+            }
+            records[id] = record
+        }
+        schemaVersion = 2
     }
 }
