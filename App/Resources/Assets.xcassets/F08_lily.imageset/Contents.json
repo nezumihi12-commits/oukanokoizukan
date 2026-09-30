@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "part.png",
+      "idiom": "universal",
+      "scale": "2x"
+    }
+  ],
+  "info": {
+    "version": 1,
+    "author": "xcode"
+  }
+}
