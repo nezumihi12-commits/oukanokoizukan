@@ -67,10 +67,14 @@ enum QuizEngine {
         }
         return previous[b.count]
     }
+    static func normalize(_ value: String) -> String {
+        let width = value.folding(options: [.widthInsensitive, .caseInsensitive], locale: Locale(identifier: "en_US_POSIX"))
+        return (width.applyingTransform(.hiraganaToKatakana, reverse: false) ?? width).trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+    }
     static func spell(_ value: String, _ answer: String) -> Double {
-        let a = value.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        let a = normalize(value)
         guard !a.isEmpty else { return 0 }
-        let b = answer.lowercased()
+        let b = normalize(answer)
         return a == b ? 1 : distance(a, b) == 1 ? 0.5 : 0
     }
     static func grade(_ question: Question, values: [String]) -> Grade {
@@ -83,10 +87,10 @@ enum QuizEngine {
             case .latin: score = spell(value, field.answers[0])
             case .family, .japanese:
                 let suffix = field.kind == .family ? "科" : "属"
-                let normalized = value.trimmingCharacters(in: .whitespacesAndNewlines).replacingOccurrences(of: suffix, with: "")
-                score = !normalized.isEmpty && field.answers.contains { $0.replacingOccurrences(of: suffix, with: "") == normalized } ? 1 : 0
+                let normalized = normalize(value).replacingOccurrences(of: suffix, with: "")
+                score = field.answers.map { spell(normalized, normalize($0).replacingOccurrences(of: suffix, with: "")) }.max() ?? 0
             case .enumeration:
-                var tokens = value.components(separatedBy: CharacterSet.whitespacesAndNewlines.union(CharacterSet(charactersIn: ",、，"))).filter { !$0.isEmpty }
+                var tokens = Array(Set(normalize(value).components(separatedBy: CharacterSet.whitespacesAndNewlines.union(CharacterSet(charactersIn: ",、，"))).filter { !$0.isEmpty }))
                 var remaining: [String] = []
                 var sum = 0.0
                 // Consume exact matches first; one token can never satisfy two genera.

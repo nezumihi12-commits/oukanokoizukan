@@ -22,6 +22,7 @@ struct BackupArchive: Codable {
             }
         }
         var photoIDs = Set<UUID>()
+        if let layout = state.garden.layout { try GardenEngine.validate(layout, records: state.records) }
         var filenames = Set<String>()
         for photo in state.photos.values.flatMap({ $0 }) {
             guard photo.filename == photo.id.uuidString + ".jpg", photoIDs.insert(photo.id).inserted,

@@ -6,6 +6,10 @@ final class AppStore: ObservableObject {
     @Published private(set) var plants: [Plant] = []
     @Published private(set) var japanese: [String: JapaneseAnswer] = [:]
     @Published private(set) var renderCatalog = PlantRenderCatalog(version: 1, isPlaceholder: true, definitions: [:])
+    @Published private(set) var habitats: [String: GardenAttribute] = [:]
+    @Published var hiddenCatalogFields: Set<CatalogField> = []
+    @Published private(set) var layoutUndoUntil: Date?
+    private var previousLayout: GardenLayout?
     @Published var error: String?
     @Published private(set) var ready = false
     private var repository: DiskRepository?
@@ -19,9 +23,21 @@ final class AppStore: ObservableObject {
             if let renderURL = Bundle.main.url(forResource: "plantRenderDefinitions", withExtension: "json") {
                 renderCatalog = try JSONDecoder().decode(PlantRenderCatalog.self, from: Data(contentsOf: renderURL))
             }
+            guard let habitatURL = Bundle.main.url(forResource: "habitatAttributes", withExtension: "json") else { throw StorageError.unavailable }
+            let attributes = try JSONDecoder().decode([GardenAttribute].self, from: Data(contentsOf: habitatURL))
+            habitats = Dictionary(uniqueKeysWithValues: attributes.map { ($0.latin, $0) })
             let disk = try DiskRepository()
             repository = disk
             state = try disk.load()
+            if let layout = state.garden.layout { try GardenEngine.validate(layout, records: state.records) }
+            if state.garden.layout == nil {
+                if FileManager.default.fileExists(atPath: disk.stateURL.path) {
+                    let backup = disk.directory.appendingPathComponent("state-before-garden-layout.json")
+                    if !FileManager.default.fileExists(atPath: backup.path) { try Data(contentsOf: disk.stateURL).write(to: backup, options: .atomic) }
+                }
+                GardenEngine.reconcile(&state, attributes: habitats, at: Date())
+                try disk.save(state)
+            }
             try FileManager.default.createDirectory(at: disk.directory.appendingPathComponent("Photos"), withIntermediateDirectories: true)
             ready = true
         } catch { self.error = "読み込みに失敗しました。保存データは上書きしません。\n\(error.localizedDescription)" }
@@ -31,11 +47,46 @@ final class AppStore: ObservableObject {
         guard ready, let repository else { return false }
         var next = state
         edit(&next)
+        GardenEngine.reconcile(&next, attributes: habitats, at: Date())
         do {
             try repository.save(next)
             state = next
             return true
         } catch { self.error = "保存できませんでした。再試行してください。\n\(error.localizedDescription)"; return false }
+    }
+    func expose(_ id: String, modes: [QuizMode]) {
+        guard !modes.isEmpty else { return }
+        update { state in
+            var record = state.records[id] ?? StudyRecord()
+            record.plantID = id
+            ReviewEngine.expose(&record, modes: modes, at: Date())
+            state.records[id] = record
+        }
+    }
+    func setLayout(_ layout: GardenLayout) -> Bool {
+        let previous = state.garden.layout
+        guard update({ state in
+            if state.garden.layout == nil { state.garden.layout = GardenLayout() }
+            state.garden.layout?.placements = layout.placements
+            state.garden.layout?.awaitingDelegation = layout.awaitingDelegation
+        }) else { return false }
+        previousLayout = previous; layoutUndoUntil = Date().addingTimeInterval(10)
+        return true
+    }
+    func undoLayout() {
+        guard let until = layoutUndoUntil, Date() <= until, let previousLayout else { return }
+        if update({ state in
+            state.garden.layout?.placements = previousLayout.placements
+            state.garden.layout?.awaitingDelegation = previousLayout.awaitingDelegation
+        }) { self.previousLayout = nil; layoutUndoUntil = nil }
+    }
+    func refreshGarden() {
+        var next = state
+        GardenEngine.reconcile(&next, attributes: habitats, at: Date())
+        if next.garden.layout != state.garden.layout { _ = update { $0.garden.layout = next.garden.layout } }
+    }
+    func recommendedPlants(at date: Date) -> [Plant] {
+        ReviewEngine.recommendedIDs(in: state, at: date).compactMap { id in plants.first { $0.id == id } }
     }
     var memorized: Int { state.records.values.filter(\.memorized).count }
     var weak: Int { state.records.values.filter(\.weak).count }
@@ -119,6 +170,7 @@ final class AppStore: ObservableObject {
         // New file IDs protect current photos until the state file commits atomically.
         var next = archive.state
         try next.migrateToV2()
+        GardenEngine.reconcile(&next, attributes: habitats, at: Date())
         var written: [URL] = []
         do {
             for (plant, photos) in archive.state.photos {

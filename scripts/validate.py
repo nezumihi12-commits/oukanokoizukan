@@ -38,6 +38,14 @@ for definition in render['definitions'].values():
         assert json.loads((folder / 'Contents.json').read_text())['images'][0]['filename'] == 'part.png'
 assert len(list((root / 'Art/CoreV0').rglob('*.svg'))) == 54
 project = (root / 'project.yml').read_text(encoding='utf-8')
-assert "MARKETING_VERSION: '0.2.0'" in project
+assert "MARKETING_VERSION: '0.3.0'" in project
 assert 'CFBundleDisplayName: Hanazukan' in project
-print('PASS: 307 render mappings, 54 Core v0 SVG modules, asset references, v0.2 and SideStore naming')
+print('PASS: 307 render mappings, 54 Core v0 SVG modules, asset references, v0.3 and SideStore naming')
+
+attributes = json.loads((root / 'App/Resources/habitatAttributes.json').read_text(encoding='utf-8'))
+assert len(attributes) == 307 and {a['latin'] for a in attributes} == set(ids)
+for a in attributes:
+    assert len(a['habitatScores']) == 8
+    assert all(0 <= v <= 1 for v in a['habitatScores'].values())
+    assert len(a['recommendedZones']) == 2
+print('PASS: 307 habitat records, eight zone scores, recommendation coverage')

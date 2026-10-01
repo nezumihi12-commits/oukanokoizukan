@@ -1,3 +1,9 @@
+# 千花之恋図鑑 — v0.3 最終方針実装
+
+[設計の正本と今回の実装](docs/FINAL-DESIGN.md)を参照してください。以下のv0.2説明は前バージョンの履歴です。現在のホーム・配置・学習・exposureはv0.3仕様を優先します。
+
+Windowsで編集し、既存のGitHub Actionsでテストとunsigned IPAを生成します。Bundle IDとSideStore向けASCII名は維持しています。導入は[SideStore手順](docs/SIDESTORE.md)を参照。
+
 # 花図鑑 v0.2 — 記憶の庭園
 
 **v0.2を既存アプリへ更新する手順は [V02-GARDEN.md](docs/V02-GARDEN.md)。** 基本3形式の正解が初開花につながり、中央庭園で復習と色彩の回復を続けられるようになりました。既存の図鑑・写真・成績を保持し、保存形式v1をv2へ移行します。

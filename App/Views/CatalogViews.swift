@@ -38,9 +38,9 @@ struct CatalogView: View {
                                     Spacer()
                                     Text("\((store.plants.firstIndex(of: plant) ?? 0) + 1)").font(.caption2).monospacedDigit()
                                 }.foregroundStyle(.green)
-                                Text(plant.latin).font(.headline).lineLimit(1).minimumScaleFactor(0.65)
-                                Text(plant.jpName).font(.caption).lineLimit(2)
-                                Text(plant.family).font(.caption2).foregroundStyle(.secondary)
+                                CatalogValue(plant: plant, field: .latin, text: plant.latin).font(.headline)
+                                CatalogValue(plant: plant, field: .japanese, text: plant.jpName).font(.caption)
+                                CatalogValue(plant: plant, field: .family, text: plant.family).font(.caption2)
                                 let record = store.state.records[plant.id] ?? StudyRecord()
                                 Label(record.memorized ? "記憶済み" : "習熟度 \(record.mastery)/3", systemImage: record.memorized ? "checkmark.seal.fill" : "circle.dotted").font(.caption2)
                             }.frame(maxWidth: .infinity, minHeight: 125, alignment: .leading).padding(14)
@@ -52,7 +52,7 @@ struct CatalogView: View {
         }
         .navigationTitle("図鑑")
         .searchable(text: $search, prompt: "属名・読み・科名・和名")
-        .toolbar { NavigationLink { ObservationMap() } label: { Label("観察地図", systemImage: "map") } }
+        .toolbar { CatalogMaskMenu(); NavigationLink { ObservationMap() } label: { Label("観察地図", systemImage: "map") } }
     }
 }
 
@@ -69,12 +69,10 @@ struct PlantDetail: View {
     var body: some View {
         List {
             Section {
-                Text(plant.latin).font(.largeTitle.bold()).textSelection(.enabled)
-                Text(plant.read).foregroundStyle(.secondary)
-                LabeledContent("和名", value: plant.jpName)
-                LabeledContent("科名", value: plant.family)
-                if !plant.oldFamily.isEmpty { LabeledContent("旧科名", value: plant.oldFamily) }
-                if !plant.note.isEmpty { Text(plant.note).font(.subheadline).textSelection(.enabled) }
+                CatalogValue(plant: plant, field: .latin, text: plant.latin + " / " + plant.read).font(.title)
+                CatalogValue(plant: plant, field: .japanese, text: plant.jpName)
+                CatalogValue(plant: plant, field: .family, text: plant.family + (plant.oldFamily.isEmpty ? "" : "（旧：" + plant.oldFamily + "）"))
+                if !plant.note.isEmpty { CatalogValue(plant: plant, field: .note, text: plant.note).font(.subheadline) }
             }
             Section("学習記録") {
                 let record = store.state.records[plant.id] ?? StudyRecord()
@@ -118,7 +116,8 @@ struct PlantDetail: View {
                 Button { recordLocation() } label: { Label(locator.busy ? "現在地を取得中…" : "現在地を記録", systemImage: "location") }.disabled(locator.busy)
             }
         }
-        .navigationTitle(plant.jpName).navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("図鑑詳細").navigationBarTitleDisplayMode(.inline)
+        .toolbar { CatalogMaskMenu() }
         .onChange(of: items) { _, selected in
             guard !selected.isEmpty, !importing else { return }
             importing = true
@@ -211,5 +210,31 @@ struct ObservationMap: View {
                 }
             }
         }.navigationTitle("観察地図")
+    }
+}
+
+struct CatalogMaskMenu: View {
+    @EnvironmentObject private var store: AppStore
+    var body: some View {
+        Menu {
+            ForEach(CatalogField.allCases) { field in
+                Toggle("\(field.rawValue)を隠す", isOn: Binding(get: { store.hiddenCatalogFields.contains(field) }, set: { if $0 { store.hiddenCatalogFields.insert(field) } else { store.hiddenCatalogFields.remove(field) } }))
+            }
+        } label: { Label("情報を隠す", systemImage: "eye.slash") }
+    }
+}
+struct CatalogValue: View {
+    @EnvironmentObject private var store: AppStore
+    let plant: Plant
+    let field: CatalogField
+    let text: String
+    @State private var revealed = false
+    private var hidden: Bool { store.hiddenCatalogFields.contains(field) && !revealed }
+    var body: some View {
+        Group {
+            if hidden { Button("\(field.rawValue)を表示") { revealed = true }.buttonStyle(.borderless) }
+            else { Text(text).onAppear { store.expose(plant.id, modes: field.exposedModes) } }
+        }
+        .onChange(of: store.hiddenCatalogFields) { _, _ in revealed = false }
     }
 }

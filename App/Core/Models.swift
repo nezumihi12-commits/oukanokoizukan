@@ -62,9 +62,17 @@ struct StudyRecord: Codable {
     var memoryFreshness = 1.0
     var freshnessUpdatedAt: Date?
     var favorite = false
+    var lastExposure: [String: Date] = [:]
+    var lastSuccessfulRecallAt: Date?
+    var lastExposureRecoveryAt: Date?
+    var clearedCount: Int { [clearedLatinToFamily, clearedJapaneseToLatin, clearedLatinToJapanese].filter { $0 }.count }
+    func cleared(_ mode: QuizMode) -> Bool {
+        switch mode { case .latin2family: return clearedLatinToFamily; case .jp2latin: return clearedJapaneseToLatin; case .latin2jp: return clearedLatinToJapanese; default: return false }
+    }
 
     init() {}
     enum CodingKeys: String, CodingKey {
+        case lastExposure, lastSuccessfulRecallAt, lastExposureRecoveryAt
         case accuracy, lastStudiedAt, plantID, clearedLatinToFamily, clearedJapaneseToLatin
         case clearedLatinToJapanese, hasBloomed, firstBloomedAt, reviewStage, lastReviewedAt
         case nextReviewAt, lastReviewResult, memoryFreshness, freshnessUpdatedAt, favorite
@@ -85,6 +93,9 @@ struct StudyRecord: Codable {
         lastReviewResult = try c.decodeIfPresent(ReviewResult.self, forKey: .lastReviewResult)
         memoryFreshness = try c.decodeIfPresent(Double.self, forKey: .memoryFreshness) ?? 1
         freshnessUpdatedAt = try c.decodeIfPresent(Date.self, forKey: .freshnessUpdatedAt)
+        lastExposure = try c.decodeIfPresent([String: Date].self, forKey: .lastExposure) ?? [:]
+        lastSuccessfulRecallAt = try c.decodeIfPresent(Date.self, forKey: .lastSuccessfulRecallAt)
+        lastExposureRecoveryAt = try c.decodeIfPresent(Date.self, forKey: .lastExposureRecoveryAt)
         favorite = try c.decodeIfPresent(Bool.self, forKey: .favorite) ?? false
     }
     var clearedAll: Bool { clearedLatinToFamily && clearedJapaneseToLatin && clearedLatinToJapanese }
@@ -148,6 +159,7 @@ struct GardenState: Codable {
     var unlockedPlants: Set<String> = []
     var points = 0
     var furniture: [String] = []
+    var layout: GardenLayout? = nil
     var plantZones: [String: String]? = nil
 }
 struct CharacterState: Codable {
@@ -186,9 +198,9 @@ struct AppState: Codable {
             ReviewEngine.bloom(&record, at: date)
         } else if alreadyBloomed && QuizMode.core.contains(mode) {
             switch review {
-            case .automatic: ReviewEngine.review(&record, result: correct ? .correct : points > 0 ? .partial : .incorrect, at: date)
+            case .automatic: ReviewEngine.review(&record, result: correct ? .correct : points > 0 ? .partial : .incorrect, at: date, recallFraction: ReviewEngine.recallAllowed(record, mode: mode, at: date) ? 1 : 0)
             case .deferred: break
-            case .completed(let result): ReviewEngine.review(&record, result: result, at: date)
+            case .completed(let result, let fraction): ReviewEngine.review(&record, result: result, at: date, recallFraction: fraction)
             }
         }
         records[plant] = record

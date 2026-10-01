@@ -15,12 +15,18 @@
   "resources": {
     "App/Resources/genera.json": "dd182639a64c4f8cd3acc048dab02107769f7ac62697c0562b046e676f992ba1",
     "App/Resources/japaneseAnswers.json": "bb7d65d108e62f610525f6280b25697e09f2e95ee3cae16ea65042fb68fdb330",
-    "App/Resources/plantRenderDefinitions.json": "39da7e25bb09804110f756d7f6276d05727ae99c214058d372393f2061c394b8"
+    "App/Resources/plantRenderDefinitions.json": "39da7e25bb09804110f756d7f6276d05727ae99c214058d372393f2061c394b8",
+    "App/Resources/habitatAttributes.json": "79cabc0f7088bf259d57cb4888a53e96eb9ec0d46a3112c43f9cb1306e4c9940"
   },
   "upstreamComparison": "Identical to attachment after normalizing CRLF/LF line endings.",
   "nativeBase": {
     "repository": "https://github.com/nezumihi12-commits/oukanokoizukan",
     "commit": "9d636ba6896dce061b918fb4951e3facb5f7a9b7"
   },
-  "gardenArtSource": "https://chatgpt.com/share/6abcd6ba-645c-83e8-a814-7393779b15b4"
+  "gardenArtSource": "https://chatgpt.com/share/6abcd6ba-645c-83e8-a814-7393779b15b4",
+  "finalPolicy": {
+    "url": "https://chatgpt.com/share/6abcd6ba-645c-83e8-a814-7393779b15b4",
+    "retrieved": "2026-10-01",
+    "nativeBase": "57bf0402caa1ed24a00ea1a2f57352a3623bcfaf"
+  }
 }

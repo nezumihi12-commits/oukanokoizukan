@@ -1,20 +1,17 @@
-# v0.2 検証状況
+# v0.3 検証記録
 
-2026-09-30 / Windows。基準はoukanokoizukan/mainの9d636ba。
+2026-10-01。基点 main: 57bf0402caa1ed24a00ea1a2f57352a3623bcfaf。
 
-実行して確認したこと:
-- 元307属と和名正解候補の一意性・項目・ハッシュ。
-- 全307属の描画定義が実在する54部品へ参照できること。
-- SVG 54件、PNG 54件（512px RGBA）、画像カタログ参照。
-- 19 Swiftファイルのtree-sitter構文解析、YAML構文・パス。
-- 8属の部品合成プレビューを画像として目視確認（SwiftUIスクリーンショットではない）。
-- 完全版ZIP・更新用分割ZIPのCRCと、比較元へ重ねた場合の全ファイル一致。
-- 既存GitHub Actionsが比較元v0.1で成功済みであること。今回workflow自体は変更なし。
+実行済み:
+- Tree-sitterによる全Swiftファイルの構文解析、project/workflow YAML、ソースパス検査。
+- scripts/validate.py: 元307属・6フィールド・回答データ・SHA256・54植物SVG/PNG参照を検査。
+- habitatAttributes.json: 307属すべてを網羅、各8区画の適性値0...1、推奨2区画。
+- 完全ZIPおよび差分ZIPのCRC、基点へ差分を重ねた内容と完成プロジェクトの一致。
 
 未実行:
-- **v0.2のXcode型検査、XCTest 25メソッド、Simulator、unsigned IPA生成、SideStore導入。**
-- 端末上での既存データ移行、写真・位置・復習UIの実動作。
+- XCTest 37件（今回12件追加）のApple SDKでのコンパイル・実行。
+- iOS Simulator、実機でのフリック/ドラッグ/レイアウト確認。
+- v0.3のGitHub Actions/unsigned IPA生成。
 
-新規ReviewTestsは開花条件、永久実績、全Stage、早期・同日回答、部分正解・不正解、鮮度5段階、時計逆行、優先順、全件待ち、3問まとめ判定、写真除外、v1移行、再移行、元ファイル退避、307描画参照を対象とする。既存の採点・写真・保存テストも残した。
-
-GitHubへの書き込み接続がないため、v0.2のアップロード・Actions起動は行っていない。構文検査はコンパイラーの型検査の代わりではない。
+この環境はWindowsでXcodeがない。GitHub連携のtree作成は403で拒否され、今回のリモート反映はない。
+基点v0.2のActions成功は確認済みだが、この変更のビルド成功を意味しない。
