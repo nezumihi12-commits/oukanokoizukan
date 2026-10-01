@@ -6,8 +6,17 @@ final class AppStore: ObservableObject {
     @Published private(set) var plants: [Plant] = []
     @Published private(set) var japanese: [String: JapaneseAnswer] = [:]
     @Published private(set) var renderCatalog = PlantRenderCatalog(version: 1, isPlaceholder: true, definitions: [:])
+    @Published private(set) var appearances = AppearanceCatalog(version: 1, variants: [:])
     @Published private(set) var habitats: [String: GardenAttribute] = [:]
     @Published var hiddenCatalogFields: Set<CatalogField> = []
+    @Published var revealedCatalogID: String?
+    var preferences: AppPreferences { state.preferences ?? AppPreferences() }
+    func isProtected(_ id: String) -> Bool { ReviewEngine.protected(state.records[id] ?? StudyRecord(), at: Date()) }
+    func ask(_ id: String) { if expose(id, modes: QuizMode.core) { revealedCatalogID = id } }
+    func saveMasks() { update { $0.preferences = preferences; $0.preferences?.hiddenFields = Set(hiddenCatalogFields.map(\.rawValue)) } }
+    func setPreferences(_ edit: (inout AppPreferences) -> Void) {
+        var p = preferences; edit(&p); if update({ $0.preferences = p }) { Task { await CareNotifications.refresh(state) } }
+    }
     @Published private(set) var layoutUndoUntil: Date?
     private var previousLayout: GardenLayout?
     @Published var error: String?
@@ -26,10 +35,15 @@ final class AppStore: ObservableObject {
             guard let habitatURL = Bundle.main.url(forResource: "habitatAttributes", withExtension: "json") else { throw StorageError.unavailable }
             let attributes = try JSONDecoder().decode([GardenAttribute].self, from: Data(contentsOf: habitatURL))
             habitats = Dictionary(uniqueKeysWithValues: attributes.map { ($0.latin, $0) })
+            if let url = Bundle.main.url(forResource: "appearanceVariants", withExtension: "json") {
+                appearances = try JSONDecoder().decode(AppearanceCatalog.self, from: Data(contentsOf: url))
+            }
             let disk = try DiskRepository()
             repository = disk
             state = try disk.load()
+            hiddenCatalogFields = Set((state.preferences?.hiddenFields ?? []).compactMap(CatalogField.init(rawValue:)))
             if let layout = state.garden.layout { try GardenEngine.validate(layout, records: state.records) }
+            GardenEngine.migrateMembership(&state)
             if state.garden.layout == nil {
                 if FileManager.default.fileExists(atPath: disk.stateURL.path) {
                     let backup = disk.directory.appendingPathComponent("state-before-garden-layout.json")
@@ -38,6 +52,7 @@ final class AppStore: ObservableObject {
                 GardenEngine.reconcile(&state, attributes: habitats, at: Date())
                 try disk.save(state)
             }
+            try disk.save(state)
             try FileManager.default.createDirectory(at: disk.directory.appendingPathComponent("Photos"), withIntermediateDirectories: true)
             ready = true
         } catch { self.error = "読み込みに失敗しました。保存データは上書きしません。\n\(error.localizedDescription)" }
@@ -51,12 +66,14 @@ final class AppStore: ObservableObject {
         do {
             try repository.save(next)
             state = next
+            Task { await CareNotifications.refresh(next) }
             return true
         } catch { self.error = "保存できませんでした。再試行してください。\n\(error.localizedDescription)"; return false }
     }
-    func expose(_ id: String, modes: [QuizMode]) {
-        guard !modes.isEmpty else { return }
-        update { state in
+    @discardableResult
+    func expose(_ id: String, modes: [QuizMode]) -> Bool {
+        guard !modes.isEmpty else { return false }
+        return update { state in
             var record = state.records[id] ?? StudyRecord()
             record.plantID = id
             ReviewEngine.expose(&record, modes: modes, at: Date())
@@ -69,6 +86,7 @@ final class AppStore: ObservableObject {
             if state.garden.layout == nil { state.garden.layout = GardenLayout() }
             state.garden.layout?.placements = layout.placements
             state.garden.layout?.awaitingDelegation = layout.awaitingDelegation
+            state.garden.layout?.memberships = layout.memberships
         }) else { return false }
         previousLayout = previous; layoutUndoUntil = Date().addingTimeInterval(10)
         return true
@@ -78,11 +96,12 @@ final class AppStore: ObservableObject {
         if update({ state in
             state.garden.layout?.placements = previousLayout.placements
             state.garden.layout?.awaitingDelegation = previousLayout.awaitingDelegation
+            state.garden.layout?.memberships = previousLayout.memberships
         }) { self.previousLayout = nil; layoutUndoUntil = nil }
     }
     func refreshGarden() {
         var next = state
-        GardenEngine.reconcile(&next, attributes: habitats, at: Date())
+        GardenEngine.reconcile(&next, attributes: habitats, at: Date(), safeBoundary: true)
         if next.garden.layout != state.garden.layout { _ = update { $0.garden.layout = next.garden.layout } }
     }
     func recommendedPlants(at date: Date) -> [Plant] {
@@ -93,14 +112,18 @@ final class AppStore: ObservableObject {
     var today: Int { state.dailyCounts[AppState.dayKey(Date()), default: 0] }
     var photographed: Int { state.photos.values.filter { !$0.isEmpty }.count }
     var bloomed: Int { state.records.values.filter(\.hasBloomed).count }
-    func renderDefinition(for id: String) -> PlantRenderDefinition { renderCatalog.definitions[id] ?? PlantRenderCatalog.fallback }
+    func renderDefinition(for id: String) -> PlantRenderDefinition {
+        if let selected = preferences.appearanceVariants[id],
+           let variant = appearances.variants[id]?.first(where: { $0.id == selected && $0.minimumPhotoCount <= (state.photos[id]?.count ?? 0) }) { return variant.renderDefinition }
+        return renderCatalog.definitions[id] ?? PlantRenderCatalog.fallback
+    }
     func duePlants(at date: Date) -> [Plant] {
         let byID = Dictionary(uniqueKeysWithValues: plants.map { ($0.id, $0) })
         return ReviewEngine.dueIDs(in: state, at: date).compactMap { byID[$0] }
     }
     func reviewQuestions(for selected: [Plant]) -> [Question] {
-        selected.flatMap { plant in
-            QuizMode.core.map { QuizEngine.question(plant, mode: $0, all: plants, japanese: japanese) }
+        selected.map { plant in
+            QuizEngine.question(plant, mode: ReviewEngine.mode(for: state.records[plant.id] ?? StudyRecord()), all: plants, japanese: japanese)
         }
     }
     func toggleFavorite(_ plantID: String) {
@@ -167,9 +190,14 @@ final class AppStore: ObservableObject {
     func restore(_ archive: BackupArchive) throws {
         guard ready, let directory = photoDirectory, let repository else { throw StorageError.unavailable }
         try archive.validate(knownPlants: Set(plants.map(\.id)))
+        // Preserve both state and actual photos before any restore can replace references.
+        var oldImages: [String: Data] = [:]
+        for photo in state.photos.values.flatMap({ $0 }) { oldImages[photo.filename] = try Data(contentsOf: directory.appendingPathComponent(photo.filename)) }
+        try JSONEncoder().encode(BackupArchive(state: state, images: oldImages)).write(to: repository.directory.appendingPathComponent("backup-before-restore.json"), options: .atomic)
         // New file IDs protect current photos until the state file commits atomically.
         var next = archive.state
         try next.migrateToV2()
+        GardenEngine.migrateMembership(&next)
         GardenEngine.reconcile(&next, attributes: habitats, at: Date())
         var written: [URL] = []
         do {
@@ -190,6 +218,9 @@ final class AppStore: ObservableObject {
         }
         let oldPhotos = state.photos.values.flatMap { $0 }
         state = next
+        hiddenCatalogFields = Set((next.preferences?.hiddenFields ?? []).compactMap(CatalogField.init(rawValue:)))
+        revealedCatalogID = nil
+        Task { await CareNotifications.refresh(next) }
         for photo in oldPhotos { try? FileManager.default.removeItem(at: directory.appendingPathComponent(photo.filename)) }
     }
 }

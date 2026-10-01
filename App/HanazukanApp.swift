@@ -21,12 +21,13 @@ struct HanazukanApp: App {
 }
 
 struct RootView: View {
+    @State private var selection = 1
     var body: some View {
-        TabView {
-            NavigationStack { GardenView() }.tabItem { Label("ホーム", systemImage: "sun.max") }
-            NavigationStack { GardenAtlas() }.tabItem { Label("庭園", systemImage: "map") }
-            NavigationStack { CatalogView() }.tabItem { Label("図鑑", systemImage: "books.vertical") }
-            NavigationStack { StatisticsView() }.tabItem { Label("記録", systemImage: "chart.bar") }
-        }
+        TabView(selection: $selection) {
+            NavigationStack { CatalogView() }.tabItem { Label("図鑑", systemImage: "books.vertical") }.tag(0)
+            NavigationStack { GardenView() }.tabItem { Label("ホーム", systemImage: "sun.max") }.tag(1)
+            NavigationStack { GardenAtlas() }.tabItem { Label("庭園", systemImage: "map") }.tag(2)
+            NavigationStack { CareHub() }.tabItem { Label("手入れ", systemImage: "drop") }.tag(3)
+        }.preferredColorScheme(.light)
     }
 }

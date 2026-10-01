@@ -1,3 +1,5 @@
+> 旧版の履歴資料です。現行の正本は [SPEC-v1.md](SPEC-v1.md)、実装状態は [V1-IMPLEMENTATION.md](V1-IMPLEMENTATION.md) です。
+
 # v0.2 記憶の庭園
 
 ## 今回の実装

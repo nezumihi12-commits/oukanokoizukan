@@ -1,0 +1,135 @@
+{
+  "schema": "senkano-koizukan-tuning-v1",
+  "review": {
+    "interval_days": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      60,
+      120
+    ],
+    "auto_review_max_genera_per_set": 5,
+    "early_correct_extension_rate_of_remaining_time": 0.1,
+    "early_extension_once_per_stage": true,
+    "photo_bonus_next_interval_rate": 0.05,
+    "relearn_lock_hours": 24,
+    "review_protection": {
+      "formula": "min(24 hours, currentInterval / 3)",
+      "examples_hours": {
+        "1_day_stage": 8,
+        "3_day_or_more": 24
+      }
+    },
+    "wrong_answer": {
+      "stage_change": -1,
+      "recovery_interval_formula": "average(previous_stage_interval, two_stages_back_interval)",
+      "minimum_days": 1,
+      "early_review_due_cap": "min(originalNextReviewAt, now + recoveryInterval)"
+    },
+    "close_answer": {
+      "stage_change": 0,
+      "due_or_overdue": "same stage interval from answer time",
+      "early_review": "keep original nextReviewAt; do not extend"
+    },
+    "close_edit_distance_rate_initial": 0.2,
+    "close_edit_distance_rate_tight_candidate": 0.15
+  },
+  "overdue_visual_state": {
+    "decay_window_formula": "clamp(scheduledInterval * 0.5, 2 days, 30 days)",
+    "severity": {
+      "stable_max": 0.0,
+      "care_time_max": 0.2,
+      "drying_max": 0.45,
+      "faded_max": 0.75,
+      "very_ambiguous_min": 0.75,
+      "internal_forgotten_candidate_min": 1.0
+    },
+    "scheduled_interval_definition": "nextReviewAt - lastFormalReviewAt (actual scheduled cycle, including recovery/photo adjustments)"
+  },
+  "ambiguous_garden_unlock": {
+    "near_forgotten_simultaneous": 5,
+    "forgotten_simultaneous": 3
+  },
+  "garden": {
+    "visible_genera_per_zone_target_range": [
+      4,
+      6
+    ],
+    "visible_genera_per_garden_target_range": [
+      12,
+      18
+    ],
+    "visible_genera_per_garden_nominal": 15,
+    "visible_nursery_pots": 6,
+    "view_mode_zoom_initial_range": [
+      2.0,
+      2.5
+    ],
+    "plant_selection_nonselected_presence_range": [
+      0.15,
+      0.25
+    ]
+  },
+  "garden_unlock": {
+    "minimum_total_blooms_before_first_unlock": 10,
+    "minimum_new_blooms_between_unlock_events": 8,
+    "base_candidate_thresholds": {
+      "sunny_bed": 10,
+      "meadow": 10,
+      "woodland_edge": 7,
+      "grove": 7,
+      "greenhouse": 5,
+      "shade": 5,
+      "rock_garden": 4,
+      "waterside": 4
+    }
+  },
+  "animation": {
+    "character_walk_sprite_fps_range": [
+      12,
+      18
+    ],
+    "character_walk_frames_per_cycle_range": [
+      8,
+      12
+    ],
+    "character_coordinate_target_fps": 60,
+    "plant_motion_target_fps_range": [
+      30,
+      60
+    ],
+    "zone_zoom_seconds_range": [
+      0.3,
+      0.5
+    ],
+    "yuuka_entry_delay_after_zoom_seconds_range": [
+      0.2,
+      0.4
+    ],
+    "yuuka_entry_walk_seconds_range": [
+      0.8,
+      1.2
+    ],
+    "edit_long_press_seconds_range": [
+      0.4,
+      0.6
+    ]
+  },
+  "speech": {
+    "short_seconds": 8,
+    "two_to_three_line_seconds_range": [
+      12,
+      15
+    ],
+    "gap_before_next_seconds_range": [
+      0.3,
+      0.5
+    ]
+  },
+  "notifications": {
+    "max_per_day": 1,
+    "only_when_formal_review_target_exists": true
+  }
+}

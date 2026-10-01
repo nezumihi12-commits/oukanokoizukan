@@ -9,8 +9,8 @@ struct MemoryPlantView: View {
     private var saturation: Double {
         switch appearance {
         case .vivid: return 1
-        case .fading: return 0.55
-        case .sepia: return 0.1
+        case .fading: return 1
+        case .sepia: return 0.7
         case .monochrome, .translucent: return 0
         }
     }
@@ -58,7 +58,7 @@ struct MemoryPlantView: View {
             .frame(width: 256, height: 256)
             .compositingGroup()
             .saturation(saturation)
-            .colorMultiply(appearance == .sepia ? Color(red: 1, green: 0.85, blue: 0.63) : .white)
+            .colorMultiply(appearance == .monochrome ? Color(red: 1, green: 0.85, blue: 0.63) : .white)
             .opacity(appearance == .translucent ? 0.38 : 1)
             .animation(reduceMotion ? nil : .easeInOut(duration: 0.6), value: appearance)
             .scaleEffect(scale)

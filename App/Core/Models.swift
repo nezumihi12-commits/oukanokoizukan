@@ -46,6 +46,14 @@ struct Accuracy: Codable, Equatable {
 }
 
 struct StudyRecord: Codable {
+    var relearnedAt: Date?
+    var lastFormalReviewAt: Date?
+    var earlyBonusStage: Int?
+    var photoBonusAt: Date?
+    var practiceAccuracy: [String: Accuracy] = [:]
+    var reviewAccuracy: [String: Accuracy] = [:]
+    var formatReviewedAt: [String: Date] = [:]
+    var answerHistory: [AnswerEvent] = []
     var accuracy: [String: Accuracy] = [:]
     var lastStudiedAt: Date?
     var plantID = ""
@@ -72,6 +80,7 @@ struct StudyRecord: Codable {
 
     init() {}
     enum CodingKeys: String, CodingKey {
+        case relearnedAt, lastFormalReviewAt, earlyBonusStage, photoBonusAt, practiceAccuracy, reviewAccuracy, formatReviewedAt, answerHistory
         case lastExposure, lastSuccessfulRecallAt, lastExposureRecoveryAt
         case accuracy, lastStudiedAt, plantID, clearedLatinToFamily, clearedJapaneseToLatin
         case clearedLatinToJapanese, hasBloomed, firstBloomedAt, reviewStage, lastReviewedAt
@@ -79,6 +88,14 @@ struct StudyRecord: Codable {
     }
     init(from decoder: Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)
+        relearnedAt = try c.decodeIfPresent(Date.self, forKey: .relearnedAt)
+        lastFormalReviewAt = try c.decodeIfPresent(Date.self, forKey: .lastFormalReviewAt)
+        earlyBonusStage = try c.decodeIfPresent(Int.self, forKey: .earlyBonusStage)
+        photoBonusAt = try c.decodeIfPresent(Date.self, forKey: .photoBonusAt)
+        practiceAccuracy = try c.decodeIfPresent([String: Accuracy].self, forKey: .practiceAccuracy) ?? [:]
+        reviewAccuracy = try c.decodeIfPresent([String: Accuracy].self, forKey: .reviewAccuracy) ?? [:]
+        formatReviewedAt = try c.decodeIfPresent([String: Date].self, forKey: .formatReviewedAt) ?? [:]
+        answerHistory = try c.decodeIfPresent([AnswerEvent].self, forKey: .answerHistory) ?? []
         accuracy = try c.decodeIfPresent([String: Accuracy].self, forKey: .accuracy) ?? [:]
         lastStudiedAt = try c.decodeIfPresent(Date.self, forKey: .lastStudiedAt)
         plantID = try c.decodeIfPresent(String.self, forKey: .plantID) ?? ""
@@ -104,7 +121,7 @@ struct StudyRecord: Codable {
         return tried.isEmpty ? nil : tried.map(\.rate).reduce(0, +) / Double(tried.count)
     }
     var weak: Bool { average.map { $0 < 0.5 } ?? false }
-    var memorized: Bool { QuizMode.core.allSatisfy { (accuracy[$0.rawValue]?.correct ?? 0) > 0 } }
+    var memorized: Bool { hasBloomed || clearedAll }
     var mastery: Int {
         guard let average else { return 0 }
         return average >= 0.8 ? 3 : average >= 0.6 ? 2 : average >= 0.3 ? 1 : 0
@@ -174,7 +191,8 @@ enum EventCondition: Codable {
 }
 
 struct AppState: Codable {
-    var schemaVersion = 2
+    var schemaVersion = 3
+    var preferences: AppPreferences? = nil
     var records: [String: StudyRecord] = [:]
     var photos: [String: [PhotoRecord]] = [:]
     var locations: [String: GeoPoint] = [:]
@@ -193,17 +211,45 @@ struct AppState: Codable {
         var record = records[plant, default: StudyRecord()]
         record.plantID = plant
         let alreadyBloomed = record.hasBloomed
+        let result: ReviewResult = correct ? .correct : points > 0 ? .partial : .incorrect
+        let purpose: AnswerPurpose
+        switch review {
+        case .automatic: purpose = .learning
+        case .deferred: purpose = .practice
+        case .completed: purpose = ReviewEngine.isRelearnLocked(record, at: date) ? .practice : .review
+        }
+        let oldFlags = (record.clearedLatinToFamily, record.clearedJapaneseToLatin, record.clearedLatinToJapanese)
         record.record(mode: mode, correct: correct, date: date)
-        if !alreadyBloomed && record.clearedAll {
-            ReviewEngine.bloom(&record, at: date)
-        } else if alreadyBloomed && QuizMode.core.contains(mode) {
-            switch review {
-            case .automatic: ReviewEngine.review(&record, result: correct ? .correct : points > 0 ? .partial : .incorrect, at: date, recallFraction: ReviewEngine.recallAllowed(record, mode: mode, at: date) ? 1 : 0)
-            case .deferred: break
-            case .completed(let result, let fraction): ReviewEngine.review(&record, result: result, at: date, recallFraction: fraction)
+        if purpose != .learning {
+            (record.clearedLatinToFamily, record.clearedJapaneseToLatin, record.clearedLatinToJapanese) = oldFlags
+        }
+        if purpose == .practice { record.practiceAccuracy[mode.rawValue, default: Accuracy()].total += 1
+            if correct { record.practiceAccuracy[mode.rawValue, default: Accuracy()].correct += 1 }
+        }
+        if purpose == .review {
+            record.reviewAccuracy[mode.rawValue, default: Accuracy()].total += 1
+            if correct { record.reviewAccuracy[mode.rawValue, default: Accuracy()].correct += 1 }
+            record.formatReviewedAt[mode.rawValue] = date
+        }
+        record.answerHistory.append(AnswerEvent(date: date, mode: mode, purpose: purpose, result: result))
+        if !alreadyBloomed && purpose == .learning && record.clearedAll { ReviewEngine.bloom(&record, at: date) }
+        if alreadyBloomed, case .completed(let result, let fraction) = review {
+            ReviewEngine.review(&record, result: result, at: date, recallFraction: fraction)
+        }
+        // Feedback in practice is explicit answer exposure; formal feedback never locks the next review.
+        if purpose == .practice { ReviewEngine.expose(&record, modes: QuizMode.core, at: date) }
+        records[plant] = record
+        if record.hasBloomed && !alreadyBloomed {
+            if garden.layout == nil { garden.layout = GardenLayout() }
+            NoticeQueue.enqueue(GardenNotice(id: "bloom-" + plant, priority: 1, systemText: "植物が開花しました"), into: &garden.layout!.pendingEvents)
+            if !character.seenEvents.contains("first-bloom") {
+                NoticeQueue.enqueue(GardenNotice(id: "first-bloom", priority: 3, systemText: "初めての開花。3形式を覚えた実績は消えません。明日から手入れが始まります。"), into: &garden.layout!.pendingEvents)
             }
         }
-        records[plant] = record
+        if purpose == .review && !character.seenEvents.contains("first-review") {
+            if garden.layout == nil { garden.layout = GardenLayout() }
+            NoticeQueue.enqueue(GardenNotice(id: "first-review", priority: 3, systemText: "正式復習を記録しました。1属につき1形式を、時間を空けて思い出します。"), into: &garden.layout!.pendingEvents)
+        }
         if record.hasBloomed {
             garden.unlockedPlants.insert(plant)
             if garden.plantZones == nil { garden.plantZones = [:] }
@@ -212,7 +258,8 @@ struct AppState: Codable {
         dailyCounts[Self.dayKey(date), default: 0] += 1
     }
     mutating func migrateToV2(at date: Date = Date()) throws {
-        guard (1...2).contains(schemaVersion) else { throw StorageError.unsupportedVersion }
+        guard (1...3).contains(schemaVersion) else { throw StorageError.unsupportedVersion }
+        guard schemaVersion < 3 else { return }
         for id in Array(records.keys) {
             guard var record = records[id] else { continue }
             record.plantID = id
@@ -225,8 +272,9 @@ struct AppState: Codable {
                 if garden.plantZones == nil { garden.plantZones = [:] }
                 if garden.plantZones?[id] == nil { garden.plantZones?[id] = GardenZone.central.id }
             }
+            record.lastFormalReviewAt = record.lastReviewedAt ?? record.firstBloomedAt
             records[id] = record
         }
-        schemaVersion = 2
+        schemaVersion = 3
     }
 }

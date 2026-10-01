@@ -1,3 +1,5 @@
+> 旧版の履歴資料です。現行の正本は [SPEC-v1.md](SPEC-v1.md)、実装状態は [V1-IMPLEMENTATION.md](V1-IMPLEMENTATION.md) です。
+
 # 最終設計への実装 v0.3
 
 正本: https://chatgpt.com/share/6abcd6ba-645c-83e8-a814-7393779b15b4 （2026-10-01取得）

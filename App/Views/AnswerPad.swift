@@ -4,15 +4,18 @@ import SwiftUI
 struct AnswerPad: View {
     @Binding var text: String
     var latin: Bool
+    var canPrevious = true
+    var canNext = true
     var previous: () -> Void
     var next: () -> Void
-    private let kana = ["あいうえお", "かきくけこ", "さしすせそ", "たちつてと", "なにぬねの", "はひふへほ", "まみむめも", "や ゆ よ", "らりるれろ", "わをんー"]
+    private let kana = ["アイウエオ", "カキクケコ", "サシスセソ", "タチツテト", "ナニヌネノ", "ハヒフヘホ", "マミムメモ", "ヤ ユ ヨ", "ラリルレロ", "ワヲンー"]
     var body: some View {
         VStack(spacing: 7) {
             HStack {
-                Button("↑ 前へ", action: previous)
+                Button("↑ 前へ", action: previous).disabled(!canPrevious)
                 Spacer()
-                Button("↓ 次へ", action: next)
+                Button("↓ 次へ", action: next).disabled(!canNext)
+                Button("Return", action: next).accessibilityLabel(canNext ? "次の入力欄" : "キーボードを閉じる")
                 Button { if !text.isEmpty { text.removeLast() } } label: { Image(systemName: "delete.left") }.accessibilityLabel("1文字削除")
             }.font(.subheadline)
             if latin {
@@ -37,7 +40,7 @@ struct AnswerPad: View {
     }
     private func modifyKana() {
         guard let last = text.last else { return }
-        let groups = ["あぁ", "いぃ", "うぅゔ", "えぇ", "おぉ", "かが", "きぎ", "くぐ", "けげ", "こご", "さざ", "しじ", "すず", "せぜ", "そぞ", "ただ", "ちぢ", "つっづ", "てで", "とど", "はばぱ", "ひびぴ", "ふぶぷ", "へべぺ", "ほぼぽ", "やゃ", "ゆゅ", "よょ", "わゎ"]
+        let groups = ["アァ", "イィ", "ウゥヴ", "エェ", "オォ", "カガ", "キギ", "クグ", "ケゲ", "コゴ", "サザ", "シジ", "スズ", "セゼ", "ソゾ", "タダ", "チヂ", "ツッヅ", "テデ", "トド", "ハバパ", "ヒビピ", "フブプ", "ヘベペ", "ホボポ", "ヤャ", "ユュ", "ヨョ", "ワヮ"]
         for group in groups {
             let chars = Array(group)
             if let index = chars.firstIndex(of: last) { text.removeLast(); text.append(chars[(index + 1) % chars.count]); return }

@@ -1,0 +1,7212 @@
+{
+  "favorite": [
+    {
+      "id": "favorite-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "favorite-1",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "favorite-2",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "favorite-3",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "favorite-4",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "favorite-5",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "id": "seasonal-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "seasonal-1",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "seasonal-2",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "seasonal-3",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "seasonal-4",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "seasonal-5",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "central_water": [
+    {
+      "id": "central_water-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "central_water-1",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "central_water-2",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "central_water-3",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    }
+  ],
+  "display": [
+    {
+      "id": "display-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "display-1",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "display-2",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "display-3",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "display-4",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "bench": [
+    {
+      "id": "bench-0",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "bench-1",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "bench-2",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "trees": [
+    {
+      "id": "trees-0",
+      "size": "XL",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "trees-1",
+      "size": "XL",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "plaza": [
+    {
+      "id": "plaza-0",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "plaza-1",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "plaza-2",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "plaza-3",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "sunny_border": [
+    {
+      "id": "sunny_border-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "sunny_border-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "meadow": [
+    {
+      "id": "meadow-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "meadow-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "woodland_edge": [
+    {
+      "id": "woodland_edge-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_edge-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "woodland_shade": [
+    {
+      "id": "woodland_shade-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "woodland_shade-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "waterside": [
+    {
+      "id": "waterside-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "water_surface",
+        "water_bed"
+      ]
+    },
+    {
+      "id": "waterside-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    },
+    {
+      "id": "waterside-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "wet_edge",
+        "ground",
+        "pot"
+      ]
+    }
+  ],
+  "dry_rock": [
+    {
+      "id": "dry_rock-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "dry_rock-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "grove": [
+    {
+      "id": "grove-0",
+      "size": "XL",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-1",
+      "size": "XL",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-2",
+      "size": "XL",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-3",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-4",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-6",
+      "size": "XL",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-7",
+      "size": "XL",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-8",
+      "size": "XL",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-11",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-12",
+      "size": "XL",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-13",
+      "size": "XL",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-14",
+      "size": "XL",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-15",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-16",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-17",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-18",
+      "size": "XL",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-19",
+      "size": "XL",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-20",
+      "size": "XL",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-21",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-22",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-24",
+      "size": "XL",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-25",
+      "size": "XL",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-26",
+      "size": "XL",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-29",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-30",
+      "size": "XL",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-31",
+      "size": "XL",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-32",
+      "size": "XL",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-33",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-34",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "grove-35",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ],
+  "greenhouse": [
+    {
+      "id": "greenhouse-0",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-1",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-2",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-3",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-4",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-5",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-6",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-7",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-8",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-9",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-10",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-11",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-12",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-13",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-14",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-15",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-16",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-17",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-18",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-19",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-20",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-21",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-22",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-23",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-24",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-25",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-26",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-27",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-28",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-29",
+      "size": "L",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-30",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-31",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-32",
+      "size": "M",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-33",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-34",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-35",
+      "size": "S",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-36",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-37",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-38",
+      "size": "L",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-39",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-40",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-41",
+      "size": "M",
+      "x": 0.31,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-42",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-43",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-44",
+      "size": "S",
+      "x": 0.88,
+      "y": 0.74,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-45",
+      "size": "L",
+      "x": 0.12,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-46",
+      "size": "L",
+      "x": 0.31,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-47",
+      "size": "L",
+      "x": 0.5,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-48",
+      "size": "M",
+      "x": 0.6900000000000001,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-49",
+      "size": "M",
+      "x": 0.88,
+      "y": 0.22,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-50",
+      "size": "M",
+      "x": 0.12,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-51",
+      "size": "S",
+      "x": 0.31,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-52",
+      "size": "S",
+      "x": 0.5,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    },
+    {
+      "id": "greenhouse-53",
+      "size": "S",
+      "x": 0.6900000000000001,
+      "y": 0.48,
+      "types": [
+        "ground",
+        "bed",
+        "pot",
+        "tree_ground",
+        "trellis",
+        "ground_edge",
+        "mounted",
+        "greenhouse_bench",
+        "rock_pocket"
+      ]
+    }
+  ]
+}

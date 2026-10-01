@@ -10,90 +10,55 @@ enum GardenPalette {
 struct GardenView: View {
     @EnvironmentObject private var store: AppStore
     @Environment(\.scenePhase) private var scenePhase
-    @State private var launch: ReviewLaunch?
-    @State private var currentNotice: GardenNotice?
+    @State private var destination: String?
+    @State private var appreciate = false
+    @State private var exitVisible = false
+    @State private var welcome = false
+    @State private var important: GardenNotice?
     var body: some View {
-        ScrollView {
-            VStack(spacing: 16) {
+        ZStack(alignment: .bottom) {
+            LivingGarden(layout: store.state.garden.layout ?? GardenLayout(), onZone: { destination = $0 })
+            VStack {
                 HStack {
-                    Gauge(value: Double(store.bloomed), in: 0...Double(max(1, store.plants.count))) { Text("開花") } currentValueLabel: { Text("\(store.bloomed)") }.gaugeStyle(.accessoryCircular)
-                    VStack(alignment: .leading) { Text("中央庭園").font(.title.bold()); Text("Garden of memory").font(.caption).foregroundStyle(.secondary) }
+                    Text("開花 \(store.bloomed) / 307").font(.caption)
                     Spacer()
-                    NavigationLink { GardenAtlas() } label: { Label("庭園", systemImage: "map") }
+                    Button { appreciate = true } label: { Image(systemName: "arrow.up.left.and.arrow.down.right") }.accessibilityLabel("全画面鑑賞")
+                }.padding(12).background(GardenPalette.paper.opacity(0.94))
+                if let notice = store.state.garden.layout?.pendingEvents.first {
+                    NavigationLink { GardenEventsView() } label: { Text(notice.systemText).font(.caption).padding(8).background(GardenPalette.paper) }
                 }
-                if let currentNotice {
-                    Button { dismissNotice() } label: {
-                        HStack { Image(systemName: "person.crop.circle.dashed"); Text(currentNotice.systemText); Spacer(); Image(systemName: "xmark") }
-                            .padding().background(.white.opacity(0.8), in: RoundedRectangle(cornerRadius: 10))
-                    }.buttonStyle(.plain).accessibilityHint("タップして閉じる")
-                }
-                // A spatial overview: background paths are not edit targets.
-                ZStack {
-                    RoundedRectangle(cornerRadius: 36).fill(GardenPalette.foliage.opacity(0.16))
-                    Path { path in path.move(to: CGPoint(x: 30, y: 100)); path.addCurve(to: CGPoint(x: 290, y: 420), control1: CGPoint(x: 300, y: 160), control2: CGPoint(x: 20, y: 340)) }
-                        .stroke(GardenPalette.paper, style: StrokeStyle(lineWidth: 22, lineCap: .round))
-                    VStack(spacing: 12) {
-                        HStack { areaLink(GardenArea.centralAreas[5]); areaLink(GardenArea.centralAreas[2]) }
-                        HStack { areaLink(GardenArea.centralAreas[0]); areaLink(GardenArea.centralAreas[1]) }
-                        HStack { areaLink(GardenArea.centralAreas[3]); areaLink(GardenArea.centralAreas[4]) }
-                        HStack {
-                            areaLink(GardenArea.centralAreas[6])
-                            VStack { Image(systemName: "person.crop.circle.dashed").font(.system(size: 38)); Text("庭の案内役").font(.caption) }.frame(maxWidth: .infinity)
-                        }
-                    }.padding(18)
-                }
-                HStack {
-                    NavigationLink { StudyHome() } label: { Label("花を咲かせる", systemImage: "leaf") }
-                    NavigationLink { ReviewQueueView() } label: { Label("庭を手入れする", systemImage: "drop") }
-                }.buttonStyle(.borderedProminent).tint(GardenPalette.foliage)
-                let recommended = store.recommendedPlants(at: Date())
-                HStack {
-                    Text(recommended.isEmpty ? "今日は特に手入れの必要はありません" : "おまかせ手入れ \(recommended.count) 属").font(.subheadline)
-                    Spacer()
-                    if !recommended.isEmpty { Button("始める") { launch = ReviewLaunch(questions: store.reviewQuestions(for: recommended)) } }
-                }
-                NavigationLink { NurseryView() } label: {
-                    HStack { Label("育苗コーナー", systemImage: "leaf.circle"); Spacer(); Text("\(store.state.records.values.filter { !$0.hasBloomed && $0.clearedCount > 0 }.count) 属") }
-                }
-                NavigationLink { UnplacedView() } label: {
-                    HStack { Label("未配置の植物", systemImage: "tray"); Spacer(); Text("\(unplacedCount) 属") }
-                }
-            }.padding(16)
-        }.background(GardenPalette.paper).navigationTitle("千花之恋図鑑").navigationBarTitleDisplayMode(.inline)
-        .onAppear { store.refreshGarden(); showNextNotice() }
-        .onChange(of: scenePhase) { _, phase in if phase == .active { store.refreshGarden(); showNextNotice() } }
-        .onReceive(Timer.publish(every: 60, on: .main, in: .common).autoconnect()) { _ in store.refreshGarden(); showNextNotice() }
-        .task(id: currentNotice?.id) {
-            guard let notice = currentNotice else { return }
-            try? await Task.sleep(for: .seconds(notice.duration))
-            if !Task.isCancelled && currentNotice?.id == notice.id { dismissNotice() }
-        }
-        .fullScreenCover(item: $launch) { session in NavigationStack { QuizView(questions: session.questions, mode: .mixed, gardenReview: true) }.environmentObject(store) }
-    }
-    private var unplacedCount: Int { store.state.records.filter { $0.value.hasBloomed && store.state.garden.layout?.placements[$0.key] == nil }.count }
-    private func areaLink(_ area: GardenArea) -> some View {
-        NavigationLink { ZoneObservationView(area: area) } label: {
-            VStack(spacing: 0) {
-                ZStack {
-                    Ellipse().fill(area.id == "central_water" ? Color.blue.opacity(0.16) : GardenPalette.soil.opacity(0.18)).frame(height: 50).offset(y: 24)
-                    HStack(spacing: -12) {
-                        let ids = (store.state.garden.layout?.placements ?? [:]).filter { $0.value.zoneID == area.id }.keys.sorted()
-                        ForEach(Array(ids.prefix(3)), id: \.self) { id in
-                            MemoryPlantView(definition: store.renderDefinition(for: id), freshness: ReviewEngine.freshness(store.state.records[id] ?? StudyRecord(), at: Date())).frame(width: 55, height: 73)
-                        }
-                        if ids.isEmpty { Image(systemName: area.id == "central_water" ? "water.waves" : "leaf").font(.title).foregroundStyle(GardenPalette.foliage.opacity(0.4)) }
-                    }
-                }.frame(height: 78)
-                Text(area.title).font(.caption).foregroundStyle(.primary).padding(.horizontal, 7).padding(.vertical, 4).background(GardenPalette.paper, in: RoundedRectangle(cornerRadius: 4))
-            }.frame(maxWidth: .infinity)
-        }.buttonStyle(.plain)
-    }
-    private func showNextNotice() { if currentNotice == nil { currentNotice = store.state.garden.layout?.pendingEvents.first } }
-    private func dismissNotice() {
-        guard let notice = currentNotice else { return }
-        guard store.update({ $0.garden.layout?.pendingEvents.removeAll { $0.id == notice.id }; $0.character.seenEvents.insert(notice.id) }) else { return }
-        currentNotice = nil
-        Task { try? await Task.sleep(for: .milliseconds(400)); showNextNotice() }
+                Spacer()
+                NavigationLink { StudyHome() } label: { Label("咲かせる", systemImage: "leaf").padding(.horizontal, 32).padding(.vertical, 8) }
+                    .buttonStyle(.borderedProminent).padding(.bottom, 20)
+            }
+        }.navigationTitle("千花之恋図鑑").navigationBarTitleDisplayMode(.inline)
+            .navigationDestination(isPresented: Binding(get: { destination != nil }, set: { if !$0 { destination = nil } })) {
+                if destination == "nursery" { NurseryView() }
+                else if let area = GardenArea.all.first(where: { $0.id == destination }) { ZoneObservationView(area: area) }
+            }
+            .onAppear { store.refreshGarden(); welcome = !store.state.character.seenEvents.contains("welcome-v1"); if !welcome { important = store.state.garden.layout?.pendingEvents.first(where: { $0.priority == 3 }) } }
+            .onChange(of: scenePhase) { _, value in if value == .active { store.refreshGarden() } }
+            .sheet(isPresented: $welcome) {
+                VStack(spacing: 20) {
+                    Image(systemName: "leaf.circle").font(.system(size: 60)).foregroundStyle(GardenPalette.foliage)
+                    Text("千花之恋図鑑").font(.largeTitle).fontDesign(.serif)
+                    Text("Garden of memory").font(.subheadline).fontDesign(.serif)
+                    Text("ここは中央庭園です。咲かせる、から植物を学べます。図鑑はいつでも開けます。").multilineTextAlignment(.center)
+                    Text("人物と会話は制作中の仮素材です。").font(.caption).foregroundStyle(.secondary)
+                    Button("庭へ") { if store.update({ $0.character.seenEvents.insert("welcome-v1") }) { welcome = false } }.buttonStyle(.borderedProminent)
+                }.padding(32).interactiveDismissDisabled()
+            }
+            .alert("庭の出来事", isPresented: Binding(get: { important != nil && !welcome }, set: { if !$0 { important = nil } })) {
+                Button("確認しました") { if let notice = important { store.update { $0.character.seenEvents.insert(notice.id); $0.garden.layout?.pendingEvents.removeAll { $0.id == notice.id } } }; important = nil }
+            } message: { Text(important?.systemText ?? "") }
+            .fullScreenCover(isPresented: $appreciate) {
+                ZStack(alignment: .topTrailing) {
+                    LivingGarden(layout: store.state.garden.layout ?? GardenLayout(), mode: .appreciation, appreciationTap: { exitVisible = true }).ignoresSafeArea()
+                    if exitVisible { Button("鑑賞を終える") { appreciate = false }.padding().background(.regularMaterial).padding() }
+                }.statusBarHidden()
+                    .task(id: exitVisible) { if exitVisible { try? await Task.sleep(for: .seconds(4)); if !Task.isCancelled { exitVisible = false } } }
+                    .accessibilityAction(named: "鑑賞を終える") { appreciate = false }
+            }
     }
 }
 
@@ -102,6 +67,7 @@ struct GardenAtlas: View {
     var body: some View {
         List {
             Section("中央庭園") { ForEach(GardenArea.centralAreas) { area in NavigationLink(area.title) { ZoneObservationView(area: area) } } }
+            Section { NavigationLink("未所属の植物") { UnplacedView() }; NavigationLink("最近の出来事") { GardenEventsView() } }
             Section("生態区画") {
                 ForEach(GardenArea.habitats) { area in
                     if store.state.garden.layout?.unlockedZones.contains(area.id) == true {
@@ -112,46 +78,103 @@ struct GardenAtlas: View {
                 }
             }
             if store.state.garden.layout?.ambiguousUnlocked == true { NavigationLink("曖昧の庭") { AmbiguousGardenView() } }
-        }.navigationTitle("庭園")
+        }.navigationTitle("庭園").onAppear { store.refreshGarden() }
     }
 }
 
+enum TrayFilter: String, CaseIterable { case reserve = "控え", suitable = "適性あり", all = "すべて", favorite = "お気に入り", current = "表示中" }
 struct ZoneObservationView: View {
     @EnvironmentObject private var store: AppStore
     let area: GardenArea
     @State private var selected: String?
     @State private var editing = false
+    @State private var draft = GardenLayout()
+    @State private var initial = GardenLayout()
+    @State private var discard = false
+    @State private var trayFilter = TrayFilter.reserve
     @State private var launch: ReviewLaunch?
-    @State private var guideArrived = false
-    private var layout: GardenLayout { store.state.garden.layout ?? GardenLayout() }
+    @State private var advice = "植物を選択できます。拡大はピンチ、移動は2本指です。"
+    @State private var replacement: PendingReplacement?
+    private var layout: GardenLayout { editing ? draft : store.state.garden.layout ?? GardenLayout() }
+    private var tray: [Plant] {
+        store.plants.filter { p in
+            guard store.state.records[p.id]?.hasBloomed == true else { return false }
+            switch trayFilter {
+            case .all: return true
+            case .reserve: return draft.placements[p.id] == nil
+            case .current: return draft.placements[p.id]?.zoneID == area.id
+            case .favorite: return store.state.records[p.id]?.favorite == true
+            case .suitable: return area.central || (store.habitats[p.id]?.habitatScores[area.id] ?? 0) >= 0.5
+            }
+        }
+    }
     var body: some View {
-        ScrollView {
-            VStack(spacing: 18) {
-                GardenSpotCanvas(area: area, layout: layout, selected: selected, editing: false, select: { selected = $0 }, drop: { _, _ in false })
-                HStack(alignment: .top) {
-                    Image(systemName: "person.crop.circle.dashed").font(.system(size: 38)).opacity(guideArrived ? 1 : 0)
-                    VStack(alignment: .leading, spacing: 8) {
-                        if let selected, let plant = store.plants.first(where: { $0.id == selected }), let r = store.state.records[selected] {
-                            Text(plant.latin).font(.title2)
-                            Text(MemoryAppearance.of(ReviewEngine.freshness(r, at: Date())).rawValue)
-                            if let due = r.nextReviewAt { Text("次回手入れ：\(due.formatted(date: .abbreviated, time: .omitted))").font(.caption) }
-                            Button("今すぐ復習") { launch = ReviewLaunch(questions: store.reviewQuestions(for: [plant])) }
-                            NavigationLink("図鑑ページへ") { PlantDetail(plant: plant) }
-                            Button(r.favorite ? "お気に入りを解除" : "お気に入りにする") { store.toggleFavorite(selected) }
-                        } else { Text("植物を選んで、記憶の状態を確かめましょう。").foregroundStyle(.secondary) }
-                    }.frame(maxWidth: .infinity, alignment: .leading)
-                }.padding().background(.white.opacity(0.75), in: RoundedRectangle(cornerRadius: 14))
-                TimelineView(.periodic(from: .now, by: 1)) { context in
-                    if let until = store.layoutUndoUntil, context.date < until { Button("配置を元に戻す") { store.undoLayout() } }
+        VStack(spacing: 0) {
+            LivingGarden(layout: layout, area: area, selected: selected, mode: editing ? .editing : .observation,
+                         onPlant: { selected = $0 }, onDrop: place)
+            if editing {
+                Text(advice).font(.caption).padding(6)
+                Picker("作業トレイ", selection: $trayFilter) { ForEach(TrayFilter.allCases, id: \.self) { Text($0.rawValue).tag($0) } }.pickerStyle(.menu)
+                ScrollView(.horizontal) {
+                    HStack {
+                        ForEach(tray) { plant in
+                            Button { selected = plant.id } label: {
+                                VStack {
+                                    MemoryPlantView(definition: store.renderDefinition(for: plant.id), freshness: 1).frame(width: 54, height: 58)
+                                    Text(store.isProtected(plant.id) ? "保護中" : plant.latin).font(.caption2)
+                                    Text(store.habitats[plant.id]?.gardenAttributes.defaultSizeClass ?? "M").font(.caption2)
+                                }.padding(5).background(selected == plant.id ? Color.white : .clear)
+                            }.buttonStyle(.plain).draggable(plant.id)
+                        }
+                    }.padding(8)
+                }.frame(height: 110)
+                if let selected, draft.placements[selected] != nil {
+                    Button("控え植栽に戻す") { draft.placements.removeValue(forKey: selected) }.font(.caption).padding(4)
                 }
-                Button { editing = true } label: { Label("配置を編集する", systemImage: "wrench.and.screwdriver") }.buttonStyle(.bordered).tint(GardenPalette.soil)
-            }.padding()
+            } else if let selected, let plant = store.plants.first(where: { $0.id == selected }), let r = store.state.records[selected] {
+                VStack(alignment: .leading, spacing: 7) {
+                    Text(store.isProtected(selected) ? "手入れ対象の植物" : plant.latin).font(.headline)
+                    Text(MemoryAppearance.of(ReviewEngine.freshness(r, at: Date())).rawValue)
+                    if let due = r.nextReviewAt { Text("次回：\(due.formatted(date: .abbreviated, time: .shortened))").font(.caption) }
+                    HStack {
+                        Button("今すぐ復習") { launch = ReviewLaunch(questions: store.reviewQuestions(for: [plant])) }
+                        NavigationLink("図鑑へ") { PlantDetail(plant: plant) }
+                        Button("閉じる") { self.selected = nil }
+                    }.font(.subheadline)
+                }.padding().frame(maxWidth: .infinity, alignment: .leading).background(GardenPalette.paper)
+            }
         }.background(GardenPalette.paper).navigationTitle(area.title)
-        .task { try? await Task.sleep(for: .milliseconds(350)); if !Task.isCancelled { withAnimation { guideArrived = true } } }
-        .sheet(isPresented: $editing) { NavigationStack { GardenEditor(area: area, initial: layout) }.environmentObject(store) }
-        .fullScreenCover(item: $launch) { session in NavigationStack { QuizView(questions: session.questions, mode: .mixed, gardenReview: true) }.environmentObject(store) }
+            .navigationBarBackButtonHidden(editing)
+            .toolbar {
+                if editing {
+                    ToolbarItem(placement: .cancellationAction) { Button("戻る") { if draft != initial { discard = true } else { editing = false } } }
+                    ToolbarItem(placement: .confirmationAction) { Button("完了") { if store.setLayout(draft) { editing = false; selected = nil } } }
+                } else {
+                    ToolbarItem(placement: .primaryAction) { Button("植栽編集") { initial = layout; draft = layout; selected = nil; editing = true; advice = "トレイで植物を選び、空きスポットをタップ。植えた植物は長押しで移動できます。" } }
+                    ToolbarItem(placement: .bottomBar) {
+                        if let until = store.layoutUndoUntil, until > Date() { Button("配置を元に戻す") { store.undoLayout() } }
+                    }
+                }
+            }
+            .confirmationDialog("変更を破棄して戻りますか？", isPresented: $discard, titleVisibility: .visible) { Button("変更を破棄", role: .destructive) { editing = false; selected = nil } }
+            .confirmationDialog("この場所の植物を控えへ戻して入れ替えますか？", isPresented: Binding(get: { replacement != nil }, set: { if !$0 { replacement = nil } }), titleVisibility: .visible) {
+                Button("入れ替える") { if let r = replacement { var next = draft; next.placements.removeValue(forKey: r.old); if GardenEngine.place(r.new, area: area, spot: r.spot, control: .manual, attributes: store.habitats, layout: &next) { draft = next } }; replacement = nil }
+            }
+            .onAppear { store.update { state in if state.garden.layout?.visitedGardens == nil { state.garden.layout?.visitedGardens = [] }; state.garden.layout?.visitedGardens?.insert(area.id) } }
+            .fullScreenCover(item: $launch) { session in NavigationStack { QuizView(questions: session.questions, mode: .mixed, gardenReview: true) }.environmentObject(store) }
+    }
+    private func place(_ id: String, _ spot: PlantingSpot) -> Bool {
+        guard editing, store.state.records[id]?.hasBloomed == true, let attr = store.habitats[id] else { return false }
+        guard GardenEngine.canPlace(attr, in: spot) else { advice = "サイズまたは植栽方式（水面・地植えなど）が合いません。"; return false }
+        if let old = draft.placements.first(where: { $0.key != id && $0.value.spotID == spot.id })?.key { replacement = PendingReplacement(old: old, new: id, spot: spot); return false }
+        if GardenEngine.place(id, area: area, spot: spot, control: .manual, attributes: store.habitats, layout: &draft) {
+            advice = !area.central && attr.habitatScores[area.id, default: 0] < 0.5 ? "植えられますが、この庭の環境とは少し異なります。" : "配置しました。完了で保存します。"
+            if store.preferences.haptics { UIImpactFeedbackGenerator(style: .light).impactOccurred() }; return true
+        }
+        advice = "庭の表示枠がいっぱいです。表示中の植物を控えへ戻せます。"; return false
     }
 }
+private struct PendingReplacement { var old: String; var new: String; var spot: PlantingSpot }
 
 struct GardenSpotCanvas: View {
     @EnvironmentObject private var store: AppStore
@@ -223,7 +246,7 @@ struct GardenEditor: View {
             ScrollView(.horizontal) {
                 HStack {
                     ForEach(store.plants.filter { store.state.records[$0.id]?.hasBloomed == true && draft.placements[$0.id] == nil }) { plant in
-                        VStack { MemoryPlantView(definition: store.renderDefinition(for: plant.id), freshness: 1).frame(width: 70, height: 70); Text(plant.latin).font(.caption) }
+                        VStack { MemoryPlantView(definition: store.renderDefinition(for: plant.id), freshness: 1).frame(width: 70, height: 70); Text(store.isProtected(plant.id) ? "手入れ対象の植物" : plant.latin).font(.caption) }
                             .padding(6).background(selected == plant.id ? Color.white : .clear, in: RoundedRectangle(cornerRadius: 8))
                             .onTapGesture { selected = plant.id }.draggable(plant.id)
                     }
@@ -257,7 +280,10 @@ struct GardenEditor: View {
 struct NurseryView: View {
     @EnvironmentObject private var store: AppStore
     @State private var page = 0
-    private var plants: [Plant] { store.plants.filter { let r = store.state.records[$0.id] ?? StudyRecord(); return !r.hasBloomed && r.clearedCount > 0 } }
+    private var plants: [Plant] { store.plants.filter { let r = store.state.records[$0.id] ?? StudyRecord(); return !r.hasBloomed && r.clearedCount > 0 }.sorted {
+        let a = store.state.records[$0.id]!, b = store.state.records[$1.id]!
+        return a.clearedCount == b.clearedCount ? (a.lastStudiedAt ?? .distantPast) > (b.lastStudiedAt ?? .distantPast) : a.clearedCount > b.clearedCount
+    } }
     var body: some View {
         VStack {
             Text("育苗は開花前の植物です。表示は6鉢ずつ。学べる属数の制限はありません。").font(.footnote).padding()
@@ -275,7 +301,7 @@ struct UnplacedView: View {
     @EnvironmentObject private var store: AppStore
     @State private var selected: Plant?
     var body: some View {
-        List(store.plants.filter { store.state.records[$0.id]?.hasBloomed == true && store.state.garden.layout?.placements[$0.id] == nil }) { plant in
+        List(store.plants.filter { store.state.records[$0.id]?.hasBloomed == true && store.state.garden.layout?.memberships?[$0.id] == nil }) { plant in
             Button(plant.latin) { selected = plant }
         }.navigationTitle("未配置の植物")
             .sheet(item: $selected) { plant in BloomPlacementView(plant: plant).environmentObject(store) }
@@ -289,7 +315,7 @@ struct AmbiguousGardenView: View {
             ScrollView {
                 if plants.isEmpty { ContentUnavailableView("静かな庭", systemImage: "cloud.fog", description: Text("薄れていた記憶に色が戻りました。")) }
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 140))]) {
-                    ForEach(plants) { plant in
+                    ForEach(Array(plants.sorted { ReviewEngine.severity(store.state.records[$0.id]!, at: context.date) > ReviewEngine.severity(store.state.records[$1.id]!, at: context.date) }.prefix(Tuning.visibleLimit))) { plant in
                         NavigationLink { PlantMemoryDetail(plant: plant) } label: { GardenPlantCard(plant: plant, record: store.state.records[plant.id]!, definition: store.renderDefinition(for: plant.id), now: context.date) }
                     }
                 }.padding()

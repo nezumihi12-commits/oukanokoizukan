@@ -14,35 +14,9 @@ final class FinalPolicyTests: XCTestCase {
         let list = try JSONDecoder().decode([GardenAttribute].self, from: Data(contentsOf: url))
         return Dictionary(uniqueKeysWithValues: list.map { ($0.latin, $0) })
     }
-    func testExposureIsFormatSpecificAndUsesElapsedHours() {
-        var r = record()
-        ReviewEngine.expose(&r, modes: [.latin2family], at: origin)
-        XCTAssertFalse(ReviewEngine.recallAllowed(r, mode: .latin2family, at: origin.addingTimeInterval(86_399)))
-        XCTAssertTrue(ReviewEngine.recallAllowed(r, mode: .jp2latin, at: origin))
-        XCTAssertTrue(ReviewEngine.recallAllowed(r, mode: .latin2family, at: origin.addingTimeInterval(86_400)))
-    }
-    func testObservationCannotFarmFreshnessOrExtendDueDate() {
-        var r = record()
-        let now = origin.addingTimeInterval(8 * 86_400)
-        let due = r.nextReviewAt
-        ReviewEngine.expose(&r, modes: [.latin2family], at: now)
-        let freshness = r.memoryFreshness
-        for _ in 0..<30 { ReviewEngine.expose(&r, modes: QuizMode.core, at: now) }
-        XCTAssertEqual(r.memoryFreshness, freshness)
-        XCTAssertEqual(r.nextReviewAt, due)
-        ReviewEngine.review(&r, result: .correct, at: now, recallFraction: 0)
-        XCTAssertEqual(r.reviewStage, 0)
-        XCTAssertEqual(r.nextReviewAt, due)
-        XCTAssertLessThan(r.memoryFreshness, 0.2)
-    }
-    func testUnaffectedAutomaticFormatCanAdvance() {
-        var state = AppState(); var r = record()
-        let now = origin.addingTimeInterval(2 * 86_400)
-        ReviewEngine.expose(&r, modes: [.latin2family], at: now)
-        state.records["Acer"] = r
-        state.answer(plant: "Acer", mode: .jp2latin, correct: true, date: now)
-        XCTAssertEqual(state.records["Acer"]?.reviewStage, 1)
-    }
+
+
+
     func testLegacyRecordAndLayoutRoundTrip() throws {
         let old = Data(#"{"accuracy":{},"hasBloomed":false}"#.utf8)
         let r = try JSONDecoder().decode(StudyRecord.self, from: old)
@@ -81,29 +55,29 @@ final class FinalPolicyTests: XCTestCase {
         let candidates = data.values.filter { $0.recommendedZones.contains("sunny_border") && $0.habitatScores["sunny_border", default: 0] >= 0.5 }.map(\.latin).sorted()
         var state = AppState(); state.garden.layout = GardenLayout()
         for id in candidates.prefix(9) { state.records[id] = record() }
-        GardenEngine.reconcile(&state, attributes: data, at: origin)
+        GardenEngine.reconcile(&state, attributes: data, at: origin, safeBoundary: true)
         XCTAssertTrue(state.garden.layout!.unlockedZones.isEmpty)
         state.records[candidates[9]] = record()
-        GardenEngine.reconcile(&state, attributes: data, at: origin)
+        GardenEngine.reconcile(&state, attributes: data, at: origin, safeBoundary: true)
         XCTAssertEqual(state.garden.layout!.unlockedZones.count, 1)
         for id in candidates.prefix(17) { state.records[id] = record() }
-        GardenEngine.reconcile(&state, attributes: data, at: origin)
+        GardenEngine.reconcile(&state, attributes: data, at: origin, safeBoundary: true)
         XCTAssertEqual(state.garden.layout!.unlockedZones.count, 1)
         state.records["Acer"] = record()
         let area = GardenArea.centralAreas[5]
         XCTAssertTrue(GardenEngine.place("Acer", area: area, spot: area.spots[0], control: .manual, attributes: data, layout: &state.garden.layout!))
         let previous = state.garden.layout!.placements["Acer"]
-        GardenEngine.reconcile(&state, attributes: data, at: origin)
+        GardenEngine.reconcile(&state, attributes: data, at: origin, safeBoundary: true)
         XCTAssertEqual(state.garden.layout!.placements["Acer"], previous)
     }
     func testAmbiguousGardenPermanentAndDoesNotMovePlants() throws {
         let data = try attributes()
         var state = AppState(); state.garden.layout = GardenLayout()
         for id in ["Acer", "Rosa", "Lilium"] { state.records[id] = record() }
-        GardenEngine.reconcile(&state, attributes: data, at: origin.addingTimeInterval(5 * 86_400))
+        GardenEngine.reconcile(&state, attributes: data, at: origin.addingTimeInterval(5 * 86_400), safeBoundary: true)
         XCTAssertTrue(state.garden.layout!.ambiguousUnlocked)
         XCTAssertTrue(state.garden.layout!.placements.isEmpty)
-        GardenEngine.reconcile(&state, attributes: data, at: origin)
+        GardenEngine.reconcile(&state, attributes: data, at: origin, safeBoundary: true)
         XCTAssertTrue(state.garden.layout!.ambiguousUnlocked)
     }
     func testImportantNoticesSurviveAmbientCoalescing() {

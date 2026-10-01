@@ -3,17 +3,26 @@ import PhotosUI
 import MapKit
 
 enum CatalogFilter: String, CaseIterable, Identifiable {
-    case all = "すべて", memorized = "記憶済み", weak = "苦手", photo = "写真あり", unlocked = "発見済み", locked = "未発見"
+    case all = "すべて", memorized = "記憶済み", weak = "苦手", photo = "写真あり", unlocked = "発見済み", locked = "未発見", nursery = "育苗中", bloomed = "開花済み", untouched = "未着手", favorite = "お気に入り", due = "手入れ待ち", noPhoto = "写真なし"
     var id: String { rawValue }
 }
 struct CatalogView: View {
     @EnvironmentObject private var store: AppStore
     @State private var search = ""
+    @State private var family = "すべて"
+    @State private var garden = "すべて"
+    @State private var sort = "ラテン語順"
     @State private var filter = CatalogFilter.all
     private var filtered: [Plant] {
         store.plants.filter { plant in
-            guard plant.matches(search) else { return false }
+            guard plant.matches(search), family == "すべて" || family == plant.family, garden == "すべて" || store.state.garden.layout?.memberships?[plant.id]?.assignedGardenID == garden else { return false }
             switch filter {
+            case .nursery: return store.state.records[plant.id].map { !$0.hasBloomed && $0.clearedCount > 0 } ?? false
+            case .bloomed: return store.state.records[plant.id]?.hasBloomed == true
+            case .untouched: return (store.state.records[plant.id]?.clearedCount ?? 0) == 0
+            case .favorite: return store.state.records[plant.id]?.favorite == true
+            case .due: return store.state.records[plant.id].map { ReviewEngine.isDue($0, at: Date()) } ?? false
+            case .noPhoto: return (store.state.photos[plant.id] ?? []).isEmpty
             case .all: return true
             case .memorized: return store.state.records[plant.id]?.memorized == true
             case .weak: return store.state.records[plant.id]?.weak == true
@@ -21,12 +30,24 @@ struct CatalogView: View {
             case .unlocked: return store.state.unlocked.contains(plant.id)
             case .locked: return !store.state.unlocked.contains(plant.id)
             }
+        }.sorted { a, b in
+            switch sort {
+            case "和名順": return a.jpName < b.jpName
+            case "科名順": return a.family == b.family ? a.id < b.id : a.family < b.family
+            case "開花順": return (store.state.records[a.id]?.firstBloomedAt ?? .distantPast) > (store.state.records[b.id]?.firstBloomedAt ?? .distantPast)
+            default: return a.id < b.id
+            }
         }
     }
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 Picker("絞り込み", selection: $filter) { ForEach(CatalogFilter.allCases) { Text($0.rawValue).tag($0) } }.pickerStyle(.menu)
+                HStack {
+                    Picker("科", selection: $family) { Text("すべての科").tag("すべて"); ForEach(Array(Set(store.plants.map(\.family))).sorted(), id: \.self) { Text($0).tag($0) } }
+                    Picker("所属", selection: $garden) { Text("すべての庭").tag("すべて"); Text("中央庭園").tag("central"); ForEach(GardenArea.habitats.filter { store.state.garden.layout?.unlockedZones.contains($0.id) == true }) { Text($0.title).tag($0.id) } }
+                    Picker("並び順", selection: $sort) { ForEach(["ラテン語順","和名順","科名順","開花順"], id: \.self) { Text($0).tag($0) } }
+                }.font(.caption)
                 Text("\(filtered.count) / \(store.plants.count) 属").font(.caption).foregroundStyle(.secondary)
                 if filtered.isEmpty { ContentUnavailableView.search(text: search) }
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 150), spacing: 12)], spacing: 12) {
@@ -52,7 +73,7 @@ struct CatalogView: View {
         }
         .navigationTitle("図鑑")
         .searchable(text: $search, prompt: "属名・読み・科名・和名")
-        .toolbar { CatalogMaskMenu(); NavigationLink { ObservationMap() } label: { Label("観察地図", systemImage: "map") } }
+        .toolbar { NavigationLink("演習") { StudyHome(initialStyle: .practice, selectedPlants: filtered) }; CatalogMaskMenu(); NavigationLink { ObservationMap() } label: { Label("観察地図", systemImage: "map") } }
     }
 }
 
@@ -62,17 +83,27 @@ struct PlantDetail: View {
     let plant: Plant
     @State private var items: [PhotosPickerItem] = []
     @State private var importing = false
-    @State private var useMetadata = true
+    @State private var useMetadata = false
     @State private var photoToDelete: PhotoRecord?
     @State private var deleteLocation = false
     var photos: [PhotoRecord] { store.state.photos[plant.id] ?? [] }
     var body: some View {
         List {
+            if store.isProtected(plant.id) && store.revealedCatalogID != plant.id {
+                Section { Text("手入れが近いため、暗記情報を伏せています。").font(.footnote)
+                    Button("幽香に訊く") { store.ask(plant.id) }
+                }
+            }
             Section {
                 CatalogValue(plant: plant, field: .latin, text: plant.latin + " / " + plant.read).font(.title)
                 CatalogValue(plant: plant, field: .japanese, text: plant.jpName)
                 CatalogValue(plant: plant, field: .family, text: plant.family + (plant.oldFamily.isEmpty ? "" : "（旧：" + plant.oldFamily + "）"))
                 if !plant.note.isEmpty { CatalogValue(plant: plant, field: .note, text: plant.note).font(.subheadline) }
+            }
+            Section("学ぶ") {
+                NavigationLink("この属を演習") { StudyHome(initialStyle: .practice, selectedPlants: [plant]) }
+                if store.state.records[plant.id]?.hasBloomed != true { NavigationLink("この属を咲かせる") { StudyHome(selectedPlants: [plant]) } }
+                Button(store.state.records[plant.id]?.favorite == true ? "お気に入りを解除" : "お気に入りにする") { store.toggleFavorite(plant.id) }
             }
             Section("学習記録") {
                 let record = store.state.records[plant.id] ?? StudyRecord()
@@ -105,10 +136,21 @@ struct PlantDetail: View {
                 PhotosPicker(selection: $items, maxSelectionCount: 10, matching: .images, preferredItemEncoding: .current) { Label("写真を登録", systemImage: "photo.badge.plus") }.disabled(importing)
                 if importing { ProgressView("写真を読み込んでいます…") }
             } header: { Text("観察写真") } footer: { Text("選択した写真だけ端末内に保存します。写真によっては撮影日時・GPSが含まれません。撮影日時にタイムゾーンがない場合は端末の時刻設定で解釈します。") }
+            Section("庭の外観") {
+                Text(photos.isEmpty ? "写真を登録すると観察済みになります" : "観察済み")
+                let available = (store.appearances.variants[plant.id] ?? []).filter { $0.minimumPhotoCount <= photos.count }
+                if available.isEmpty { Text("外観差分は制作中です。現在は基本の仮素材を表示しています。").font(.caption).foregroundStyle(.secondary) }
+                else {
+                    Picker("外観", selection: Binding(get: { store.preferences.appearanceVariants[plant.id] ?? "default" }, set: { v in store.setPreferences { $0.appearanceVariants[plant.id] = v } })) {
+                        Text("基本").tag("default")
+                        ForEach(available) { Text($0.title).tag($0.id) }
+                    }
+                }
+            }
             Section("観察場所") {
                 if let point = store.state.locations[plant.id] {
                     Map {
-                        Marker(plant.jpName, coordinate: CLLocationCoordinate2D(latitude: point.latitude, longitude: point.longitude))
+                        Marker("観察場所", coordinate: CLLocationCoordinate2D(latitude: point.latitude, longitude: point.longitude))
                     }.frame(height: 230).clipShape(RoundedRectangle(cornerRadius: 12))
                     Text("\(point.latitude, specifier: "%.5f"), \(point.longitude, specifier: "%.5f") · \(point.source)").font(.caption)
                     Button("場所の記録を削除", role: .destructive) { deleteLocation = true }
@@ -117,6 +159,8 @@ struct PlantDetail: View {
             }
         }
         .navigationTitle("図鑑詳細").navigationBarTitleDisplayMode(.inline)
+        .onAppear { store.revealedCatalogID = nil }
+        .onDisappear { store.revealedCatalogID = nil }
         .toolbar { CatalogMaskMenu() }
         .onChange(of: items) { _, selected in
             guard !selected.isEmpty, !importing else { return }
@@ -218,7 +262,7 @@ struct CatalogMaskMenu: View {
     var body: some View {
         Menu {
             ForEach(CatalogField.allCases) { field in
-                Toggle("\(field.rawValue)を隠す", isOn: Binding(get: { store.hiddenCatalogFields.contains(field) }, set: { if $0 { store.hiddenCatalogFields.insert(field) } else { store.hiddenCatalogFields.remove(field) } }))
+                Toggle("\(field.rawValue)を隠す", isOn: Binding(get: { store.hiddenCatalogFields.contains(field) }, set: { if $0 { store.hiddenCatalogFields.insert(field) } else { store.hiddenCatalogFields.remove(field) }; store.saveMasks() }))
             }
         } label: { Label("情報を隠す", systemImage: "eye.slash") }
     }
@@ -229,11 +273,13 @@ struct CatalogValue: View {
     let field: CatalogField
     let text: String
     @State private var revealed = false
-    private var hidden: Bool { store.hiddenCatalogFields.contains(field) && !revealed }
+    private var protected: Bool { store.isProtected(plant.id) && store.revealedCatalogID != plant.id }
+    private var hidden: Bool { protected || (store.hiddenCatalogFields.contains(field) && !revealed) }
     var body: some View {
         Group {
-            if hidden { Button("\(field.rawValue)を表示") { revealed = true }.buttonStyle(.borderless) }
-            else { Text(text).onAppear { store.expose(plant.id, modes: field.exposedModes) } }
+            if protected { Text("••••").accessibilityLabel("復習保護中") }
+            else if hidden { Button("\(field.rawValue)を表示") { revealed = true }.buttonStyle(.borderless) }
+            else { Text(text) }
         }
         .onChange(of: store.hiddenCatalogFields) { _, _ in revealed = false }
     }

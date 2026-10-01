@@ -30,12 +30,28 @@ struct StatisticsView: View {
                 LabeledContent("写真登録", value: "\(store.photographed) 属")
                 TimelineView(.periodic(from: .now, by: 30)) { _ in LabeledContent("今日の回答", value: "\(store.today) 問") }
             }
-            Section("形式別正答率") {
+            Section("正式復習の正答率（v1以降）") {
+                ForEach(QuizMode.core) { mode in AccuracyRow(title: mode.title, accuracy: purposeAggregate(mode, review: true)) }
+            }
+            Section("演習の正答率（v1以降）") {
+                ForEach(QuizMode.core) { mode in AccuracyRow(title: mode.title, accuracy: purposeAggregate(mode, review: false)) }
+            }
+            Section("総合正答率（旧記録を含む）") {
                 ForEach(QuizMode.allCases.filter { $0 != .mixed }) { mode in
                     AccuracyRow(title: mode.title, accuracy: aggregate(mode))
                 }
             }
-            Section("学習履歴") {
+            Section("最近の確定回答（v1以降）") {
+                let answers = store.state.records.flatMap { id, record in record.answerHistory.map { (id, $0) } }.sorted { $0.1.date > $1.1.date }
+                ForEach(Array(answers.prefix(50).enumerated()), id: \.offset) { _, item in
+                    VStack(alignment: .leading) {
+                        Text(item.0 + " · " + (item.1.purpose == .review ? "正式復習" : item.1.purpose == .practice ? "演習" : "咲かせる"))
+                        Text(item.1.mode.title + " · " + (item.1.result == .correct ? "正解" : item.1.result == .partial ? "惜しい" : "不正解")).font(.caption)
+                        Text(item.1.date.formatted()).font(.caption2)
+                    }
+                }
+            }
+            Section("セッション履歴（旧記録を含む）") {
                 if store.state.sessions.isEmpty { Text("練習を終了すると履歴が表示されます。").foregroundStyle(.secondary) }
                 ForEach(store.state.sessions) { session in
                     VStack(alignment: .leading, spacing: 6) {
@@ -85,6 +101,12 @@ struct StatisticsView: View {
                 }
                 pendingBackup = nil
             }
+        }
+    }
+    private func purposeAggregate(_ mode: QuizMode, review: Bool) -> Accuracy {
+        store.state.records.values.reduce(into: Accuracy()) { result, record in
+            let a = (review ? record.reviewAccuracy : record.practiceAccuracy)[mode.rawValue] ?? Accuracy()
+            result.correct += a.correct; result.total += a.total
         }
     }
     private func aggregate(_ mode: QuizMode) -> Accuracy {

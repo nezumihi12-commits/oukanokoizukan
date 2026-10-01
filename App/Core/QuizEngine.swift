@@ -75,8 +75,9 @@ enum QuizEngine {
         let a = normalize(value)
         guard !a.isEmpty else { return 0 }
         let b = normalize(answer)
-        return a == b ? 1 : distance(a, b) == 1 ? 0.5 : 0
+        return a == b ? 1 : distance(a, b) <= Int(Double(b.count) * Tuning.number("review", "close_edit_distance_rate_initial", fallback: 0.2)) ? 0.5 : 0
     }
+    static func stripSuffix(_ value: String, _ suffix: String) -> String { value.hasSuffix(suffix) ? String(value.dropLast(suffix.count)) : value }
     static func grade(_ question: Question, values: [String]) -> Grade {
         var points = 0.0
         var feedback: [String] = []
@@ -87,8 +88,8 @@ enum QuizEngine {
             case .latin: score = spell(value, field.answers[0])
             case .family, .japanese:
                 let suffix = field.kind == .family ? "科" : "属"
-                let normalized = normalize(value).replacingOccurrences(of: suffix, with: "")
-                score = field.answers.map { spell(normalized, normalize($0).replacingOccurrences(of: suffix, with: "")) }.max() ?? 0
+                let normalized = stripSuffix(normalize(value), suffix)
+                score = field.answers.map { spell(normalized, stripSuffix(normalize($0), suffix)) }.max() ?? 0
             case .enumeration:
                 var tokens = Array(Set(normalize(value).components(separatedBy: CharacterSet.whitespacesAndNewlines.union(CharacterSet(charactersIn: ",、，"))).filter { !$0.isEmpty }))
                 var remaining: [String] = []
@@ -107,7 +108,7 @@ enum QuizEngine {
                 score = sum / Double(max(1, field.answers.count))
             }
             points += score
-            let label = score == 1 ? "正解" : score > 0 ? "部分正解" : "不正解"
+            let label = score == 1 ? "正解" : score > 0 ? "惜しい" : "不正解"
             feedback.append("\(label)：\(field.answers.joined(separator: " / "))")
         }
         let normalized = points / Double(max(1, question.fields.count))

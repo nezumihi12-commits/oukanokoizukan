@@ -22,7 +22,16 @@ struct PlantPlacement: Codable, Equatable {
     var spotID: String
     var control: PlacementControl
 }
+struct GardenMembership: Codable, Equatable {
+    var assignedGardenID: String
+    var placementAuthority: PlacementControl
+    var isDisplayPinned = false
+}
 struct GardenLayout: Codable, Equatable {
+    var memberships: [String: GardenMembership]? = nil
+    var pendingUnlocks: [String]? = nil
+    var eventHistory: [GardenNotice]? = nil
+    var visitedGardens: Set<String>? = nil
     var version = 1
     var awaitingDelegation: Set<String> = []
     var placements: [String: PlantPlacement] = [:]
@@ -53,7 +62,7 @@ enum NoticeQueue {
     }
 }
 
-struct PlantingSpot: Identifiable, Equatable {
+struct PlantingSpot: Codable, Identifiable, Equatable {
     var id: String
     var size: String
     var x: Double
@@ -66,17 +75,12 @@ struct GardenArea: Identifiable, Equatable {
     var central: Bool
     var sizes: [String]
     var threshold: Int = 0
-    var spots: [PlantingSpot] {
-        sizes.enumerated().map { index, size in
-            let row = (index % 9) / 3, col = index % 3
-            let water = id == "central_water" || id == "waterside"
-            let types: Set<String> = water && index % 3 == 0 ? ["water_surface", "water_bed"] :
-                water ? ["wet_edge", "ground", "pot"] : ["ground", "bed", "pot", "tree_ground", "trellis", "ground_edge", "mounted", "greenhouse_bench", "rock_pocket"]
-            return PlantingSpot(id: "\(id)-\(index)", size: size,
-                x: 0.19 + Double(col) * 0.31 + (row % 2 == 0 ? 0 : 0.025),
-                y: 0.22 + Double(row) * 0.29, types: types)
-        }
-    }
+    var spots: [PlantingSpot] { Self.slotDefinitions[id] ?? [] }
+    static let slotDefinitions: [String: [PlantingSpot]] = {
+        guard let url = Bundle.main.url(forResource: "gardenSlots", withExtension: "json"),
+              let data = try? Data(contentsOf: url), let values = try? JSONDecoder().decode([String: [PlantingSpot]].self, from: data) else { return [:] }
+        return values
+    }()
     static let centralAreas: [GardenArea] = [
         GardenArea(id: "favorite", title: "お気に入り花壇", central: true, sizes: ["L", "M", "M", "S", "S", "S"]),
         GardenArea(id: "seasonal", title: "季節花壇", central: true, sizes: ["L", "M", "M", "S", "S", "S"]),
@@ -97,6 +101,7 @@ struct GardenArea: Identifiable, Equatable {
         GardenArea(id: "greenhouse", title: "温室", central: false, sizes: [], threshold: 5)
     ].map { area in
         var copy = area
+        copy.threshold = Tuning.threshold(area.id, fallback: area.threshold)
         copy.sizes = area.id == "grove" ? ["XL", "XL", "XL", "L", "L", "M"] : ["L", "L", "L", "M", "M", "M", "S", "S", "S"]
         copy.sizes = Array(repeating: copy.sizes, count: 6).flatMap { $0 }
         return copy
@@ -105,10 +110,31 @@ struct GardenArea: Identifiable, Equatable {
 }
 
 enum GardenEngine {
+    static func migrateMembership(_ state: inout AppState) {
+        guard var layout = state.garden.layout, layout.memberships == nil else { return }
+        layout.memberships = [:]
+        var count: [String: Int] = [:]
+        // User-controlled displays have priority. Original placement file remains in migration backup.
+        for id in layout.placements.keys.sorted(by: { a, b in
+            let x = layout.placements[a]!.control != .delegated, y = layout.placements[b]!.control != .delegated
+            return x == y ? a < b : x
+        }) {
+            let place = layout.placements[id]!
+            let garden = GardenArea.centralAreas.contains { $0.id == place.zoneID } ? "central" : place.zoneID
+            layout.memberships?[id] = GardenMembership(assignedGardenID: garden, placementAuthority: place.control, isDisplayPinned: place.control != .delegated)
+            if count[garden, default: 0] >= Tuning.visibleLimit { layout.placements.removeValue(forKey: id) }
+            else { count[garden, default: 0] += 1 }
+        }
+        state.garden.layout = layout
+    }
     static func validate(_ layout: GardenLayout, records: [String: StudyRecord]) throws {
         guard layout.version == 1, layout.lastUnlockBloomCount >= 0,
               layout.unlockedZones.isSubset(of: Set(GardenArea.habitats.map(\.id))),
               layout.awaitingDelegation.allSatisfy({ records[$0]?.hasBloomed == true }) else { throw BackupError.invalid }
+        if let memberships = layout.memberships {
+            let allowed = layout.unlockedZones.union(["central"])
+            guard memberships.allSatisfy({ records[$0.key]?.hasBloomed == true && allowed.contains($0.value.assignedGardenID) }) else { throw BackupError.invalid }
+        }
         var used = Set<String>()
         for (id, placement) in layout.placements {
             guard records[id]?.hasBloomed == true,
@@ -127,10 +153,15 @@ enum GardenEngine {
     }
     static func place(_ id: String, area: GardenArea, spot: PlantingSpot, control: PlacementControl,
                       attributes: [String: GardenAttribute], layout: inout GardenLayout) -> Bool {
+        let gardenID = area.central ? "central" : area.id
+        let displayed = layout.placements.filter { key, value in key != id && (GardenArea.centralAreas.contains { $0.id == value.zoneID } ? "central" : value.zoneID) == gardenID }.count
+        guard displayed < Tuning.visibleLimit else { return false }
         guard availableAreas(layout).contains(where: { $0.id == area.id }), area.spots.contains(spot),
               let attribute = attributes[id], canPlace(attribute, in: spot),
               !layout.placements.contains(where: { $0.key != id && $0.value.spotID == spot.id }) else { return false }
         layout.awaitingDelegation.remove(id)
+        if layout.memberships == nil { layout.memberships = [:] }
+        layout.memberships?[id] = GardenMembership(assignedGardenID: area.central ? "central" : area.id, placementAuthority: control, isDisplayPinned: control != .delegated)
         layout.placements[id] = PlantPlacement(zoneID: area.id, spotID: spot.id, control: control)
         return true
     }
@@ -141,19 +172,26 @@ enum GardenEngine {
             let sb = b.central ? 0.25 : attribute.habitatScores[b.id, default: 0]
             return sa == sb ? a.id < b.id : sa > sb
         }
-        for area in candidates {
-            for spot in area.spots {
+        if layout.memberships == nil { layout.memberships = [:] }
+        guard let best = candidates.first else { return false }
+        let gardenID = best.central ? "central" : best.id
+        layout.memberships?[id] = GardenMembership(assignedGardenID: gardenID, placementAuthority: centralOnly ? .central : .delegated)
+        layout.awaitingDelegation.remove(id)
+        for area in candidates where (area.central ? "central" : area.id) == gardenID {
+            for spot in area.spots.prefix(Tuning.visibleLimit) {
                 if place(id, area: area, spot: spot, control: centralOnly ? .central : .delegated, attributes: attributes, layout: &layout) { return true }
             }
         }
-        return false // Preserve any current placement; never evict another plant.
+        // Full gardens still accept reserve plants, without evicting manual displays.
+        layout.placements.removeValue(forKey: id)
+        return true
     }
-    static func reconcile(_ state: inout AppState, attributes: [String: GardenAttribute], at date: Date) {
+    static func reconcile(_ state: inout AppState, attributes: [String: GardenAttribute], at date: Date, safeBoundary: Bool = false) {
         let firstMigration = state.garden.layout == nil
         var layout = state.garden.layout ?? GardenLayout()
         let bloomed = state.records.filter { $0.value.hasBloomed }
         let count = bloomed.count
-        if count >= 10 && count - layout.lastUnlockBloomCount >= 8 {
+        if count >= Int(Tuning.number("garden_unlock", "minimum_total_blooms_before_first_unlock", fallback: 10)) {
             let ready = GardenArea.habitats.compactMap { area -> (GardenArea, Int)? in
                 guard !layout.unlockedZones.contains(area.id) else { return nil }
                 let n = bloomed.keys.filter { id in
@@ -167,14 +205,19 @@ enum GardenEngine {
                 if $0.1 != $1.1 { return $0.1 > $1.1 }
                 return $0.0.id < $1.0.id
             }
-            if let next = ready.first {
+            if layout.pendingUnlocks == nil { layout.pendingUnlocks = [] }
+            for candidate in ready where !(layout.pendingUnlocks ?? []).contains(candidate.0.id) { layout.pendingUnlocks?.append(candidate.0.id) }
+            if safeBoundary, count - layout.lastUnlockBloomCount >= Int(Tuning.number("garden_unlock", "minimum_new_blooms_between_unlock_events", fallback: 8)),
+               let id = layout.pendingUnlocks?.first, let area = GardenArea.habitats.first(where: { $0.id == id }) {
+                let next = (area, 0)
+                layout.pendingUnlocks?.removeFirst()
                 layout.unlockedZones.insert(next.0.id); layout.lastUnlockBloomCount = count
                 NoticeQueue.enqueue(GardenNotice(id: "zone-\(next.0.id)", priority: 3, expression: "surprised", pose: "guide", systemText: "\(next.0.title)が開きました"), into: &layout.pendingEvents)
             }
         }
-        let thin = bloomed.values.filter { ReviewEngine.freshness($0, at: date) < 0.4 }.count
-        let forgotten = bloomed.values.filter { ReviewEngine.freshness($0, at: date) < 0.2 }.count
-        if !layout.ambiguousUnlocked && (thin >= 5 || forgotten >= 3) {
+        let thin = bloomed.values.filter { ReviewEngine.severity($0, at: date) >= Tuning.severity("very_ambiguous_min", fallback: 0.75) }.count
+        let forgotten = bloomed.values.filter { ReviewEngine.severity($0, at: date) >= Tuning.severity("internal_forgotten_candidate_min", fallback: 1) }.count
+        if safeBoundary && !layout.ambiguousUnlocked && (thin >= Int(Tuning.number("ambiguous_garden_unlock", "near_forgotten_simultaneous", fallback: 5)) || forgotten >= Int(Tuning.number("ambiguous_garden_unlock", "forgotten_simultaneous", fallback: 3))) {
             layout.ambiguousUnlocked = true
             NoticeQueue.enqueue(GardenNotice(id: "ambiguous-first", priority: 3, expression: "concerned", pose: "guide", systemText: "曖昧の庭が現れました"), into: &layout.pendingEvents)
         }
@@ -183,20 +226,26 @@ enum GardenEngine {
             for id in bloomed.keys.sorted() {
                 if !autoPlace(id, attributes: attributes, layout: &layout, centralOnly: bloomed[id]?.favorite == true) { layout.awaitingDelegation.insert(id) }
             }
-        } else {
+        } else if safeBoundary {
             // Only explicitly delegated plants may move; favorites and manual placements stay put.
-            let delegated = layout.placements.filter { $0.value.control == .delegated && bloomed[$0.key]?.favorite != true }.keys.sorted()
+            let delegated = (layout.memberships ?? [:]).filter { $0.value.placementAuthority == .delegated && !$0.value.isDisplayPinned && bloomed[$0.key]?.favorite != true }.keys.sorted()
+            var movedDisplays = 0
             for id in delegated {
-                guard let current = layout.placements[id], let a = attributes[id] else { continue }
-                let currentScore = a.habitatScores[current.zoneID] ?? 0.25
-                let snapshot = layout
-                if autoPlace(id, attributes: attributes, layout: &layout), let next = layout.placements[id],
-                   (a.habitatScores[next.zoneID] ?? 0.25) <= currentScore { layout = snapshot }
+                guard let current = layout.memberships?[id], let a = attributes[id] else { continue }
+                let currentScore = a.habitatScores[current.assignedGardenID] ?? 0.25
+                let better = layout.unlockedZones.contains { a.habitatScores[$0, default: 0] > currentScore + 0.1 }
+                guard better else { continue }
+                let wasDisplayed = layout.placements[id] != nil
+                if wasDisplayed && movedDisplays >= 3 { continue }
+                _ = autoPlace(id, attributes: attributes, layout: &layout)
+                if wasDisplayed { movedDisplays += 1 }
             }
         }
         for id in layout.awaitingDelegation.sorted() where bloomed[id] != nil {
             _ = autoPlace(id, attributes: attributes, layout: &layout, centralOnly: bloomed[id]?.favorite == true)
         }
+        if layout.eventHistory == nil { layout.eventHistory = [] }
+        for notice in layout.pendingEvents where notice.priority >= 1 && !(layout.eventHistory ?? []).contains(where: { $0.id == notice.id }) { layout.eventHistory?.append(notice) }
         state.garden.layout = layout
     }
 }

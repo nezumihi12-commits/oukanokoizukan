@@ -5,7 +5,7 @@ final class CoreTests: XCTestCase {
     let acer = Plant(latin: "Acer", read: "エイサー", family: "ムクロジ科", oldFamily: "カエデ科", jpName: "カエデ属", note: "イロハモミジ")
     func testSpelling() {
         XCTAssertEqual(QuizEngine.spell(" acer ", "Acer"), 1)
-        XCTAssertEqual(QuizEngine.spell("Acr", "Acer"), 0.5)
+        XCTAssertEqual(QuizEngine.spell("Acr", "Acer"), 0)
         XCTAssertEqual(QuizEngine.spell("", "Acer"), 0)
         XCTAssertEqual(QuizEngine.spell("Rose", "Acer"), 0)
     }
@@ -19,7 +19,7 @@ final class CoreTests: XCTestCase {
     func testPartialPhotoIsNotFullyCorrect() {
         let q = QuizEngine.question(acer, mode: .photo, all: [acer], japanese: [:])
         let grade = QuizEngine.grade(q, values: ["Acr", "カエデ科"])
-        XCTAssertEqual(grade.points, 0.75)
+        XCTAssertEqual(grade.points, 0.5)
         XCTAssertFalse(grade.fullCorrect)
     }
     func testEnumerationDoesNotReuseTokenOrCountTypoAsFull() {
@@ -38,6 +38,8 @@ final class CoreTests: XCTestCase {
         XCTAssertFalse(record.memorized)
         record.accuracy["jp2latin"] = Accuracy(correct: 1, total: 1)
         record.accuracy["latin2jp"] = Accuracy(correct: 1, total: 1)
+        XCTAssertFalse(record.memorized, "Accuracy alone must not grant first-clear progress")
+        for mode in QuizMode.core { record.record(mode: mode, correct: true, date: Date()) }
         XCTAssertTrue(record.memorized)
         XCTAssertEqual(record.mastery, 3)
         XCTAssertFalse(StudyRecord().weak)

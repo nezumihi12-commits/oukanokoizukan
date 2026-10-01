@@ -1,0 +1,187 @@
+{
+  "zones": [
+    {
+      "id": "trees",
+      "x": 0.19,
+      "y": 0.83,
+      "width": 0.32,
+      "height": 0.16
+    },
+    {
+      "id": "bench",
+      "x": 0.28,
+      "y": 0.72,
+      "width": 0.28,
+      "height": 0.12
+    },
+    {
+      "id": "central_water",
+      "x": 0.79,
+      "y": 0.75,
+      "width": 0.31,
+      "height": 0.18
+    },
+    {
+      "id": "favorite",
+      "x": 0.22,
+      "y": 0.47,
+      "width": 0.37,
+      "height": 0.22
+    },
+    {
+      "id": "seasonal",
+      "x": 0.78,
+      "y": 0.43,
+      "width": 0.35,
+      "height": 0.22
+    },
+    {
+      "id": "display",
+      "x": 0.28,
+      "y": 0.28,
+      "width": 0.29,
+      "height": 0.14
+    },
+    {
+      "id": "plaza",
+      "x": 0.7,
+      "y": 0.19,
+      "width": 0.29,
+      "height": 0.13
+    }
+  ],
+  "anchors": [
+    {
+      "anchorID": "plaza",
+      "zoneID": "plaza",
+      "x": 0.55,
+      "y": 0.26,
+      "actionID": "idleStand",
+      "minDwellTime": 90,
+      "depth": 0.74,
+      "facingDirection": "front",
+      "allowedActions": [
+        "idleStand"
+      ],
+      "minimumClearance": 0.06,
+      "uiAvoidanceArea": [
+        0,
+        0.85,
+        1,
+        0.15
+      ],
+      "maxDwellTime": 180,
+      "expressionID": "neutral"
+    },
+    {
+      "anchorID": "bench",
+      "zoneID": "bench",
+      "x": 0.25,
+      "y": 0.76,
+      "actionID": "sitting",
+      "minDwellTime": 90,
+      "depth": 0.24,
+      "facingDirection": "front",
+      "allowedActions": [
+        "sitting"
+      ],
+      "minimumClearance": 0.06,
+      "uiAvoidanceArea": [
+        0,
+        0.85,
+        1,
+        0.15
+      ],
+      "maxDwellTime": 180,
+      "expressionID": "neutral"
+    },
+    {
+      "anchorID": "favorite",
+      "zoneID": "favorite",
+      "x": 0.4,
+      "y": 0.48,
+      "actionID": "lookAtPlant",
+      "minDwellTime": 90,
+      "depth": 0.52,
+      "facingDirection": "front",
+      "allowedActions": [
+        "lookAtPlant"
+      ],
+      "minimumClearance": 0.06,
+      "uiAvoidanceArea": [
+        0,
+        0.85,
+        1,
+        0.15
+      ],
+      "maxDwellTime": 180,
+      "expressionID": "neutral"
+    },
+    {
+      "anchorID": "nursery",
+      "zoneID": "nursery",
+      "x": 0.31,
+      "y": 0.18,
+      "actionID": "gardening",
+      "minDwellTime": 90,
+      "depth": 0.8200000000000001,
+      "facingDirection": "front",
+      "allowedActions": [
+        "gardening"
+      ],
+      "minimumClearance": 0.06,
+      "uiAvoidanceArea": [
+        0,
+        0.85,
+        1,
+        0.15
+      ],
+      "maxDwellTime": 180,
+      "expressionID": "neutral"
+    },
+    {
+      "anchorID": "water",
+      "zoneID": "water",
+      "x": 0.66,
+      "y": 0.73,
+      "actionID": "lookAtPlant",
+      "minDwellTime": 90,
+      "depth": 0.27,
+      "facingDirection": "front",
+      "allowedActions": [
+        "lookAtPlant"
+      ],
+      "minimumClearance": 0.06,
+      "uiAvoidanceArea": [
+        0,
+        0.85,
+        1,
+        0.15
+      ],
+      "maxDwellTime": 180,
+      "expressionID": "neutral"
+    },
+    {
+      "anchorID": "guide",
+      "zoneID": "guide",
+      "x": 0.88,
+      "y": 0.13,
+      "actionID": "guide",
+      "minDwellTime": 90,
+      "depth": 0.87,
+      "facingDirection": "front",
+      "allowedActions": [
+        "guide"
+      ],
+      "minimumClearance": 0.06,
+      "uiAvoidanceArea": [
+        0,
+        0.85,
+        1,
+        0.15
+      ],
+      "maxDwellTime": 180,
+      "expressionID": "neutral"
+    }
+  ]
+}

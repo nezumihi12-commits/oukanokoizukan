@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-02",
+  "baseCommit": "c02a17a6425bb7d4e28ff648148ce1fd8bb225bf",
+  "specSHA256": "69b99ff1aa6bff2654a508287860c3a3fbe246b1dafc75c3f44618a8e1e0d404",
+  "checks": [
+    {
+      "check": "check_syntax_v1.py",
+      "status": "passed",
+      "output": "PASS: 30 Swift files parsed; project/workflow YAML parsed; source paths verified"
+    },
+    {
+      "check": "validate.py",
+      "status": "passed",
+      "output": "PASS: 307 unique genera, six original fields, Japanese answer coverage, resource hashes, project files\nPASS: 307 render mappings, 54 Core v0 SVG modules, asset references, v1.0 and SideStore naming\nPASS: 307 habitat records, eight zone scores, recommendation coverage\nBuild provenance: {'version': '1.0.0', 'commit': 'local-unpublished', 'run': 'local'}\nPASS: v1 slots, scene anchors, tuning, 307 appearance extension points"
+    }
+  ],
+  "swiftFiles": 30,
+  "xctestMethods": 44,
+  "appleTypeCheck": "not_run",
+  "xctestExecution": "not_run",
+  "deviceBuild": "not_run",
+  "deviceFPS": "not_measured",
+  "githubPublication": "not_published"
+}
