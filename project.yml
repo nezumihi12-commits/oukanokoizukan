@@ -19,8 +19,15 @@ targets:
       - path: App
         excludes:
           - Resources
+      - path: Shared
       - path: App/Resources
         buildPhase: resources
+    dependencies:
+      - target: YuukaWidgets
+    entitlements:
+      path: Config/Hanazukan.entitlements
+      properties:
+        com.apple.security.application-groups: [group.io.github.nezumihi12.hanazukan]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: io.github.nezumihi12.hanazukan
@@ -33,6 +40,9 @@ targets:
         CFBundleName: Hanazukan
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleURLTypes:
+          - CFBundleURLSchemes: [hanazukan]
+            CFBundleURLName: io.github.nezumihi12.hanazukan.review
         UILaunchScreen: {}
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
@@ -46,6 +56,25 @@ targets:
           - UIInterfaceOrientationPortraitUpsideDown
           - UIInterfaceOrientationLandscapeLeft
           - UIInterfaceOrientationLandscapeRight
+  YuukaWidgets:
+    type: app-extension
+    platform: iOS
+    sources: [Widgets, Shared]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.nezumihi12.hanazukan.widgets
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+    info:
+      path: Config/Widgets-Info.plist
+      properties:
+        CFBundleDisplayName: 幽香と復習
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: Config/Widgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.io.github.nezumihi12.hanazukan]
   HanazukanTests:
     type: bundle.unit-test
     platform: iOS
@@ -60,6 +89,7 @@ schemes:
     build:
       targets:
         Hanazukan: all
+        YuukaWidgets: all
         HanazukanTests: [test]
     test:
       targets: [HanazukanTests]

@@ -181,7 +181,9 @@ actor CareNotifications {
         // even when the user has cleared Notification Center.
         if previousDay == dayKey && !pending.contains(where: { $0.identifier == "garden-care" }) { return }
         UserDefaults.standard.set(dayKey, forKey: "care-notification-day")
-        let content = UNMutableNotificationContent(); content.title = "千花之恋図鑑"; content.body = "そろそろ手入れどきの植物があります"
+        let content = UNMutableNotificationContent(); content.title = "千花之恋図鑑"; content.body = "復習できる植物が\(ReviewEngine.recommendedIDs(in: state, at: fire).count)属あります"
+        content.sound = .default
+        content.userInfo = ["route": "review"]
         let trigger = UNCalendarNotificationTrigger(dateMatching: calendar.dateComponents([.year,.month,.day,.hour,.minute], from: fire), repeats: false)
         try? await center.add(UNNotificationRequest(identifier: "garden-care", content: content, trigger: trigger))
     }

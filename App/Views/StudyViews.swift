@@ -178,6 +178,7 @@ struct QuizView: View {
         .onAppear {
             guard !initialized else { return }; initialized = true
             resetInputs()
+            if gardenReview { store.publishCompanion(.studying) }
             for plant in questions.map(\.plant) {
                 let r = store.state.records[plant.id] ?? StudyRecord()
                 initialClearCounts[plant.id] = r.clearedCount
@@ -185,6 +186,7 @@ struct QuizView: View {
             }
             captureRecall()
         }
+        .onDisappear { if gardenReview { store.publishCompanion() } }
         .onReceive(Timer.publish(every: 0.25, on: .main, in: .common).autoconnect()) { now in
             if let timeLimit, !ended, grade == nil, !confirmExit, bloomPlant == nil, now.timeIntervalSince(questionStarted) >= Double(timeLimit) {
                 timedOut = true; action()
@@ -246,7 +248,7 @@ struct QuizView: View {
         guard !sessionSaved, answered > 0 else { return true }
         let session = SessionRecord(startedAt: startedAt, endedAt: Date(), mode: mode, answered: answered, planned: questions.count, correct: correct, points: points, completed: completed, gardenReview: gardenReview)
         let saved = store.update { $0.sessions.insert(session, at: 0) }
-        if saved { store.refreshGarden() }
+        if saved { store.refreshGarden(); if gardenReview { store.publishCompanion(completed ? .completed : nil) } }
         sessionSaved = saved
         return saved
     }

@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct HanazukanApp: App {
+    @UIApplicationDelegateAdaptor(CompanionNotificationDelegate.self) private var appDelegate
     @StateObject private var store = AppStore()
     var body: some Scene {
         WindowGroup {
@@ -21,7 +22,10 @@ struct HanazukanApp: App {
 }
 
 struct RootView: View {
+    @EnvironmentObject private var store: AppStore
+    @Environment(\.scenePhase) private var scenePhase
     @State private var selection = 1
+    @State private var reviewSheet = false
     var body: some View {
         TabView(selection: $selection) {
             NavigationStack { CatalogView() }.tabItem { Label("図鑑", systemImage: "books.vertical") }.tag(0)
@@ -29,5 +33,12 @@ struct RootView: View {
             NavigationStack { GardenAtlas() }.tabItem { Label("庭園", systemImage: "map") }.tag(2)
             NavigationStack { CareHub() }.tabItem { Label("手入れ", systemImage: "drop") }.tag(3)
         }.preferredColorScheme(.light)
+        .onOpenURL { url in
+            if url.scheme == "hanazukan", url.host == "review" { selection = 3; reviewSheet = true }
+        }
+        .sheet(isPresented: $reviewSheet) { NavigationStack { CarePreview() }.environmentObject(store) }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { store.publishCompanion(); Task { await CareNotifications.refresh(store.state) } }
+        }
     }
 }

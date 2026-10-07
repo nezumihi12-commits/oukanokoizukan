@@ -55,6 +55,8 @@ final class AppStore: ObservableObject {
             try disk.save(state)
             try FileManager.default.createDirectory(at: disk.directory.appendingPathComponent("Photos"), withIntermediateDirectories: true)
             ready = true
+            publishCompanion()
+            Task { await CareNotifications.refresh(state) }
         } catch { self.error = "読み込みに失敗しました。保存データは上書きしません。\n\(error.localizedDescription)" }
     }
     @discardableResult
@@ -66,6 +68,7 @@ final class AppStore: ObservableObject {
         do {
             try repository.save(next)
             state = next
+            publishCompanion()
             Task { await CareNotifications.refresh(next) }
             return true
         } catch { self.error = "保存できませんでした。再試行してください。\n\(error.localizedDescription)"; return false }
@@ -218,6 +221,7 @@ final class AppStore: ObservableObject {
         }
         let oldPhotos = state.photos.values.flatMap { $0 }
         state = next
+            publishCompanion()
         hiddenCatalogFields = Set((next.preferences?.hiddenFields ?? []).compactMap(CatalogField.init(rawValue:)))
         revealedCatalogID = nil
         Task { await CareNotifications.refresh(next) }
